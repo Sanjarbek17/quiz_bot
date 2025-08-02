@@ -1,18 +1,24 @@
+
 from telegram import Update,InlineKeyboardButton,InlineKeyboardMarkup,ReplyKeyboardMarkup,KeyboardButton
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext,CallbackQueryHandler
+
 from dotenv import load_dotenv
 import os
 from tinydb import TinyDB, Query
 import time
 load_dotenv()
 
+
 db = TinyDB('db.json')
 
+
 def start(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text('Welcome to the Quiz Bot! Use /quiz to start a quiz.')
+    update.message.reply_text("Welcome to the Quiz Bot! Use /quiz to start a quiz.")
+
 
 def quiz(update: Update, context: CallbackContext) -> None:
     """Shows list of available quizzes."""
+
     chat_id=update.message.chat.id
     reply_markup=ReplyKeyboardMarkup(
         [[KeyboardButton('matematika'),KeyboardButton('tarix'),KeyboardButton('fizika')]],
@@ -78,6 +84,7 @@ def Answer(update: Update, context: CallbackContext) -> None:
     This function will check the user's answer against the correct answer
     and gives next question or end the quiz.
     """
+
     l='✅'
     l1='❌'
     global s,button,togri_javob,notogri_javob
@@ -125,21 +132,24 @@ def Answer(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     token = os.getenv('token')
+
     if not token:
         print("Error: TELEGRAM_BOT_TOKEN not found in environment variables.")
         return
-    
+
     updater = Updater(token)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler("start", start))
+
     dispatcher.add_handler(CommandHandler("quiz",quiz ))
     dispatcher.add_handler(MessageHandler(	Filters.regex('^matematika$'),handle_quiz_selection))
     # dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, answer))
     dispatcher.add_handler(CallbackQueryHandler(Answer))
+
     updater.start_polling()
     updater.idle()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
-    

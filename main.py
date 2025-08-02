@@ -26,10 +26,11 @@ button={
     "c":"C",
     "d":"D"
 }
+togri_javob=0
+notogri_javob=0
 def handle_quiz(update, context):
-    global s
+    global s,togri_javob,notogri_javob
     record = db.all()
-    
     if s >= len(record):
         if update.callback_query:
             chat_id = update.callback_query.message.chat.id
@@ -40,6 +41,9 @@ def handle_quiz(update, context):
             chat_id=chat_id,
             text=f"Test tugadi!\nTo'g'ri javoblar: {togri_javob}\nNoto'g'ri javoblar: {notogri_javob}"
         )
+        s=0
+        togri_javob=0
+        notogri_javob=0
         return
     
 
@@ -67,8 +71,7 @@ def handle_quiz_selection(update: Update, context: CallbackContext) -> None:
     text = update.message.text
     if text.lower() == 'matematika':
         handle_quiz(update, context)
-togri_javob=0
-notogri_javob=0
+
 def Answer(update: Update, context: CallbackContext) -> None:
     """
     Handle user answers to quiz questions(a,b,c,d).
@@ -131,7 +134,7 @@ def main() -> None:
 
     dispatcher.add_handler(CommandHandler("start", start))
     dispatcher.add_handler(CommandHandler("quiz",quiz ))
-    dispatcher.add_handler(MessageHandler(filters=Filters.all,callback=handle_quiz_selection))
+    dispatcher.add_handler(MessageHandler(	Filters.regex('^matematika$'),handle_quiz_selection))
     # dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, answer))
     dispatcher.add_handler(CallbackQueryHandler(Answer))
     updater.start_polling()

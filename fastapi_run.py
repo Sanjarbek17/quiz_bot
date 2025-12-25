@@ -6,7 +6,7 @@ import os
 
 # Import your bot handler (adjust import as needed)
 try:
-	from bot import handle_webhook # You should have a function to process webhook requests
+	from main import handle_webhook # You should have a function to process webhook requests
 except ImportError:
 	handle_webhook = None  # Placeholder if not implemented yet
 
@@ -21,7 +21,7 @@ async def webhook(request: Request):
 	result = await handle_webhook(data)
 	return result
 
-@app.get("set_webhook")
+@app.get("/set-webhook")
 async def set_webhook():
     # Here you would set the webhook URL with your bot provider
     # This is a placeholder implementation
@@ -31,5 +31,5 @@ async def set_webhook():
     return {"status": "webhook set", "url": webhook_url}
 
 if __name__ == "__main__":
-	port = int(os.environ.get("PORT", 8000))
+	port = int(os.environ.get("PORT", 8018))
 	uvicorn.run("fastapi_run:app", host="0.0.0.0", port=port, reload=True)

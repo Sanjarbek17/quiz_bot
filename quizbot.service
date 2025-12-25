@@ -1,0 +1,13 @@
+[Unit]
+Description=FastAPI Quiz Bot Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/sanjarbek/bot/quiz_bot
+ExecStart=/home/sanjarbek/bot/quiz_bot/venv/bin/python /home/sanjarbek/bot/quiz_bot/fastapi_run.py
+Restart=always
+User=sanjarbek
+
+[Install]
+WantedBy=multi-user.target

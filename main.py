@@ -115,6 +115,10 @@ def handle_webhook(data):
     application.update_queue.put(update)
     return 'OK'  # or appropriate response
 
+def set_webhook(webhook_url):
+    application = Application.builder().token(BOT_TOKEN).build()
+    return application.bot.set_webhook(webhook_url)
+
 def main():
     app = Application.builder().token(BOT_TOKEN).build()
     handler(app)

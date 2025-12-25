@@ -6,7 +6,7 @@ import os
 
 # Import your bot handler (adjust import as needed)
 try:
-	from main import handle_webhook # You should have a function to process webhook requests
+	from main import handle_webhook, set_webhook as set_webhook_by_bot # You should have a function to process webhook requests
 except ImportError:
 	handle_webhook = None  # Placeholder if not implemented yet
 
@@ -28,7 +28,8 @@ async def set_webhook():
     webhook_url = os.environ.get("WEBHOOK_URL", "https://yourdomain.com/webhook")
     # Call your bot's method to set the webhook
     # e.g., await bot.set_webhook(webhook_url)
-    return {"status": "webhook set", "url": webhook_url}
+    result = await set_webhook_by_bot(webhook_url)
+    return {"status": "webhook set", "url": webhook_url, 'result': result}
 
 if __name__ == "__main__":
 	port = int(os.environ.get("PORT", 8018))

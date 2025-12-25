@@ -1,0 +1,2506 @@
+[
+    {
+        "question": "﻿ TCP/IP protokollari steki nechta sathdan iborat?",
+        "options": [
+            "4",
+            "3",
+            "5",
+            "7"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "TCP/IP protokollari stekining birnchi sathi sathi qanday nomlanadi?",
+        "options": [
+            "tarmoq interfeyslari sathi",
+            "transport sathi",
+            "tarmoq sathi",
+            "amaliy sath"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "TCP/IP protokollari stekining ikkinchi sathi sathi qanday nomlanadi?",
+        "options": [
+            "tarmoq interfeyslari sathi",
+            "transport sathi",
+            "tarmoq sathi",
+            "amaliy sath"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "TCP/IP protokollari stekining uchinchi sathi sathi qanday nomlanadi?",
+        "options": [
+            "tarmoq interfeyslari sathi",
+            "transport sathi",
+            "tarmoq sathi",
+            "amaliy sath"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "TCP/IP protokollari stekining to’rtinchi sathi sathi qanday nomlanadi?",
+        "options": [
+            "tarmoq interfeyslari sathi",
+            "transport sathi",
+            "tarmoq sathi",
+            "amaliy sath"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "IPv4 manzillari nechta sinfdan iborat?",
+        "options": [
+            "5 ta",
+            "6 ta",
+            "4 ta",
+            "7 ta"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?",
+        "options": [
+            "Dastlabki bit 0 ga teng: 1.0.0.0 dan 127.255.255.255 gacha",
+            "Dastlabki bit 10 ga teng: 1.0.0.0 dan 127.255.255.255 gacha",
+            "Dastlabki bit 0 ga teng: 1.0.0.0 dan 128.0.0.0 gacha",
+            "Dastlabki bit 10 ga teng: 1.255.255.255 dan 127.255.255.255 gacha"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "B sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?",
+        "options": [
+            "Dastlabki bit 10 ga teng: 128.0.0.0 dan 191.255.255.255 gacha",
+            "Dastlabki bit 10 ga teng: 128.0.0.0 dan 192.0.0.0 gacha",
+            "Dastlabki bit 110 ga teng: 127.255.255.255 dan 192.0.0.0 gacha",
+            "Dastlabki bit 10 ga teng: 1.255.255.255 dan 127.255.255.255 gacha"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "C sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?",
+        "options": [
+            "Dastlabki bit 110 ga teng: 192.0.0.0 dan 223.255.255.255 gacha",
+            "Dastlabki bit 110 ga teng: 192.0.0.0 dan 243.255.255.255 gacha",
+            "Dastlabki bit 110 ga teng: 191.255.255.255 dan 243.0.0.0 gacha",
+            "Dastlabki bit 10 ga teng: 192.0.0.0 dan 223.255.255.255 gacha"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A sinfga tegishli tarmoqlarda manzillar sonini qancha?",
+        "options": [
+            "2^8",
+            "2^16",
+            "2^24",
+            "2^4"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "B sinfga tegishli tarmoqlarda manzillar sonini qancha?",
+        "options": [
+            "2^8",
+            "2^16",
+            "2^24",
+            "2^4"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "C sinfga tegishli tarmoqlarda manzillar sonini qancha?",
+        "options": [
+            "2^8",
+            "2^16",
+            "2^24",
+            "2^4"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IP manzillar sinflaridan foydalanib 192.9.7.5 manzilini tarmoq va xost raqamlariga ajrating?",
+        "options": [
+            "tarmoq raqami 192.9.7.0; xost raqami 0.0.0.5",
+            "tarmoq raqami 192.9.0.0; xost raqami 0.0.7.5",
+            "tarmoq raqami 192.9.6.0; xost raqami 0.0.1.5",
+            "tarmoq raqami 192.0.0.0; xost raqami 0.9.6.5"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IP manzillar sinflaridan foydalanib 62.76.9.17 manzilini tarmoq va xost raqamlariga ajrating?",
+        "options": [
+            "tarmoq raqami 62.0.0.0; xost raqami 0.76.9.17",
+            "tarmoq raqami 62.76.0.0; xost raqami 0.0.9.12",
+            "tarmoq raqami 62.76.9.0; xost raqami 0.0.0.12",
+            "tarmoq raqami 62.76.1.1; xost raqami 0.0.8.16"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A sinfga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?",
+        "options": [
+            "255.0.0.0",
+            "255.255.255.0",
+            "255.255.0.0",
+            "255.255.255.255"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "B infga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?",
+        "options": [
+            "255.0.0.0",
+            "255.255.255.0",
+            "255.255.0.0",
+            "255.255.255.128"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "C sinfga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?",
+        "options": [
+            "255.0.0.0",
+            "255.255.255.0",
+            "255.255.0.0",
+            "255.255.255.192"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "215.17.125.177 manzil va 255.255.255.240 niqob uchun tarmoq va xost raqamlarini hisoblang?",
+        "options": [
+            "tarmoq raqami 215.17.125.176; xost raqami 0.0.0.1",
+            "tarmoq raqami 215.17.125.0; xost raqami 0.0.0.177",
+            "tarmoq raqami 215.17.125.170; xost raqami 0.0.0.7",
+            "tarmoq raqami 215.17.125.162; xost raqami 0.0.0.15"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "67.38.173.245 manzil va 255.255.240.0 niqob uchun tarmoq va xost raqamlarini hisoblang?",
+        "options": [
+            "tarmoq raqami 67.38.160.0; xost raqami 0.0.13.245",
+            "tarmoq raqami 67.38.173.0; xost raqami 0.0.0.245",
+            "tarmoq raqami 67.38.158.245; xost raqami 0.0.15.245",
+            "tarmoq raqami 67.38.170.245; xost raqami 0.0.3.245"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "192.168.74.126 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
+        "options": [
+            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.62",
+            "tarmoq raqami 192.168.74.0; xost raqami 0.0.0.126",
+            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.6",
+            "tarmoq raqami 192.168.74.63; xost raqami 0.0.0.63"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "192.168.74.130 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
+        "options": [
+            "tarmoq raqami 192.168.74.128; xost raqami 0.0.0.4",
+            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.66",
+            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.10",
+            "tarmoq raqami 192.168.74.63; xost raqami 0.0.0.67"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "192.168.74.215 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
+        "options": [
+            "tarmoq raqami 192.168.74.192; xost raqami 0.0.0.23",
+            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.151",
+            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.95",
+            "tarmoq raqami 192.168.74.128; xost raqami 0.0.0.87"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "192.168.74.167 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
+        "options": [
+            "tarmoq raqami 192.168.74.128; xost raqami 0.0.0.39",
+            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.103",
+            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.47",
+            "tarmoq raqami 192.168.74.63; xost raqami 0.0.0.104"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Nuqtalar o’rniga mos keluvchi so’zni toping. Oxirgi tugunlarni tranizt tugunlar tarmog’i orqali ulash … deb ataladi?",
+        "options": [
+            "kommutatsiya",
+            "inkapsulyatsiya",
+            "multiplekslash",
+            "marshrutlash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tizimlarida abonentlarni kommutatsiyalashning nechta xili qo’llaniladi?",
+        "options": [
+            "2",
+            "4",
+            "5",
+            "1"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tizimlarida kompyuterlarni adreslash qanday amalga oshirilishi mumkin?",
+        "options": [
+            "uchta har-xil adreslash chizmalari asosida",
+            "ikkita har-xil adreslash chizmalari asosida",
+            "faqat simvolli adreslash chizmasi asosida",
+            "apparat adreslash chizmasi asosida"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Quyida keltirilgan kompyuter tarmoqlarining qaysi biri avval paydo bo’lgan?",
+        "options": [
+            "global kompyuter tarmoqlari",
+            "lokal kompyuter tarmoqlari",
+            "kampuslar tarmog’i",
+            "korporativ tarmoqlar"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tizimlarida ikkilik sonlarni kodlashning qaysi xillari qo’llaniladi?",
+        "options": [
+            "potentsialli va impulsli",
+            "bir qutbga ega potentsialli",
+            "faqat impulsli",
+            "ko’p qutbga ega potentsialli"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuterning ketma-ket porti orqali uzatilayotgan axborotni sinxronlash qanday amalga oshiriladi?",
+        "options": [
+            "«Start» va «Stop» signallari yordamida",
+            "paritet razryadi yordamida",
+            "takt impulslari yordamida",
+            "apparat sathida"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Operatsion tizimning qaysi funktsiyasi redirektor funktsiyalariga tegishli bo’ladi?",
+        "options": [
+            "so’rovni anglash va uzoqdagi kompyuterga yo’naltirish",
+            "tashqi qurilmalarga ulanishni boshqarish",
+            "displeyga axborotlarni chiqarib berishni tashkil qilish",
+            "uzilishlarni boshqarish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "To’rtta bir-biri bilan bog’langan bog’lamlar strukturasi (kvadrat shaklida) qaysi topologiya turiga mansub?",
+        "options": [
+            "Xalqa",
+            "Yulduz",
+            "To’liq bog’lanishli",
+            "Yacheykali"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ketma-ket bir-biri bilan bog’langan 3 ta bog’lamlar (oxiri boshi bilan bog’lanmagan) strukturasi qaysi topologiya turiga tegishli.?",
+        "options": [
+            "Umumiy shina",
+            "Xalqa",
+            "To’liq bog’lanishli",
+            "Yulduz"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tizimlarida ma’lumotlarni uzatish ishonchliligini oshirish uchun nima qilinadi?",
+        "options": [
+            "kontrol summani xisoblash bilan",
+            "ma’lumotni bir necha marta uzatish bilan",
+            "axborotni ishonchliligini tekshirishning majoritar usulini",
+            "maxsus apparat-programma vositalari yordamida"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Qaysi topologiya birgalikda foydalanilmaydigan muhitni qo’llamasligi mumkin?",
+        "options": [
+            "to’liq bog’lanishli",
+            "xalqa",
+            "yulduz",
+            "umumiy shina"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuterning tashqi interfeysi deganda nima tushuniladi?",
+        "options": [
+            "kompyuter bilan tashqi qurilmani bog’lovchi simlar va ular orqali axborot almashinish qoidalari to’plamlari",
+            "tashqi qurilmani kompyuterga bog’lashda ishlatiladigan ulovchi simlar",
+            "kompyuterning tashqi portlari.",
+            "tashqi qurilma bilan kompyuter o’rtasida axborot almashinish qoidalari to’plami"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Uchta o’zaro bog’langan bog’lamlardan iborat tuzilma (uchburchak shaklida) topologiyaning qaysi turiga tegishli?",
+        "options": [
+            "To’liq bog’lanishli",
+            "Umumiy shina",
+            "Yulduz",
+            "Yacheykali"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Qanday topologiyaning xususiy xoli umumiy shina xisoblanadi?",
+        "options": [
+            "Yulduz",
+            "To’liq bog’lanishli",
+            "Xalqa",
+            "Yacheykali"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Topologiyalardan qaysi biri ishonchliligi yuqori hisoblanadi?",
+        "options": [
+            "Yulduz",
+            "Xalqa",
+            "Аralash",
+            "Umumiy shina"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "MAC sathi qanday vazifani bajaradi?",
+        "options": [
+            "uzatish muhitiga murojaat qilishni boshqarish",
+            "stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish",
+            "bitlar sathida axborot uzatishni boshqarish",
+            "bloklar sathida axborot uzatishni boshqarish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "LLC sathi qanday vazifani bajaradi?",
+        "options": [
+            "stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish",
+            "bitlar sathida axborot uzatishni boshqarish",
+            "bloklar sathida axborot uzatishni boshqarish",
+            "uzatish muhitiga murojaat qilishni boshqarish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish vazifasini qaysi sath bajaradi?",
+        "options": [
+            "LLC sathi",
+            "Fizik sath",
+            "Tarmoq sathi",
+            "MAC sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Uzatish muhitiga murojaat qilishni boshqarish vazifasini qaysi sath bajaradi?",
+        "options": [
+            "MAC sathi",
+            "Fizik sath",
+            "Tarmoq sathi",
+            "LLC sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "l0Base-2 segmentining uzunligi ko’pi bilan qancha bo’lishi mumkin?",
+        "options": [
+            "185 metr",
+            "400 metr",
+            "200 metr",
+            "500 metr"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "O’ralma juftlik kabeli simlarini, uning konnektorlariga ulashning necha xil variantlari mavjud?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "1"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ethernet tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?",
+        "options": [
+            "CSMA/CD",
+            "CSTK/CE",
+            "CSQE/NQ",
+            "CSTK/QL"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ethernet da kommutatsiyalashning qaysi xilidan foydalaniladi?",
+        "options": [
+            "paketlarni deytagrammali kommutatsiyalash",
+            "paketlarni virtual kanal orqali uzatish",
+            "vaqtni taqsimlash asosida kanallarni kommutatsiyalash",
+            "chastotali multiplekslash asosida kanallarni kommutatsiyalash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Optik tolali Ethernet tarmog’ining maksimal uzunligi qanday?",
+        "options": [
+            "2740 m",
+            "500 m",
+            "5000 m",
+            "2500 m"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "100Base-TX spetsifikatsiyasi qaysi texnologiyaga tegishli?",
+        "options": [
+            "Fast Ethernet",
+            "Ethernet",
+            "Gigabit Ethernet",
+            "FDDI"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ethernet texnologiyasi tarmoqlarida ma’lumotlar kadri qanday preambulaga ega?",
+        "options": [
+            "00001111",
+            "11110000",
+            "10101010",
+            "11001100"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Signalni to’liq aylanib chiqish vaqti –PDV ning maksimal qiymati qanday?",
+        "options": [
+            "576 bitli interval",
+            "512 bitli interval",
+            "600 bitli interval",
+            "624 bitli interval"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "PDV deganda nima tushuniladi?",
+        "options": [
+            "Signalni to’liq aylanib chiqish vaqti",
+            "Kadrlar orasidagi masofaning qisqarishi",
+            "Kadrlar orasidagi masofa",
+            "Bitli interval"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Fast Ethernet texnologiyasi spetsifikatsiyalari qaysi komitet tarkibida ishlab chiqilgan?",
+        "options": [
+            "802.3",
+            "802.2",
+            "802.1",
+            "802.5"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ethernet texnologiyasida koaksial kabelining ma’lumotlarni uzatish tezligi qanday?",
+        "options": [
+            "10 Mbit/s",
+            "1 Mbit/s",
+            "100 Mbit/s",
+            "1000 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Fast Ethernet texnologiyasida o’ralma juftlik kabelining ma’lumotlarni uzatish tezligi qanday?",
+        "options": [
+            "100 Mbit/s",
+            "10 Mbit/s",
+            "1 Mbit/s",
+            "1000 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Lokal tarmoqlarda keng tarqalgan topologiya turi qaysi?",
+        "options": [
+            "Yulduz",
+            "Xalqa",
+            "To’liqbog’langan",
+            "Umumiy shina"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "100Base-TX spetsifikatsiya qaysi texnologiyaga tegishli?",
+        "options": [
+            "Fast Ethernet",
+            "Ethernet",
+            "Gigabit Ethernet",
+            "10G Ethernet"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "1000Base-SX spetsifikatsiya qaysi texnologiyaga tegishli?",
+        "options": [
+            "Gigabit Ethernet",
+            "Fast Ethernet",
+            "Ethernet",
+            "10G Ethernet"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "10Base-T standartida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?",
+        "options": [
+            "2",
+            "4",
+            "1",
+            "3"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "100Base-TX spetsifikatsiyasida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?",
+        "options": [
+            "2",
+            "4",
+            "1",
+            "3"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuterni kontsentrator yoki kommutator bilan ulash uchun UTP kabelining qaysi varianti ishlatiladi?",
+        "options": [
+            "To’g’ridan-to’g’ri ulangan varianti",
+            "Teskari ulangan varianti",
+            "Krossover varianti",
+            "Kesishgan holda ulangan variant"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuterni kompyuter bilan ulash uchun UTP kabelining qaysi varianti ishlatiladi?",
+        "options": [
+            "Krossover varianti",
+            "Teskari ulangan varianti",
+            "To’g’ridan-to’g’ri ulangan varianti",
+            "Qo’shimcha ulangan varianti"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq adapterining kadrlarni kompyuterdan uzatib beruvchi ulanish nuqtasi (kontakti) qanday belgilanadi?",
+        "options": [
+            "Tx",
+            "Rx",
+            "Px",
+            "Kx"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq adapterining kadrlarni kompyuterga qabul qilib oluvchi ulanish nuqtasi (kontakti) qanday belgilanadi?",
+        "options": [
+            "Rx",
+            "Tx",
+            "Px",
+            "Kx"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ethernet texnologiyasi qaysi mantiqiy topologiya asosida qurilgan?",
+        "options": [
+            "umumiy shina",
+            "xalqa",
+            "yulduz",
+            "to’liq bog’lanishli topologiya"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Fast Ethernet texnologiyasida qaysi turdagi kabel tizimlaridan foydalanilgan?",
+        "options": [
+            "ko’pmodali optik tolali, 5 va undan yuqori kategoriyali o’ralma juftlik",
+            "bittamodali optik tolali , 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik",
+            "ingichka koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik",
+            "yo’g’on koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kadrlar ketma-ketligini kontsentratorlar orqali o’tishi natijasida, kadrlar orasidagi masofaning qisqarishi – PVV,ko’pi bilan qancha bo’lishi mumkin?",
+        "options": [
+            "49 bitli interval",
+            "32 bitli interval",
+            "30 bitli interval",
+            "64 bitli interval"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "MАC sath osti sathi OSI modelining qaysi sathiga tegishli?",
+        "options": [
+            "kanal sathiga",
+            "tarmoq sathiga",
+            "fizik sathiga",
+            "transport sathiga"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ingichka koaksial kabel asosida qurilgan tarmoqda kompyuterlar orasidagi eng kichik masofa qanday bo’lishi kerak?",
+        "options": [
+            "1 m",
+            "3 m",
+            "2 m",
+            "5 m"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "100Base-TX spetsifikatsiyasi qanday fizik topologiyaga ega?",
+        "options": [
+            "ierarxik yulduz",
+            "yulduz",
+            "umumiy shina",
+            "xalqa"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "100Base-TX spetsifikatsiyasi qanday mantiqiy topologiyaga ega?",
+        "options": [
+            "umumiy shina",
+            "yulduz",
+            "ierarxik yulduz",
+            "xalqa"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "I va II sinf Fast Ethernet texnologiyasi takrorlagichlari nimasi bilan farq qiladi?",
+        "options": [
+            "Fizik sathiga tegishli mavjud portlari bilan",
+            "Kadrlarni uzatish usuli bilan",
+            "Ma’lumotlarni uzatish tezligi bilan",
+            "Portlarning soni bilan"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Fast Ethernet texnologiyasida RJ-45 ulagichning qaysi kontaktlari ishlatiladi?",
+        "options": [
+            "1,2,3,6",
+            "3,4,5,6",
+            "1,2,3,4",
+            "5,6,7,8"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ethernet texnologiyasi nechta standartga ega?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "6"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Fast Ethernet texnologiyasi nechta spetsifikatsiyaga ega?",
+        "options": [
+            "3",
+            "4",
+            "2",
+            "6"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "100Base-T4 spetsifikatsiyasida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?",
+        "options": [
+            "4",
+            "2",
+            "1",
+            "6"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Umumiy shina topologiyali lokal tarmoqlarda kontsentratorlar qanday?",
+        "options": [
+            "Kompyuter tomonidan uzatilayotgan ma’lumotni barcha kompyuterga yo’naltiradi",
+            "Kompyuter tomonidan uzatilgan ma’lumotni boshqa bir kompyuterga yo’naltiradi",
+            "Kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi",
+            "Tarmoqning ikki segmentini o’zaro bog’laydi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Qaysi kontsentrator kompyuter tomonidan uzatilayotgan ma’lumotni barcha kompyuterga yo’naltiradi?",
+        "options": [
+            "Ethernet kontsentratori",
+            "Token Ring kontsentratori",
+            "FDDI kontsentratori",
+            "Frame Relay kontsentrator"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Qaysi kontsentrator kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi?",
+        "options": [
+            "Token Ring kontsentratori",
+            "Ethernet kontsentratori",
+            "FDDI kontsentratori",
+            "Frame Relay kontsentratori"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "To’g’ridan-to’g’ri ulangan UTP kabelida Tx uzatuvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
+        "options": [
+            "Yashil, oq-yashil",
+            "Ko’k, oq-ko’k",
+            "Qizg’ish-sariq, oq - qizig’ish-sariq",
+            "Jigar rang, oq-jigar rang"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "To’g’ridan-to’g’ri ulangan UTP kabelida Rx qabul qiluvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
+        "options": [
+            "Qizg’ish-sariq, oq - qizig’ish-sariq",
+            "Ko’k, oq-ko’k",
+            "Yashil, oq-yashil",
+            "Jigar rang, oq-jigar rang"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kesishgan holatda ulangan (krossover) UTP kabelida Tx uzatuvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
+        "options": [
+            "Qizg’ish-sariq, oq - qizig’ish-sariq",
+            "Ko’k, oq-ko’k",
+            "Yashil, oq - yashil",
+            "Jigar rang, oq-jigar rang"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Krossover ulangan UTP kabelida Rx qabul qiluvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
+        "options": [
+            "Yashil, oq-yashil",
+            "Ko’k, oq-ko’k",
+            "Sariq, oq-sariq",
+            "Jigar rang, oq-jigar rang"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "MSAU qanday vazifani bajaradi?",
+        "options": [
+            "faol bo’lmagan kontsentrator vazifasini",
+            "ko’prikning vazifasini",
+            "faol kontsentratorning vazifasini",
+            "takrorlovchi vazifasini"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "FDDI texnologiyasida buzilmasdan ishlash qobiliyatini oshirish qanday ta’minlangan?",
+        "options": [
+            "ikkita optik tolali xalqani hosil qilish asosida",
+            "axborotni keragidan ortiq xolatli kodlar bilan kodlash usulini qo’llash bilan",
+            "xatolarni to’g’irlash qurilmalaridan foydalanish asosida",
+            "intellektual kontsentratorlardan foydalanish asosida"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "FDDI texnologiyasining fizik sathi nachta sath osti sathlariga bo’linadi?",
+        "options": [
+            "2",
+            "4",
+            "3",
+            "5"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "FDDI texnologiyasida, xalqalarga ko’pi bilan nechta kompyuter ulanishi mumkin?",
+        "options": [
+            "500",
+            "700",
+            "900",
+            "100"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "FDDI tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?",
+        "options": [
+            "marker asosida murojaat qilishning tezkor usuli",
+            "CSMA/CD",
+            "marker asosida murojaat qilish usuli",
+            "CSTK/QL"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Token Ring tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?",
+        "options": [
+            "marker asosida murojaat qilish usuli",
+            "marker asosida murojaat qilishning tezkor usuli",
+            "CSMA/CD",
+            "CSTK/QL"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan texnologiyalarning qaysi birlari lokal tarmoq texnologiyalariga mansub?",
+        "options": [
+            "FDDI, Token Ring",
+            "Frame Relay, Token Ring",
+            "Ethernet, Internet",
+            "ATM, TCP/IP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "FDDI texnologiyasida stantsiyalar orasidagi eng uzoq masofa kanday bo’lishi mumkin?",
+        "options": [
+            "2000m.",
+            "1000 m.",
+            "2500m.",
+            "500 m"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Xalqa topologiyali lokal tarmoqlarda kontsentratorlar qanday funktsiyani bajaradi?",
+        "options": [
+            "Kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi",
+            "Kompyuter tomonidan uzatilgan ma’lumotni barcha kompyuterlarga yo’naltiradi",
+            "Kompyuter tomonidan uzatilgan ma’lumotni boshqa bir kompyuterga yo’naltiradi",
+            "Tarmoqning ikki segmentini o’zaro bog’laydi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "FDDI tarmog’idama’lumotlarni uzatishda qanday murojat kilish usuli qo’llaniladi?",
+        "options": [
+            "Tezlashtirilgan markerli murojaat qilish usuli",
+            "CSMA/CD",
+            "Markerli murojaat qilish usuli",
+            "CSTK/QL"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Token Ring tarmog’ida ma’lumotlarni uzatishda qanday murojat qilish usuli qo’llaniladi?",
+        "options": [
+            "Markerli murojaat qilish usuli",
+            "Tezlashtirilgan markerli murojaat qilish usuli",
+            "CSMA/CD",
+            "CSTK/QL"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "FDDI tarmog’ining qaysi elementlari buzilmay ishlash qobiliyatini ta’minlaydi?",
+        "options": [
+            "Ma’lumotlarni uzatish uchun ikkita xalqaning mavjudligi",
+            "Kontsentratorlar",
+            "А sinfga tegishli stantsiyalar",
+            "Kommutatorlar"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Token Ring texnologiyasi kadrining maksimal uzunligi nimaga bog’liq?",
+        "options": [
+            "xalqaning ishlash tezligiga",
+            "ma’lumotlarni uzatish ishonchliligiga",
+            "xalqadagi kompyuterlar soniga",
+            "xalqaning uzunligiga"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Simsiz tarmoqlar standartlari qaysi komitet tarkibida ishlab chiqilmoqda?",
+        "options": [
+            "802.11",
+            "802.7",
+            "802.6",
+            "802.12"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Xozirgi paytda ko’p ishlatiladigan, 802.11 standartiga tegishli spetsifikatsiyani ko’rsating?",
+        "options": [
+            "a, b, g, n, ac",
+            "a, b, d",
+            "a, b, c",
+            "a, b, e"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11 spetsifikatsiyasi simsiz lokal tarmog’i diametrining chegaralari qanday?",
+        "options": [
+            "100 - 300 m",
+            "50 - 100 m",
+            "300 – 400 m",
+            "100 -200 m."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan qisqartmalarning qaysi biri bazaviy yoki asosiy xizmatlar to’plami ko’rsatiladigan tarmoqni anglatadi?",
+        "options": [
+            "BSS",
+            "STA",
+            "ESS",
+            "DSS"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan qisqartmalarning qaysi biri kengaytirilgan (qo’shimcha) xizmatlar to’plamini ko’rsatadigan tarmoqni anglatadi?",
+        "options": [
+            "ESS",
+            "BSS",
+            "STA",
+            "DSS"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "BSS deganda nima tushuniladi?",
+        "options": [
+            "Asosiy xizmatlar to’plami ko’rsatiladigan simsiz tarmoq",
+            "Qo’shimcha xizmatlar to’plamini ko’rsatadigan simsiz tarmoq",
+            "Yulduz topologiyasidagi tarmoq",
+            "Halqa topologiyasidagi tarmoq"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "ESS deganda nima tushuniladi?",
+        "options": [
+            "Qo’shimcha xizmatlar to’plamini ko’rsatadigan simsiz tarmoq",
+            "Asosiy xizmatlar to’plami ko’rsatiladigan simsiz tarmoq",
+            "Yulduz topologiyasidagi tarmoq",
+            "Xalqa topologiyasidagi tarmoq"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11g spetsifikatsiyasida ma’lumotlarni uzatishning maksimal tezligi qanday?",
+        "options": [
+            "54 Mbit/s",
+            "2 Mbit/s",
+            "11 Mbit/s",
+            "1 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11b spetsifikatsiyasida ma’lumotlarni uzatishning maksimal tezligi qanday?",
+        "options": [
+            "11 Mbit/s",
+            "54 Mbit/s",
+            "600 Mbit/s",
+            "1 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11 spetsifikatsiyasi qanday ma’lumotlarni uzatishning maksimal tezligi qanday?",
+        "options": [
+            "2 Mbit/s",
+            "1 Mbit/s",
+            "11 Mbit/s",
+            "54 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11b spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?",
+        "options": [
+            "11 Mbit/s",
+            "2 Mbit/s",
+            "1 Mbit/s",
+            "54 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11n spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?",
+        "options": [
+            "600 Mbit/s",
+            "54 Mbit/s",
+            "11 Mbit/s",
+            "6.7 Gbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11ac spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?",
+        "options": [
+            "6.7 Gbit/s",
+            "600 Mbit/s",
+            "54 Mbit/s",
+            "11 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11 standartiga tegishli topologiyalarning qaysi turlari mavjud?",
+        "options": [
+            "BSS, ESS",
+            "Xalqa,to’liq bog’lanishli",
+            "Umumiy shina, yulduz",
+            "BSS, DSS"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoqni fizik strukturalashda qaysi qurilma ishlatiladi?",
+        "options": [
+            "takrorlovchi (kontsentrator)",
+            "kommutator",
+            "ko’prik",
+            "shlyuz"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Qaysi qurilma tarmoqning mantiqiy strukturasini o’zgartirishi mumkin?",
+        "options": [
+            "ko’prik, marshrutizator, kommutator va shlyuz",
+            "faqat kommutator",
+            "takrorlovchi",
+            "kontsentrator"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ethernet kontsentratori qanday vazifani bajaradi?",
+        "options": [
+            "kompyuterdan kelayotgan axborotni qolgan barcha kompyuterga yo’naltirib beradi",
+            "kompyuterdan kelayotgan axborotni boshqa bir kompyuterga yo’naltirib beradi",
+            "kompyuterdan kelayotgan axborotni xalqa bo’ylab joylashgan keyingi kompyuterga",
+            "tarmoqning ikki segmentini bir biriga ulaydi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tarmog’ining fizik strukturalash nima maqsadda amalga oshiriladi?",
+        "options": [
+            "Tarmoq diametrini oshirish uchun",
+            "Unumdorlikni oshirish uchun",
+            "Internetga ulanish uchun",
+            "Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tarmog’ining mantiqiy strukturalash nima maqsadda amalga oshiriladi?",
+        "options": [
+            "Internetga ulanish uchun",
+            "Tarmoq diametrini oshirish uchun",
+            "Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun",
+            "Trafikni lokallashtirish uchun"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Kommutator ko’prikdan nimasi bilan farq qiladi?",
+        "options": [
+            "Kadrlarni parallel qayta ishlashda",
+            "Tarmoqqa ulanish usulida",
+            "Kadrlarni uzatish algoritmida",
+            "Kadrlarni uzatish usulida"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelida nechta sath mavjud?",
+        "options": [
+            "7",
+            "4",
+            "5",
+            "3"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining to’rtinchi sathi qanday nomlanadi?",
+        "options": [
+            "Transport sathi",
+            "Аmaliy sath",
+            "Seanslar sathi",
+            "Taqdimlash sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining beshinchi sathi qanday nomlanadi?",
+        "options": [
+            "Seanslar sathi",
+            "Аmaliy sath",
+            "Fizik sath",
+            "Transport sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining birinchi sathi qanday nomlanadi?",
+        "options": [
+            "Fizik sath",
+            "Seanslar sathi",
+            "Transport sathi",
+            "Taqdimlash sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining ikkinchi sathi qanday nomlanadi?",
+        "options": [
+            "Kanal sathi",
+            "Аmaliy sathi",
+            "Fizik sath",
+            "Seanslar sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining uchinchi sathi qanday nomlanadi?",
+        "options": [
+            "Tarmoq sathi",
+            "Аmaliy sath",
+            "Kanal sathi",
+            "Taqdimlash sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining oltinchi sathi qanday nomlanadi?",
+        "options": [
+            "Taqdimlash sathi",
+            "Аmaliy sath",
+            "Seanslar sathi",
+            "Kanal sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining ettinchi sathi qanday nomlanadi?",
+        "options": [
+            "Аmaliy sath",
+            "Seanslar sathi",
+            "Transport sathi",
+            "Taqdimlash sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining qaysi sathlari tarmoqqa bog’liq sathlar hisoblanadi?",
+        "options": [
+            "fizik, kanal va tarmoq sathlari",
+            "seans va amaliy sathlar",
+            "amaliy va taqdimlash sathlari",
+            "transport va seans sathlari"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining tarmoq sathi vazifalari keltirilgan qurilmalarning qaysi birida bajariladi?",
+        "options": [
+            "Marshrutizator",
+            "Ko’prik",
+            "Tarmoq adapter",
+            "Kontsentrator"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining kanal sathi orqali uzatiladigan ma’lumotlarning birligi qanday nomlanadi?",
+        "options": [
+            "Kadr",
+            "Paket",
+            "Kadr",
+            "Oqim"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Elektr signallarini qabul qilish va uzatish vazifalarini OSI modelining qaysi sathi bajaradi?",
+        "options": [
+            "Fizik sath",
+            "Kanal sathi",
+            "Tarmoq sathi",
+            "Transport sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ma’lumotlarni uzatishning optimal marshrutlarini aniqlash vazifalarini OSI modelining qaysi sathi bajaradi?",
+        "options": [
+            "Tarmoq sathi",
+            "Kanal sathi",
+            "Аmaliy sath",
+            "Transport sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mijozlar dasturlari bilan o’zaro muloqot vazifalarini OSI modelining qaysi sathi bajaradi?",
+        "options": [
+            "Аmaliy sath",
+            "Kanal sathi",
+            "Tarmoq sathi",
+            "Fizik sath"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan protokollarning qaysilari tarmoq sathi protokollariga mansub?",
+        "options": [
+            "IP, IPX",
+            "NFS, FTP",
+            "Ethernet, FDDI",
+            "TCP,UDP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan protokollarning qaysilari transport sathi protokollariga mansub?",
+        "options": [
+            "TCP,UDP",
+            "NFS, FTP",
+            "IP, IPX",
+            "Ethernet, FDDI"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan protokollarning qaysilari amaliy sathi protokollariga mansub?",
+        "options": [
+            "NFS, FTP",
+            "TCP,UDP",
+            "10Base-T, 100Base-TX",
+            "IP, IPX"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan vazifalardan qaysi biri umumiy kommutatsiyalash vazifasiga tegishli emas?",
+        "options": [
+            "axborotni indekslash",
+            "oqimlarni xarakatlantirish",
+            "multipleksirlash va demultipleksirlash",
+            "marshrutizatsiyalash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining fizik sathi qanday funktsiyalarni bajaradi?",
+        "options": [
+            "Elektr signallarini uzatish va qabul qilish",
+            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
+            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
+            "Klient dasturlari bilan o’zaro muloqotda bo’lish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining kanal sathi qaysi funktsiyalarni bajaradi?",
+        "options": [
+            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
+            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
+            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
+            "Ma’lumotlarni kodlash va shifrlash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining tarmoq sathi qanday funktsiyalarni bajaradi?",
+        "options": [
+            "Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash",
+            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
+            "Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish",
+            "Эlektr signallariniuzatish va qabul qilish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining transport sathi qanday funktsiyalarni bajaradi?",
+        "options": [
+            "Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish",
+            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
+            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
+            "Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modeliningseanslar sathi qanday funktsiyalarni bajaradi?",
+        "options": [
+            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
+            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
+            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
+            "Эlektr signallariniuzatish va qabul qilish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modelining taqdimlash sathi qanday funktsiyalarni bajaradi?",
+        "options": [
+            "Ma’lumotlarni kodlash va shifrlash",
+            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
+            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
+            "Эlektr signallariniuzatish va qabul qilish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Аloqa kanaliga va uzatish muhitiga ulanishni boshqarish vazifalarini OSI modelining qaysi sathi bajaradi?",
+        "options": [
+            "Kanal sathi",
+            "Fizik sath",
+            "Tarmoq sathi",
+            "Transport sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ma’lumotlarni uzatish jarayonida ularni to’liq va to’g’ri uzatilishini nazorat qilish vazifalarini OSI modelining qaysi sathi bajaradi?",
+        "options": [
+            "Transport sathi",
+            "Kanal sathi",
+            "Tarmoq sathi",
+            "Seanslar sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Аloqa seansini hosil qilish, kuzatib turish va ohirigacha ta’minlab berish vazifalarini OSI modelining qaysi sathi bajaradi?",
+        "options": [
+            "Seanslar sathi",
+            "Kanal sathi",
+            "Tarmoq sathi",
+            "Transport sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Talab qilinadigan algoritmlar yordamida ma’lumotlarni kodlash va shifrlash vazifalarini OSI modelining qaysi sathi bajaradi?",
+        "options": [
+            "Taqdimlash sathi",
+            "Seanslar sathi",
+            "Tarmoq sathi",
+            "Transport sathi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OSI modeliningamaliy sathi qanday funktsiyalarni bajaradi?",
+        "options": [
+            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
+            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
+            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
+            "Эlektr signallariniuzatish va qabul qilish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan protokollarning qaysilari kanal sathi protokollariga mansub?",
+        "options": [
+            "Ethernet, FDDI",
+            "NFS, FTP",
+            "IP, IPX",
+            "TCP,UDP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan protokollarning qaysilari fizik sath protokollariga mansub?",
+        "options": [
+            "10Base-T, 100Base-TX",
+            "TCP,UDP",
+            "IP, IPX",
+            "NFS, FTP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan protokollarning qaysilari taqdimlash sathi protokollariga mansub?",
+        "options": [
+            "SNMP, Telnet",
+            "IP, IPX",
+            "Ethernet, FDDI",
+            "TCP,UDP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan protokollarning qaysilari saenslar sathi protokollariga mansub?",
+        "options": [
+            "RPC, WSP",
+            "NFS, FTP",
+            "IP, IPX",
+            "TCP,UDP"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter bilan tashqi qurilma o’rtasida ma’lumotlarni uzatish paytida ularni to’gri uzatilganligi qanday tekshiriladi?",
+        "options": [
+            "paritet biti asosida",
+            "stop biti asosida",
+            "kontrol summani sanash bilan",
+            "paketni uzunligini sanash bilan"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuterdan tashqi qurilmaga ma’lumotlarni asinxron rejimda uzatayotganda bitta simvolga to’g’ri keladigan paketning uzunligi qanday bo’ladi?",
+        "options": [
+            "11 bit",
+            "12 bit",
+            "16 bit",
+            "18 bit"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan qurilmalarning qaysi biri DCE bo’ladi?",
+        "options": [
+            "modem",
+            "marshrutizator",
+            "kompyuter",
+            "klaviatura"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan qurilmalarning qaysi biri DTE bo’ladi?",
+        "options": [
+            "kompyuter va marshrutizator",
+            "modem",
+            "kompyuter va marshrutizator",
+            "aloqa chiziqlari"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan tafsiflarning qaysilari, ham aloqa chiziqlariga, ham ma’lumotlarni uzatish usullariga tegishli tavsiflar hisoblanadi?",
+        "options": [
+            "o’tkazish qobiliyati va ishonchliligi",
+            "amplituda-chastotali tavsif",
+            "o’tkazuvchanlik chegaralari",
+            "xatoliklar sodir bo’lish extimolligining kamaishi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "UTP kabeli deganda qaysi kabel tushuniladi?",
+        "options": [
+            "o’ralma juftlik kabeli",
+            "yo’g’on koaksial kabel",
+            "ingichka koaksial kabel",
+            "optik tolali kabel"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Modem qanday asosiy vazifani bajaradi?",
+        "options": [
+            "Signallarni modulyatsiyalash - demodulyatsiyalash",
+            "parallel kodni ketma-ket kodga o’zgartirish",
+            "skrэmbrlash va deskrэmbrlash",
+            "analog signallarni raqamli kodga o’zgartirish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan standartlarning qaysi biri axborotni 57600 bit/s tezlikda qabul qiladi va uzata oladi?",
+        "options": [
+            "V.92",
+            "V.90",
+            "V.30",
+            "V.40"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Аnalog signallarni diskret modulyatsiyalash nimaga asoslanadi?",
+        "options": [
+            "Naykvist-Kotelnikovlarning akslanish nazariyasiga",
+            "Boltsman nazariyasiga",
+            "Shennon nazariyasiga",
+            "Flin nazariyasiga"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kodlarning qaysi biri kuchlanishning to’rtta sathidan foydalanadi?",
+        "options": [
+            "2V1Q",
+            "AMI",
+            "NRZ",
+            "NRZI"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuterdan modemga ma’lumotlarni uzatish uchun interfeysning qaysi ulanish nuqtasidan foydalaniladi?",
+        "options": [
+            "TXD",
+            "RXD",
+            "RTS",
+            "CTS"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Modemdan kompyuterga ma’lumotlarni qabul qilish uchun interfeysning qaysi ulanish nuqtasidan foydalaniladi?",
+        "options": [
+            "RXD",
+            "TXD",
+            "RTS",
+            "CTS"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "DCE qaysi signal orqali aloqa o’rnatilganligi haqidagi xabarni beradi?",
+        "options": [
+            "DSR",
+            "CTS",
+            "DCD",
+            "DTR"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter bilan tashqi qurilma o’rtasidagi interfeys ishi qanday amalga oshirilgan?",
+        "options": [
+            "kontroller va drayver yordamida",
+            "drayver yordamida",
+            "kontroller yordamida",
+            "markaziy protsessor yordamida"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan modulyatsiyalarning qaysi biri analog modulyatsiyaga mansub?",
+        "options": [
+            "chastotali",
+            "amplituda-impulsli",
+            "kodli-impulsli",
+            "vaqt-impulsli"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan modulyatsiyalarning qaysi biri diskret modulyatsiyaga mansub?",
+        "options": [
+            "amplituda-impulsli",
+            "chastotali",
+            "amplitudali",
+            "fazali"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Internet tarmog’ida kommutatsiyalashning qaysi xili ishlatiladi?",
+        "options": [
+            "paketlarni kommutatsiyalash",
+            "kanallarni kommutatsiyalash",
+            "xabarlarni kommutatsiyalash",
+            "alohida ajratilgan kanallarni kommutatsiyalash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IP-manzili qanday maydonlardan iborat?",
+        "options": [
+            "Tarmoq manzilining maydoni, bog’lash manzilining maydoni",
+            "Operator manzilining maydoni, bog’lash manzilining maydoni",
+            "Tarmoq manzilining maydoni, MАC manzilining maydoni",
+            "Tarmoq manzilining maydoni, tarmoqosti tarmoq manzilining maydoni"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tarmog’ining aktiv qurilmalari tarkibiga qaysi qurilmalar kiradi?",
+        "options": [
+            "Tarmoq adapteri,kontsentrator",
+            "Kross-panel, montaj shkafi",
+            "Tarmoq kabeli,RJ-45 rozetkasi",
+            "Marshrutizator, kross-panel"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tarmog’ining passiv qurilmalari tarkibiga qaysi qurilmalar kiradi?",
+        "options": [
+            "Tarmoq kabeli, RJ-45 rozetkasi",
+            "Kommutator, montaj shkafi",
+            "Tarmoq adapteri,kontsentrator",
+            "Kontsentrator, kross-panel"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ovozni sifatli uzatish uchun tovushli tebranishlar amplitudasini kvantlashda qanday chastota ishlatiladi?",
+        "options": [
+            "8000 Gts",
+            "300 Gts",
+            "6400 Gts",
+            "3400 Gts"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Raqamli telefon tarmoqlarida 64 Kbit/s o’tkazuvchanlik qobiliyati nimaga asosan tanlab oligan?",
+        "options": [
+            "Kotelnikov-Naykvist teoremasi asosida",
+            "Fure qatori asosida",
+            "Bayes qonuni asosida",
+            "Bartlet mezoni asosida"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "MАC-adres qanday uzunlikka ega?",
+        "options": [
+            "48 bit",
+            "32 bit",
+            "16 bit",
+            "64 bit"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IPv4 turidagi IP-adres qanday uzunlikka ega?",
+        "options": [
+            "32 bit",
+            "16 bit",
+            "48 bit",
+            "64 bit"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "192.190.21.254 adresi IP-adreslarning qaysi sinfiga tegishli?",
+        "options": [
+            "C",
+            "B",
+            "А",
+            "D"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "B sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?",
+        "options": [
+            "65536",
+            "256",
+            "512",
+            "1024"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "А sinfidagi tarmoq tarkibida nechta bog’lam bo’lishi mumkin?",
+        "options": [
+            "16777216",
+            "256",
+            "65536",
+            "1024"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "B sinfidagi tarmoq maskasi qanday qiymatga ega?",
+        "options": [
+            "255.255.0.0",
+            "255.0.0.0",
+            "255.255.255.0",
+            "255.255.254.0"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "DTE qaysi signal yordamida o’zini ishlayotganligini va DCE aloqa kanaliga ulanishi mumkinligi haqidagi xabarni beradi?",
+        "options": [
+            "DCD",
+            "DSR",
+            "CTS",
+            "DTR"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kabel standartlarining qaysi biri EIA/TIA-568A abbreviaturasiga ega?",
+        "options": [
+            "Аmerika standarti",
+            "xalqaro standart",
+            "evropa standarti",
+            "IBM kompaniyasi standarti"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "RS-232C/V.24 interfeysida ulagichning qaysi modifikatsiyasi ishlatilgan?",
+        "options": [
+            "9 va 25 ta ulanish nuqtalariga ega bo’lgani",
+            "15 va 30 ta ulanish nuqtalariga ega bo’lgani",
+            "10 va 25 ta ulanish nuqtalariga ega bo’lgani",
+            "12 va 24 ta ulanish nuqtalariga ega bo’lgani"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "DTE va aloqa kanali o’rtasida uzatilayotgan signallarni o’zaro moslab uzatish qanday amalga oshiriladi?",
+        "options": [
+            "modulyatsiyalash va kodlash bilan",
+            "modulyatsiyalash bilan",
+            "kodlash bilan",
+            "shifrlash va deshifrlash Bilan"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter tarmoqlarida ma’lumotlarni uzatishda, kodlash deganda nima tushuniladi?",
+        "options": [
+            "ma’lumotlarni aloqa kanallaridagi ta’sirlar natijasida paydo bo’ladigan xatoliklarni aniqlash va to’g’irlash mumkin bo’ladigan ko’rinishga o’zgartirish",
+            "ma’lumotlarni aloqa kanallaridagi ta’sirlar natijasida paydo bo’ladigan xatoliklarni aniqlash va to’g’irlash mumkin bo’ladigan ko’rinishga o’zgartirish",
+            "simvollarning kompyuterdagi kodlarini, aloqa kanallari orqali uzatiladigan kodlarga o’zgartirish",
+            "signalni aloqa kanali chastotasiga o’tkazish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Modulyatsiyalashning diskret xili nimaga asoslangan?",
+        "options": [
+            "signallarni ham amplitudasi, ham vaqt bo’yicha diskretlash",
+            "signallarni vaqt bo’yicha diskretlash",
+            "signallarni amplitudasi bo’yicha diskretlash",
+            "signallarni vaqt bo’yicha kvantlash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq orqali uzluksiz signalni raqamli ko’rinishda uzatilayotganda vaqt oralig’ining qanday qiymatini e’tibor bilan saqlab turish kerak?",
+        "options": [
+            "125 mks",
+            "200 mks",
+            "100 mks",
+            "150 mks"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "C sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?",
+        "options": [
+            "256",
+            "65536",
+            "512",
+            "1024"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "А sinfidagi tarmoq maskasi qanday qiymatga ega?",
+        "options": [
+            "255.0.0.0",
+            "255.255.0.0",
+            "255.255.255.0",
+            "255.0.0"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "C sinfidagi tarmoq maskasi qanday qiymatga ega?",
+        "options": [
+            "255.255.255.0",
+            "255.0.0.0",
+            "255.255.0.0",
+            "255.255.240.0"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "512 ta bog’lamli tarmoqosti tarmoq maskasi qanday qiymatga ega?",
+        "options": [
+            "255.255.254.0",
+            "255.255.0.0",
+            "255.255.255.0",
+            "255.255.240.0"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Internet tarmog’i, kompyuter tarmoqlarining qaysi sinfiga mansub?",
+        "options": [
+            "global tarmoq",
+            "lokal tarmoq",
+            "shahar tarmog’i",
+            "korporativ tarmog’i"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Keltirilgan texnologiyalarning qaysi birlari global tarmoq texnologiyalariga mansub?",
+        "options": [
+            "ATM, TCP/IP",
+            "X.25, FDDI",
+            "Frame Relay, Token Ring",
+            "Ethernet, Internet"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "MAN tarmoqlari nima uchun mo’ljallangan?",
+        "options": [
+            "Yirik shaxar axolisiga xizmat ko’rsatish uchun",
+            "Internetga korxonalar tarmoqlarini ulash uchun",
+            "Faqat bir nechta lokal tarmoqlarni bog’lash uchun",
+            "Faqat korporativ tarmoqning filiallarini ulash uchun"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Qaysi global tarmoqlarda paketlarni marshrutlashning har-xilidan foydalanilgan?",
+        "options": [
+            "Frame relay va АTM",
+            "Frame relay va TCP/IP",
+            "АTM va  X.25",
+            "Frame relay va X.25"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Xizmatlarni boshqarish markazlarida qanday axborotlar saqlanadi?",
+        "options": [
+            "Foydalanuvchilar uchun mo’ljallangan axborot, xizmat ko’rsatish uchun mo’ljallangan axborot",
+            "Foydalanuvchilarning barchasiga yuborilishi kerak bo’lgan axborot",
+            "Maxfiy axborot",
+            "Yangiliklar"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Аloqa kanallari orqali ko’p sonli foydalanuvchilarning qurilmalaridan kelayotgan axborot oqimlarini yig’ib berish vazifasini qanday tarmoq bajaradi?",
+        "options": [
+            "Ulanish tarmog’i",
+            "Magistral tarmoq",
+            "Korporativ tarmoq",
+            "Kampus tarmog’i"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ulanish tarmoqlarini bog’lashni va yuqori tezlikdagi kanallar orqali trafik tranzitini ta’minlashni, qaysi tarmoq amalga oshiradi?",
+        "options": [
+            "Magistral tarmoq",
+            "Аloqa operatorlari tarmog’i",
+            "Korporativ tarmoq",
+            "Bino tarmog’i"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IPv6 turidagi IP-adres qanday uzunlikka ega?",
+        "options": [
+            "128 bit",
+            "32 bit",
+            "48 bit",
+            "64 bit"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Masofa-vektorli marshrutlash protokollari qaysi javobda to'g'ri keltirilgan?",
+        "options": [
+            "RIP, IGRP, EIGRP",
+            "OSPF, IGRP, EIGRP",
+            "RIP, OSPF",
+            "OSPF"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Marshrutlashning tashqi shlyuz protokollari qaysi javobda to'g'ri keltirilgan?",
+        "options": [
+            "Exterior Gateway Protocol (EGP), Border Gateway Protocol (BGPv4)",
+            "Border Gateway Protocol (BGPv4), Interior Gateway Protocol  (IGP)",
+            "Interior Gateway Protocol  (IGP), Exterior Gateway Protocol (EGP)",
+            "Interior Gateway Protocol  (IGP)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Marshrutlashning ichki shlyuz protokollari qaysi javobda to'g'ri keltirilgan?",
+        "options": [
+            "Interior Gateway Protocol  (IGP)",
+            "Exterior Gateway Protocol (EGP), Border Gateway Protocol (BGPv4)",
+            "Interior Gateway Protocol  (IGP), Exterior Gateway Protocol (EGP)",
+            "Border Gateway Protocol (BGPv4), Interior Gateway Protocol  (IGP)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Simli tarmoq standarti qaysi javobda to’g’ri ko’rsatilgan?",
+        "options": [
+            "IEEE 802.3;",
+            "IEEE 802.1;",
+            "IEEE 802.2;",
+            "IEEE 802.5;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IEEE 802.3u standartining maksimal o’tkazish tezligi qanday?",
+        "options": [
+            "100 Mbit/s;",
+            "1000 Mbit/s;",
+            "10 Gbit/s;",
+            "1 Gbit/s;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IEEE 802.3 ab standartining maksimal o’tkazish tezligi qanday?",
+        "options": [
+            "1000 Mbit/s;",
+            "100 Mbit/s;",
+            "10 Gbit/s;",
+            "1 Gbit/s;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IEEE 802.3 an standartining maksimal o’tkazish tezligi qanday?",
+        "options": [
+            "10 Gbit/s;",
+            "100 Mbit/s;",
+            "1000 Mbit/s;",
+            "1 Gbit/s;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Simli tarmoqning umumiy o'tkazuvchanligi qanchagacha yetishi mumkin:",
+        "options": [
+            "2000 Mbit/s;",
+            "1000 Mbit/s;",
+            "10 Gbit/s;",
+            "1 Gbit/s;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "5-kategoriyali o’rama juft kabeli qancha masofagacha samarali ishlay oladi?",
+        "options": [
+            "100 m.;",
+            "200 m.;",
+            "300 m.;",
+            "400 m."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "5e-kategoriyali o’rama juft kabeli o’tkazish qobiliyati qancha?",
+        "options": [
+            "2 ta juftdan foydalanilganda 100 Mbit/s gacha va 4 ta juftdan foydalanilganda 1 Gbit/s gacha;",
+            "100 Mbit/s gacha;",
+            "4 ta juftdan foydalanilganda 1 Gbit/s gacha va kabel uzunligi 55 metrdan oshmaganda 10 Gbit/s gacha;",
+            "2 ta juftdan foydalanilganda 1 Gbit/s gacha;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "6-kategoriyali o’rama juft kabelining o’tkazish qobilati qancha?",
+        "options": [
+            "250 MHz;",
+            "125 MHz;",
+            "500 MHz;",
+            "100 MHz."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11 ac standartining maksimal o’tkazish tezligi qancha?",
+        "options": [
+            "6,77 Gbit/s;",
+            "1000 Mbit/s;",
+            "54 Mbit/s;",
+            "600 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "802.11g standartining maksimal o’tkazish tezligi qancha?",
+        "options": [
+            "54 Mbit/s;",
+            "1000 Mbit/s;",
+            "55 Mbit/s;",
+            "600 Mbit/s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq arxitekturasi – bu…?",
+        "options": [
+            "topologiyalar, ma’lumot uzatish muhitiga kirish usullari va protokollarining kombinatsiyasi;",
+            "ma'lumotlarni uzatish muhiti va protokollariga kirish usullari;",
+            "topologiyalar kombinatsiyasi, ma'lumotlarni uzatish muhitiga kirish usullari;",
+            "ma'lumotlarni uzatish tarmog'ining amalga oshirilgan tuzilmasi, uning topologiyasi, qurilmalar tarkibi va ularning tarmoqdagi o'zaro ta'siri qoidalari;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq elementi – bu…?",
+        "options": [
+            "bir yoki bir nechta jismoniy qurilmalarni birlashtirgan boshqariladigan mantiqiy ob'ekt;",
+            "bitta qurilmani birlashtirgan boshqariladigan mantiqiy ob'ekt;",
+            "bitta qurilmani birlashtirgan boshqariladigan jismoniy ob'ekt;",
+            "bitta jismoniy qurilmani birlashtirgan boshqariladigan mantiqiy ob'ekt;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tengdosh arxitekturasi (peer-to-peer architecture) axborot tarmog'i kontseptsiyasi bo'lib …",
+        "options": [
+            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
+            "unda barcha ma'lumotlarni qayta ishlash bir yoki bir nechta asosiy kompyuterlar tomonidan amalga oshiriladi;",
+            "uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan",
+            "uning resurslari Internetda joylashgan."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mijoz-server arxitekturasi axborot tarmog'ining kontseptsiyasi bo'lib, …",
+        "options": [
+            "uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan;",
+            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
+            "uning resurslari Internetda joylashgan;",
+            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Terminal arxitekturasi – asosiy kompyuter (terminal – host computer architecture) - axborot tarmog'i kontseptsiyasi bo'lib, …",
+        "options": [
+            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
+            "uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan;",
+            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
+            "uning resurslari Internetda joylashgan;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Barcha ma'lumotlarni qayta ishlash bir yoki bir nechta asosiy kompyuterlar tomonidan amalga oshiriladigan arxitektura?",
+        "options": [
+            "texminal xost;",
+            "mijoz-server;",
+            "tengdosh;",
+            "fayl-server;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan arxitektura?",
+        "options": [
+            "mijoz-server;",
+            "texminal xost;",
+            "tengdosh;",
+            "fayl-server;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Resurslari barcha tizimlar bo'ylab taqsimlangan arxitektura?",
+        "options": [
+            "tengdosh;",
+            "texminal xost;",
+            "mijoz-server;",
+            "fayl-server;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Protokollar steki bu:",
+        "options": [
+            "o'zaro bog'lanishni tashkil etish uchun etarli bo'lgan turli darajadagi kelishilgan protokollar to'plami;",
+            "o'zaro ishlash uchun etarli bo'lgan bir qatlamli protokollarning kelishilgan to'plami;",
+            "o'zaro ishlash uchun etarli bo'lgan ikki qatlamli protokollarning kelishilgan to'plami;",
+            "o'zaro ishlashni tashkil qilish uchun etarli bo'lgan uchta qatlamli kelishilgan protokollar to'plami;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Interfeys bu:",
+        "options": [
+            "funksiya-so'rovlar to'plami;",
+            "protseduralar majmui;",
+            "protokollar to'plami;",
+            "dasturiy ta'minot to'plami;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "TCP/IP protokollar steki nechta pog’onadan iborat?",
+        "options": [
+            "4 ta;",
+            "3 ta;",
+            "7 ta;",
+            "6 ta;\n\nTCP/IP protokollar stekining birinchi pog’onasi:",
+            "tarmoq interfeyslari;",
+            "tarmoq;",
+            "transport;",
+            "amaliy"
+        ],
+        "correct_option_id": 4
+    },
+    {
+        "question": "TCP/IP protokollar stekining ikkinchi pog’onasi:",
+        "options": [
+            "tarmoq;",
+            "tarmoq interfeyslari;",
+            "transport;",
+            "amaliy"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "TCP/IP protokollar stekining uchunchi pog’onasi:",
+        "options": [
+            "transport;",
+            "tarmoq interfeyslari;",
+            "tarmoq;",
+            "amaliy"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "TCP/IP protokollar stekining to’rtinchi pog’onasi:",
+        "options": [
+            "amaliy;",
+            "tarmoq interfeyslari;",
+            "tarmoq;",
+            "transport"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq pog’onasining asosiy vazifasi nima?",
+        "options": [
+            "ma’lumotlarni yetkazib berish uchun marshrut ishlab chiqish;",
+            "amaliy dasturlar bilan ishlash;",
+            "ma’lumotlarni ishonchli yetkazib berish;",
+            "ma’lumotlarni tarmoq bo’ylab harakatlantirish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Transport pog’onasining asosiy vazifasi nima?",
+        "options": [
+            "ma’lumotlarni ishonchli yetkazib berish;",
+            "ma’lumotlarni yetkazib berish uchun marshrut ishlab chiqish;",
+            "amaliy dasturlar bilan ishlash;",
+            "ma’lumotlarni tarmoq bo’ylab harakatlantirish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Transport pog’onasi protokollari:",
+        "options": [
+            "tcp, udp;",
+            "ip, tcp;",
+            "http, https, ftp;",
+            "ip, icmp;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq pog’onasi OSI modelining qaysi pog’onasiga mos keladi?",
+        "options": [
+            "3;",
+            "2;",
+            "4;",
+            "7;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq pog’onasi TCP/IP protokollar stekining qaysi pog’onasiga mos keladi?",
+        "options": [
+            "2;",
+            "3;",
+            "4;",
+            "1."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq pog’onasining vazifasi nima?",
+        "options": [
+            "jo'natuvchidan qabul qiluvchiga paketlarni yetkazib berish uchun marshrutni ishlab chiqish;",
+            "jo'natuvchidan qabul qiluvchiga paketlarni yetkazib berish;",
+            "aloqa seansini o’rnatish;",
+            "transport pog’onasi va amaliy jarayonlar o’rtasidagi interfeys."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Marshrutlash bu:",
+        "options": [
+            "bu tarmoq trafigini yuborish uchun qaysi yo'llarni tanlash va paketlarni tanlangan pastki tarmoq bo'ylab yuborish jarayoni;",
+            "paketlarni qabul qiluvchiga yetkazib berish;",
+            "yuboruvchi va qbul qiluvchi uchun oldindan aloqa kanalini band qilish;",
+            "ma’lumotni tarmoq bo’ylab harakatlantirish;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq pog’onasida ma’lumotlarni marshrutlash uchun qanday qurilmalardan foydalaniladi?",
+        "options": [
+            "router, L3 switch;",
+            "router, L2 switch;",
+            "L2 switch;",
+            "hub, switch, NIC."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tarmoq pog’onasi protokollari qaysi javobda to’g’ri ko’rsatilgan?",
+        "options": [
+            "IP, ICMP;",
+            "TCP, IP;",
+            "FTP, HTTP;",
+            "TCP, UDP."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Marshrutlashning masofa vektor protokollari qaysi javobda tog’ri ko’rsatilgan?",
+        "options": [
+            "RIP, IGP, EIGP;",
+            "OSPF, RIP;",
+            "OSPF, IS-IS;",
+            "IGP, EIGP, IS-IS."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Marshrutlashning aloqa holati protokollari qaysi javobda tog’ri ko’rsatilgan?",
+        "options": [
+            "OSPF, IS-IS;",
+            "OSPF, RIP;",
+            "RIP, IGP, EIGP;",
+            "IGP, EIGP, IS-IS."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Marshrutlash – bu:",
+        "options": [
+            "tarmoq trafigini yuborish uchun qisqa yo'llarni tanlash va paketlarni tanlangan pastki tarmoq bo'ylab yuborish jarayoni;",
+            "paket uchun eng uzoq yo’lni tanlash;",
+            "paketlarni bo’laklash;",
+            "paketni qabul qilish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "IP protokoli qachon ishlab chiqilgan?",
+        "options": [
+            "1981 yil;",
+            "1983 yil;",
+            "1985 yil;",
+            "1987 yil;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Identifikator – bu …?",
+        "options": [
+            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
+            "ma'lumotlar oqimidagi fragmentning o'rnini belgilovchi qiymat;",
+            "paketni qabul qiluvchilarga tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
+            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda fragmentlarning ierarxik ketma-ketligini aniqlash uchun mo'ljallangan qiymat;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Bo’laklarni ko’chirish – bu…?",
+        "options": [
+            "ma'lumotlar oqimidagi fragmentning o'rnini belgilovchi qiymat;",
+            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
+            "paketni qabul qiluvchilarga tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
+            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda fragmentlarning ierarxik ketma-ketligini aniqlash uchun mo'ljallangan qiymat;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Sarlavhaning nazorat summasi - … bo’yicha hisoblanadi?",
+        "options": [
+            "RFC 1071;",
+            "RFC 1072;",
+            "RFC 1073;",
+            "RFC 1075;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Marshrutizatorlar paketga qanday o’zgartirish kirita oladi?",
+        "options": [
+            "paketlarni fragmentlash;",
+            "paketlarni yig’ish;",
+            "paketlarni formatlash;",
+            "paketlarni segmentlash;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Paket ma'lumotlarini bo'lishda oxirgisidan tashqari barcha bo'laklarning o'lchami … karrali bo’lishi kerak:",
+        "options": [
+            "8 baytga;",
+            "16 baytga;",
+            "24 baytga;",
+            "32 baytga;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "0 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "options": [
+            "A sinf;",
+            "B sinf;",
+            "C sinf;",
+            "D sinf;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "10 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "options": [
+            "B sinf;",
+            "A sinf;",
+            "C sinf;",
+            "D sinf;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "110 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "options": [
+            "C sinf;",
+            "B sinf;",
+            "E sinf;",
+            "D sinf;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "1110 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "options": [
+            "D sinf;",
+            "B sinf;",
+            "C sinf;",
+            "E sinf;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "11110 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "options": [
+            "E sinf;",
+            "B sinf;",
+            "C sinf;",
+            "D sinf;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "GSM mobil aloqaning qaysi avlodiga tegishli?",
+        "options": [
+            "2G;",
+            "1G;",
+            "3G;",
+            "4G."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "3G da kanallar taqsimlanishining qanday turidan foydalaniladi?",
+        "options": [
+            "Kod bo'yicha",
+            "Chastota-vaqt bo'yicha",
+            "Chastota bo'yicha",
+            "Vaqt bo'yicha"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mobil aloqada uyaning ideal shakli qanday tasvirlanadi?",
+        "options": [
+            "Oltiburchak",
+            "Romb",
+            "Kvadrat",
+            "To'rtburchak"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "LTE - bu?",
+        "options": [
+            "Long Term Evolution",
+            "Listing Time Ebay",
+            "London Tests of English",
+            "Liquid Tension Experiment"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "WiFi standartida qanday chastota diapazonlaridan foydalaniladi",
+        "options": [
+            "2.4 va 5 GHz",
+            "2.4 - 5 GHz oralig'ida",
+            "2.4 - 2.5 GHz oralig'ida",
+            "2.5 va 5 GHz"
+        ],
+        "correct_option_id": 0
+    }
+]

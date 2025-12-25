@@ -102,12 +102,22 @@ async def show_quiz_statistics(context: ContextTypes.DEFAULT_TYPE, chat_id: int)
         result_text += 'No answers recorded.'
     await context.bot.send_message(chat_id=chat_id, text=result_text)
 
-def main():
-    app = Application.builder().token(BOT_TOKEN).build()
+def handler(app: Application):
     app.add_handler(CommandHandler('start', start))
     app.add_handler(CommandHandler('quiz', quiz))
     app.add_handler(PollAnswerHandler(handle_poll_answer))
     app.add_handler(PollHandler(handle_poll))
+    
+def handle_webhook(data):
+    update = Update.de_json(data, None)
+    application = Application.builder().token(BOT_TOKEN).build()
+    handler(application)
+    application.update_queue.put(update)
+    return 'OK'  # or appropriate response
+
+def main():
+    app = Application.builder().token(BOT_TOKEN).build()
+    handler(app)
     app.run_polling(
         allowed_updates=[
             Update.MESSAGE,

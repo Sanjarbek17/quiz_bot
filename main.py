@@ -36,6 +36,7 @@ async def quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Run the quiz: send each poll, wait for open_period, then show statistics
 async def run_quiz_flow(context: ContextTypes.DEFAULT_TYPE, chat_id: int):
     open_period = 10
+    MAX_OPTION_LENGTH = 100
     stop = 10
     start = random.randint(0, len(QUIZ_QUESTIONS) - stop)
 
@@ -43,7 +44,7 @@ async def run_quiz_flow(context: ContextTypes.DEFAULT_TYPE, chat_id: int):
         message = await context.bot.send_poll(
             chat_id=chat_id,
             question=q['question'],
-            options=q['options'],
+            options=[opt if len(opt) <= MAX_OPTION_LENGTH else opt[:MAX_OPTION_LENGTH-3] + '...' for opt in q['options']],
             type='quiz',
             correct_option_id=q['correct_option_id'],
             is_anonymous=False,
@@ -108,12 +109,14 @@ def handler(app: Application):
     app.add_handler(PollAnswerHandler(handle_poll_answer))
     app.add_handler(PollHandler(handle_poll))
     
-def handle_webhook(data):
-    update = Update.de_json(data, None)
+async def handle_webhook(data):
     application = Application.builder().token(BOT_TOKEN).build()
     handler(application)
-    application.update_queue.put(update)
-    return 'OK'  # or appropriate response
+    
+    update = Update.de_json(data, application.bot)
+    await application.initialize()
+    await application.process_update(update)
+    return {"status": "ok"}  # or appropriate response
 
 def set_webhook(webhook_url):
     application = Application.builder().token(BOT_TOKEN).build()

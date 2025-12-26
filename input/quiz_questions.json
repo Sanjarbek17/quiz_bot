@@ -1,2505 +1,1809 @@
 [
     {
-        "question": "﻿ TCP/IP protokollari steki nechta sathdan iborat?",
+        "question": "Operator iterasiya jarayonida iterasiya natijalaridan foydalansa bu operator:",
         "options": [
-            "4",
-            "3",
-            "5",
-            "7"
+            "rekurrent;",
+            "izotrop;",
+            "parallel.",
+            "ketma-ket;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "TCP/IP protokollari stekining birnchi sathi sathi qanday nomlanadi?",
+        "question": "OpenCV da qanday qilib gayil sohadagi bitta piksel olinadi?",
         "options": [
-            "tarmoq interfeyslari sathi",
-            "transport sathi",
-            "tarmoq sathi",
-            "amaliy sath"
+            "I = i[x,y,2].",
+            "I =i(x,y,4).",
+            "I =i(y,x,2).",
+            "I = i(y,x,}."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "TCP/IP protokollari stekining ikkinchi sathi sathi qanday nomlanadi?",
+        "question": "Havosiz kamerada maxsus saqlovchi yuzasida issiqlik yordamida tasvir hosil qilish usuli:",
         "options": [
-            "tarmoq interfeyslari sathi",
-            "transport sathi",
-            "tarmoq sathi",
-            "amaliy sath"
+            "termoplastik;",
+            "ferrografik;",
+            "mexanik.",
+            "termoplastik; ferrografik; mexanik."
         ],
-        "correct_option_id": 2
-    },
-    {
-        "question": "TCP/IP protokollari stekining uchinchi sathi sathi qanday nomlanadi?",
-        "options": [
-            "tarmoq interfeyslari sathi",
-            "transport sathi",
-            "tarmoq sathi",
-            "amaliy sath"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "question": "TCP/IP protokollari stekining to’rtinchi sathi sathi qanday nomlanadi?",
-        "options": [
-            "tarmoq interfeyslari sathi",
-            "transport sathi",
-            "tarmoq sathi",
-            "amaliy sath"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "question": "IPv4 manzillari nechta sinfdan iborat?",
-        "options": [
-            "5 ta",
-            "6 ta",
-            "4 ta",
-            "7 ta"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "A sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?",
-        "options": [
-            "Dastlabki bit 0 ga teng: 1.0.0.0 dan 127.255.255.255 gacha",
-            "Dastlabki bit 10 ga teng: 1.0.0.0 dan 127.255.255.255 gacha",
-            "Dastlabki bit 0 ga teng: 1.0.0.0 dan 128.0.0.0 gacha",
-            "Dastlabki bit 10 ga teng: 1.255.255.255 dan 127.255.255.255 gacha"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "B sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?",
-        "options": [
-            "Dastlabki bit 10 ga teng: 128.0.0.0 dan 191.255.255.255 gacha",
-            "Dastlabki bit 10 ga teng: 128.0.0.0 dan 192.0.0.0 gacha",
-            "Dastlabki bit 110 ga teng: 127.255.255.255 dan 192.0.0.0 gacha",
-            "Dastlabki bit 10 ga teng: 1.255.255.255 dan 127.255.255.255 gacha"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "C sinf IP manzillari bloki to’g’ri ko’rsatilgan javobni tanlang?",
-        "options": [
-            "Dastlabki bit 110 ga teng: 192.0.0.0 dan 223.255.255.255 gacha",
-            "Dastlabki bit 110 ga teng: 192.0.0.0 dan 243.255.255.255 gacha",
-            "Dastlabki bit 110 ga teng: 191.255.255.255 dan 243.0.0.0 gacha",
-            "Dastlabki bit 10 ga teng: 192.0.0.0 dan 223.255.255.255 gacha"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "A sinfga tegishli tarmoqlarda manzillar sonini qancha?",
-        "options": [
-            "2^8",
-            "2^16",
-            "2^24",
-            "2^4"
-        ],
-        "correct_option_id": 2
-    },
-    {
-        "question": "B sinfga tegishli tarmoqlarda manzillar sonini qancha?",
-        "options": [
-            "2^8",
-            "2^16",
-            "2^24",
-            "2^4"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "question": "C sinfga tegishli tarmoqlarda manzillar sonini qancha?",
-        "options": [
-            "2^8",
-            "2^16",
-            "2^24",
-            "2^4"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "IP manzillar sinflaridan foydalanib 192.9.7.5 manzilini tarmoq va xost raqamlariga ajrating?",
-        "options": [
-            "tarmoq raqami 192.9.7.0; xost raqami 0.0.0.5",
-            "tarmoq raqami 192.9.0.0; xost raqami 0.0.7.5",
-            "tarmoq raqami 192.9.6.0; xost raqami 0.0.1.5",
-            "tarmoq raqami 192.0.0.0; xost raqami 0.9.6.5"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "IP manzillar sinflaridan foydalanib 62.76.9.17 manzilini tarmoq va xost raqamlariga ajrating?",
-        "options": [
-            "tarmoq raqami 62.0.0.0; xost raqami 0.76.9.17",
-            "tarmoq raqami 62.76.0.0; xost raqami 0.0.9.12",
-            "tarmoq raqami 62.76.9.0; xost raqami 0.0.0.12",
-            "tarmoq raqami 62.76.1.1; xost raqami 0.0.8.16"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "A sinfga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?",
-        "options": [
-            "255.0.0.0",
-            "255.255.255.0",
-            "255.255.0.0",
-            "255.255.255.255"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "B infga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?",
-        "options": [
-            "255.0.0.0",
-            "255.255.255.0",
-            "255.255.0.0",
-            "255.255.255.128"
-        ],
-        "correct_option_id": 2
-    },
-    {
-        "question": "C sinfga tegishli manzillar uchun niqob qaysi javobda to’g’ri ko’rsatilgan?",
-        "options": [
-            "255.0.0.0",
-            "255.255.255.0",
-            "255.255.0.0",
-            "255.255.255.192"
-        ],
-        "correct_option_id": 1
-    },
-    {
-        "question": "215.17.125.177 manzil va 255.255.255.240 niqob uchun tarmoq va xost raqamlarini hisoblang?",
-        "options": [
-            "tarmoq raqami 215.17.125.176; xost raqami 0.0.0.1",
-            "tarmoq raqami 215.17.125.0; xost raqami 0.0.0.177",
-            "tarmoq raqami 215.17.125.170; xost raqami 0.0.0.7",
-            "tarmoq raqami 215.17.125.162; xost raqami 0.0.0.15"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "67.38.173.245 manzil va 255.255.240.0 niqob uchun tarmoq va xost raqamlarini hisoblang?",
-        "options": [
-            "tarmoq raqami 67.38.160.0; xost raqami 0.0.13.245",
-            "tarmoq raqami 67.38.173.0; xost raqami 0.0.0.245",
-            "tarmoq raqami 67.38.158.245; xost raqami 0.0.15.245",
-            "tarmoq raqami 67.38.170.245; xost raqami 0.0.3.245"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "192.168.74.126 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
-        "options": [
-            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.62",
-            "tarmoq raqami 192.168.74.0; xost raqami 0.0.0.126",
-            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.6",
-            "tarmoq raqami 192.168.74.63; xost raqami 0.0.0.63"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "192.168.74.130 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
-        "options": [
-            "tarmoq raqami 192.168.74.128; xost raqami 0.0.0.4",
-            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.66",
-            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.10",
-            "tarmoq raqami 192.168.74.63; xost raqami 0.0.0.67"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "192.168.74.215 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
-        "options": [
-            "tarmoq raqami 192.168.74.192; xost raqami 0.0.0.23",
-            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.151",
-            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.95",
-            "tarmoq raqami 192.168.74.128; xost raqami 0.0.0.87"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "192.168.74.167 manzil va 255.255.255.192 niqob uchun tarmoq va xost raqamlarini hisoblang?",
-        "options": [
-            "tarmoq raqami 192.168.74.128; xost raqami 0.0.0.39",
-            "tarmoq raqami 192.168.74.64; xost raqami 0.0.0.103",
-            "tarmoq raqami 192.168.74.120; xost raqami 0.0.0.47",
-            "tarmoq raqami 192.168.74.63; xost raqami 0.0.0.104"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Nuqtalar o’rniga mos keluvchi so’zni toping. Oxirgi tugunlarni tranizt tugunlar tarmog’i orqali ulash … deb ataladi?",
-        "options": [
-            "kommutatsiya",
-            "inkapsulyatsiya",
-            "multiplekslash",
-            "marshrutlash"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter tizimlarida abonentlarni kommutatsiyalashning nechta xili qo’llaniladi?",
-        "options": [
-            "2",
-            "4",
-            "5",
-            "1"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter tizimlarida kompyuterlarni adreslash qanday amalga oshirilishi mumkin?",
-        "options": [
-            "uchta har-xil adreslash chizmalari asosida",
-            "ikkita har-xil adreslash chizmalari asosida",
-            "faqat simvolli adreslash chizmasi asosida",
-            "apparat adreslash chizmasi asosida"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Quyida keltirilgan kompyuter tarmoqlarining qaysi biri avval paydo bo’lgan?",
-        "options": [
-            "global kompyuter tarmoqlari",
-            "lokal kompyuter tarmoqlari",
-            "kampuslar tarmog’i",
-            "korporativ tarmoqlar"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter tizimlarida ikkilik sonlarni kodlashning qaysi xillari qo’llaniladi?",
-        "options": [
-            "potentsialli va impulsli",
-            "bir qutbga ega potentsialli",
-            "faqat impulsli",
-            "ko’p qutbga ega potentsialli"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuterning ketma-ket porti orqali uzatilayotgan axborotni sinxronlash qanday amalga oshiriladi?",
-        "options": [
-            "«Start» va «Stop» signallari yordamida",
-            "paritet razryadi yordamida",
-            "takt impulslari yordamida",
-            "apparat sathida"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Operatsion tizimning qaysi funktsiyasi redirektor funktsiyalariga tegishli bo’ladi?",
-        "options": [
-            "so’rovni anglash va uzoqdagi kompyuterga yo’naltirish",
-            "tashqi qurilmalarga ulanishni boshqarish",
-            "displeyga axborotlarni chiqarib berishni tashkil qilish",
-            "uzilishlarni boshqarish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "To’rtta bir-biri bilan bog’langan bog’lamlar strukturasi (kvadrat shaklida) qaysi topologiya turiga mansub?",
-        "options": [
-            "Xalqa",
-            "Yulduz",
-            "To’liq bog’lanishli",
-            "Yacheykali"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ketma-ket bir-biri bilan bog’langan 3 ta bog’lamlar (oxiri boshi bilan bog’lanmagan) strukturasi qaysi topologiya turiga tegishli.?",
-        "options": [
-            "Umumiy shina",
-            "Xalqa",
-            "To’liq bog’lanishli",
-            "Yulduz"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter tizimlarida ma’lumotlarni uzatish ishonchliligini oshirish uchun nima qilinadi?",
-        "options": [
-            "kontrol summani xisoblash bilan",
-            "ma’lumotni bir necha marta uzatish bilan",
-            "axborotni ishonchliligini tekshirishning majoritar usulini",
-            "maxsus apparat-programma vositalari yordamida"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Qaysi topologiya birgalikda foydalanilmaydigan muhitni qo’llamasligi mumkin?",
-        "options": [
-            "to’liq bog’lanishli",
-            "xalqa",
-            "yulduz",
-            "umumiy shina"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuterning tashqi interfeysi deganda nima tushuniladi?",
-        "options": [
-            "kompyuter bilan tashqi qurilmani bog’lovchi simlar va ular orqali axborot almashinish qoidalari to’plamlari",
-            "tashqi qurilmani kompyuterga bog’lashda ishlatiladigan ulovchi simlar",
-            "kompyuterning tashqi portlari.",
-            "tashqi qurilma bilan kompyuter o’rtasida axborot almashinish qoidalari to’plami"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Uchta o’zaro bog’langan bog’lamlardan iborat tuzilma (uchburchak shaklida) topologiyaning qaysi turiga tegishli?",
-        "options": [
-            "To’liq bog’lanishli",
-            "Umumiy shina",
-            "Yulduz",
-            "Yacheykali"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Qanday topologiyaning xususiy xoli umumiy shina xisoblanadi?",
-        "options": [
-            "Yulduz",
-            "To’liq bog’lanishli",
-            "Xalqa",
-            "Yacheykali"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Topologiyalardan qaysi biri ishonchliligi yuqori hisoblanadi?",
-        "options": [
-            "Yulduz",
-            "Xalqa",
-            "Аralash",
-            "Umumiy shina"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "MAC sathi qanday vazifani bajaradi?",
-        "options": [
-            "uzatish muhitiga murojaat qilishni boshqarish",
-            "stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish",
-            "bitlar sathida axborot uzatishni boshqarish",
-            "bloklar sathida axborot uzatishni boshqarish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "LLC sathi qanday vazifani bajaradi?",
-        "options": [
-            "stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish",
-            "bitlar sathida axborot uzatishni boshqarish",
-            "bloklar sathida axborot uzatishni boshqarish",
-            "uzatish muhitiga murojaat qilishni boshqarish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Stantsiyalar o’rtasida axborotni har-xil ishonchlilik darajasi bilan uzatish vazifasini qaysi sath bajaradi?",
-        "options": [
-            "LLC sathi",
-            "Fizik sath",
-            "Tarmoq sathi",
-            "MAC sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Uzatish muhitiga murojaat qilishni boshqarish vazifasini qaysi sath bajaradi?",
-        "options": [
-            "MAC sathi",
-            "Fizik sath",
-            "Tarmoq sathi",
-            "LLC sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "l0Base-2 segmentining uzunligi ko’pi bilan qancha bo’lishi mumkin?",
-        "options": [
-            "185 metr",
-            "400 metr",
-            "200 metr",
-            "500 metr"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "O’ralma juftlik kabeli simlarini, uning konnektorlariga ulashning necha xil variantlari mavjud?",
-        "options": [
-            "2",
-            "3",
-            "4",
-            "1"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ethernet tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?",
-        "options": [
-            "CSMA/CD",
-            "CSTK/CE",
-            "CSQE/NQ",
-            "CSTK/QL"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ethernet da kommutatsiyalashning qaysi xilidan foydalaniladi?",
-        "options": [
-            "paketlarni deytagrammali kommutatsiyalash",
-            "paketlarni virtual kanal orqali uzatish",
-            "vaqtni taqsimlash asosida kanallarni kommutatsiyalash",
-            "chastotali multiplekslash asosida kanallarni kommutatsiyalash"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Optik tolali Ethernet tarmog’ining maksimal uzunligi qanday?",
-        "options": [
-            "2740 m",
-            "500 m",
-            "5000 m",
-            "2500 m"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "100Base-TX spetsifikatsiyasi qaysi texnologiyaga tegishli?",
-        "options": [
-            "Fast Ethernet",
-            "Ethernet",
-            "Gigabit Ethernet",
-            "FDDI"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ethernet texnologiyasi tarmoqlarida ma’lumotlar kadri qanday preambulaga ega?",
-        "options": [
-            "00001111",
-            "11110000",
-            "10101010",
-            "11001100"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Signalni to’liq aylanib chiqish vaqti –PDV ning maksimal qiymati qanday?",
-        "options": [
-            "576 bitli interval",
-            "512 bitli interval",
-            "600 bitli interval",
-            "624 bitli interval"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "PDV deganda nima tushuniladi?",
-        "options": [
-            "Signalni to’liq aylanib chiqish vaqti",
-            "Kadrlar orasidagi masofaning qisqarishi",
-            "Kadrlar orasidagi masofa",
-            "Bitli interval"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Fast Ethernet texnologiyasi spetsifikatsiyalari qaysi komitet tarkibida ishlab chiqilgan?",
-        "options": [
-            "802.3",
-            "802.2",
-            "802.1",
-            "802.5"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ethernet texnologiyasida koaksial kabelining ma’lumotlarni uzatish tezligi qanday?",
-        "options": [
-            "10 Mbit/s",
-            "1 Mbit/s",
-            "100 Mbit/s",
-            "1000 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Fast Ethernet texnologiyasida o’ralma juftlik kabelining ma’lumotlarni uzatish tezligi qanday?",
-        "options": [
-            "100 Mbit/s",
-            "10 Mbit/s",
-            "1 Mbit/s",
-            "1000 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Lokal tarmoqlarda keng tarqalgan topologiya turi qaysi?",
-        "options": [
-            "Yulduz",
-            "Xalqa",
-            "To’liqbog’langan",
-            "Umumiy shina"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "100Base-TX spetsifikatsiya qaysi texnologiyaga tegishli?",
-        "options": [
-            "Fast Ethernet",
-            "Ethernet",
-            "Gigabit Ethernet",
-            "10G Ethernet"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "1000Base-SX spetsifikatsiya qaysi texnologiyaga tegishli?",
-        "options": [
-            "Gigabit Ethernet",
-            "Fast Ethernet",
-            "Ethernet",
-            "10G Ethernet"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "10Base-T standartida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?",
-        "options": [
-            "2",
-            "4",
-            "1",
-            "3"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "100Base-TX spetsifikatsiyasida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?",
-        "options": [
-            "2",
-            "4",
-            "1",
-            "3"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuterni kontsentrator yoki kommutator bilan ulash uchun UTP kabelining qaysi varianti ishlatiladi?",
-        "options": [
-            "To’g’ridan-to’g’ri ulangan varianti",
-            "Teskari ulangan varianti",
-            "Krossover varianti",
-            "Kesishgan holda ulangan variant"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuterni kompyuter bilan ulash uchun UTP kabelining qaysi varianti ishlatiladi?",
-        "options": [
-            "Krossover varianti",
-            "Teskari ulangan varianti",
-            "To’g’ridan-to’g’ri ulangan varianti",
-            "Qo’shimcha ulangan varianti"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Tarmoq adapterining kadrlarni kompyuterdan uzatib beruvchi ulanish nuqtasi (kontakti) qanday belgilanadi?",
-        "options": [
-            "Tx",
-            "Rx",
-            "Px",
-            "Kx"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Tarmoq adapterining kadrlarni kompyuterga qabul qilib oluvchi ulanish nuqtasi (kontakti) qanday belgilanadi?",
-        "options": [
-            "Rx",
-            "Tx",
-            "Px",
-            "Kx"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ethernet texnologiyasi qaysi mantiqiy topologiya asosida qurilgan?",
-        "options": [
-            "umumiy shina",
-            "xalqa",
-            "yulduz",
-            "to’liq bog’lanishli topologiya"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Fast Ethernet texnologiyasida qaysi turdagi kabel tizimlaridan foydalanilgan?",
-        "options": [
-            "ko’pmodali optik tolali, 5 va undan yuqori kategoriyali o’ralma juftlik",
-            "bittamodali optik tolali , 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik",
-            "ingichka koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik",
-            "yo’g’on koaksial kabel, 5 kategoriyali o’ralma juftlik, 3 kategoriyali o’ralma juftlik"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kadrlar ketma-ketligini kontsentratorlar orqali o’tishi natijasida, kadrlar orasidagi masofaning qisqarishi – PVV,ko’pi bilan qancha bo’lishi mumkin?",
-        "options": [
-            "49 bitli interval",
-            "32 bitli interval",
-            "30 bitli interval",
-            "64 bitli interval"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "MАC sath osti sathi OSI modelining qaysi sathiga tegishli?",
-        "options": [
-            "kanal sathiga",
-            "tarmoq sathiga",
-            "fizik sathiga",
-            "transport sathiga"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ingichka koaksial kabel asosida qurilgan tarmoqda kompyuterlar orasidagi eng kichik masofa qanday bo’lishi kerak?",
-        "options": [
-            "1 m",
-            "3 m",
-            "2 m",
-            "5 m"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "100Base-TX spetsifikatsiyasi qanday fizik topologiyaga ega?",
-        "options": [
-            "ierarxik yulduz",
-            "yulduz",
-            "umumiy shina",
-            "xalqa"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "100Base-TX spetsifikatsiyasi qanday mantiqiy topologiyaga ega?",
-        "options": [
-            "umumiy shina",
-            "yulduz",
-            "ierarxik yulduz",
-            "xalqa"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "I va II sinf Fast Ethernet texnologiyasi takrorlagichlari nimasi bilan farq qiladi?",
-        "options": [
-            "Fizik sathiga tegishli mavjud portlari bilan",
-            "Kadrlarni uzatish usuli bilan",
-            "Ma’lumotlarni uzatish tezligi bilan",
-            "Portlarning soni bilan"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Fast Ethernet texnologiyasida RJ-45 ulagichning qaysi kontaktlari ishlatiladi?",
-        "options": [
-            "1,2,3,6",
-            "3,4,5,6",
-            "1,2,3,4",
-            "5,6,7,8"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ethernet texnologiyasi nechta standartga ega?",
-        "options": [
-            "4",
-            "3",
-            "2",
-            "6"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Fast Ethernet texnologiyasi nechta spetsifikatsiyaga ega?",
-        "options": [
-            "3",
-            "4",
-            "2",
-            "6"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "100Base-T4 spetsifikatsiyasida o’ralma juftlik kabeli simlarining nechta jufti ishlatiladi?",
-        "options": [
-            "4",
-            "2",
-            "1",
-            "6"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Umumiy shina topologiyali lokal tarmoqlarda kontsentratorlar qanday?",
-        "options": [
-            "Kompyuter tomonidan uzatilayotgan ma’lumotni barcha kompyuterga yo’naltiradi",
-            "Kompyuter tomonidan uzatilgan ma’lumotni boshqa bir kompyuterga yo’naltiradi",
-            "Kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi",
-            "Tarmoqning ikki segmentini o’zaro bog’laydi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Qaysi kontsentrator kompyuter tomonidan uzatilayotgan ma’lumotni barcha kompyuterga yo’naltiradi?",
-        "options": [
-            "Ethernet kontsentratori",
-            "Token Ring kontsentratori",
-            "FDDI kontsentratori",
-            "Frame Relay kontsentrator"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Qaysi kontsentrator kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi?",
-        "options": [
-            "Token Ring kontsentratori",
-            "Ethernet kontsentratori",
-            "FDDI kontsentratori",
-            "Frame Relay kontsentratori"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "To’g’ridan-to’g’ri ulangan UTP kabelida Tx uzatuvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
-        "options": [
-            "Yashil, oq-yashil",
-            "Ko’k, oq-ko’k",
-            "Qizg’ish-sariq, oq - qizig’ish-sariq",
-            "Jigar rang, oq-jigar rang"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "To’g’ridan-to’g’ri ulangan UTP kabelida Rx qabul qiluvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
-        "options": [
-            "Qizg’ish-sariq, oq - qizig’ish-sariq",
-            "Ko’k, oq-ko’k",
-            "Yashil, oq-yashil",
-            "Jigar rang, oq-jigar rang"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kesishgan holatda ulangan (krossover) UTP kabelida Tx uzatuvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
-        "options": [
-            "Qizg’ish-sariq, oq - qizig’ish-sariq",
-            "Ko’k, oq-ko’k",
-            "Yashil, oq - yashil",
-            "Jigar rang, oq-jigar rang"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Krossover ulangan UTP kabelida Rx qabul qiluvchi sifatida qaysi ranglardagi simlar ishlatiladi?",
-        "options": [
-            "Yashil, oq-yashil",
-            "Ko’k, oq-ko’k",
-            "Sariq, oq-sariq",
-            "Jigar rang, oq-jigar rang"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "MSAU qanday vazifani bajaradi?",
-        "options": [
-            "faol bo’lmagan kontsentrator vazifasini",
-            "ko’prikning vazifasini",
-            "faol kontsentratorning vazifasini",
-            "takrorlovchi vazifasini"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "FDDI texnologiyasida buzilmasdan ishlash qobiliyatini oshirish qanday ta’minlangan?",
-        "options": [
-            "ikkita optik tolali xalqani hosil qilish asosida",
-            "axborotni keragidan ortiq xolatli kodlar bilan kodlash usulini qo’llash bilan",
-            "xatolarni to’g’irlash qurilmalaridan foydalanish asosida",
-            "intellektual kontsentratorlardan foydalanish asosida"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "FDDI texnologiyasining fizik sathi nachta sath osti sathlariga bo’linadi?",
-        "options": [
-            "2",
-            "4",
-            "3",
-            "5"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "FDDI texnologiyasida, xalqalarga ko’pi bilan nechta kompyuter ulanishi mumkin?",
-        "options": [
-            "500",
-            "700",
-            "900",
-            "100"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "FDDI tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?",
-        "options": [
-            "marker asosida murojaat qilishning tezkor usuli",
-            "CSMA/CD",
-            "marker asosida murojaat qilish usuli",
-            "CSTK/QL"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Token Ring tarmoqlarida uzatish muhitiga murojaat qilishning qaysi usuli qo’llaniladi?",
-        "options": [
-            "marker asosida murojaat qilish usuli",
-            "marker asosida murojaat qilishning tezkor usuli",
-            "CSMA/CD",
-            "CSTK/QL"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan texnologiyalarning qaysi birlari lokal tarmoq texnologiyalariga mansub?",
-        "options": [
-            "FDDI, Token Ring",
-            "Frame Relay, Token Ring",
-            "Ethernet, Internet",
-            "ATM, TCP/IP"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "FDDI texnologiyasida stantsiyalar orasidagi eng uzoq masofa kanday bo’lishi mumkin?",
-        "options": [
-            "2000m.",
-            "1000 m.",
-            "2500m.",
-            "500 m"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Xalqa topologiyali lokal tarmoqlarda kontsentratorlar qanday funktsiyani bajaradi?",
-        "options": [
-            "Kompyuter tomonidan uzatilgan ma’lumotni xalqa orqali keyingi kompyuterga yo’naltiradi",
-            "Kompyuter tomonidan uzatilgan ma’lumotni barcha kompyuterlarga yo’naltiradi",
-            "Kompyuter tomonidan uzatilgan ma’lumotni boshqa bir kompyuterga yo’naltiradi",
-            "Tarmoqning ikki segmentini o’zaro bog’laydi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "FDDI tarmog’idama’lumotlarni uzatishda qanday murojat kilish usuli qo’llaniladi?",
-        "options": [
-            "Tezlashtirilgan markerli murojaat qilish usuli",
-            "CSMA/CD",
-            "Markerli murojaat qilish usuli",
-            "CSTK/QL"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Token Ring tarmog’ida ma’lumotlarni uzatishda qanday murojat qilish usuli qo’llaniladi?",
-        "options": [
-            "Markerli murojaat qilish usuli",
-            "Tezlashtirilgan markerli murojaat qilish usuli",
-            "CSMA/CD",
-            "CSTK/QL"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "FDDI tarmog’ining qaysi elementlari buzilmay ishlash qobiliyatini ta’minlaydi?",
-        "options": [
-            "Ma’lumotlarni uzatish uchun ikkita xalqaning mavjudligi",
-            "Kontsentratorlar",
-            "А sinfga tegishli stantsiyalar",
-            "Kommutatorlar"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Token Ring texnologiyasi kadrining maksimal uzunligi nimaga bog’liq?",
-        "options": [
-            "xalqaning ishlash tezligiga",
-            "ma’lumotlarni uzatish ishonchliligiga",
-            "xalqadagi kompyuterlar soniga",
-            "xalqaning uzunligiga"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Simsiz tarmoqlar standartlari qaysi komitet tarkibida ishlab chiqilmoqda?",
-        "options": [
-            "802.11",
-            "802.7",
-            "802.6",
-            "802.12"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Xozirgi paytda ko’p ishlatiladigan, 802.11 standartiga tegishli spetsifikatsiyani ko’rsating?",
-        "options": [
-            "a, b, g, n, ac",
-            "a, b, d",
-            "a, b, c",
-            "a, b, e"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11 spetsifikatsiyasi simsiz lokal tarmog’i diametrining chegaralari qanday?",
-        "options": [
-            "100 - 300 m",
-            "50 - 100 m",
-            "300 – 400 m",
-            "100 -200 m."
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan qisqartmalarning qaysi biri bazaviy yoki asosiy xizmatlar to’plami ko’rsatiladigan tarmoqni anglatadi?",
-        "options": [
-            "BSS",
-            "STA",
-            "ESS",
-            "DSS"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan qisqartmalarning qaysi biri kengaytirilgan (qo’shimcha) xizmatlar to’plamini ko’rsatadigan tarmoqni anglatadi?",
-        "options": [
-            "ESS",
-            "BSS",
-            "STA",
-            "DSS"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "BSS deganda nima tushuniladi?",
-        "options": [
-            "Asosiy xizmatlar to’plami ko’rsatiladigan simsiz tarmoq",
-            "Qo’shimcha xizmatlar to’plamini ko’rsatadigan simsiz tarmoq",
-            "Yulduz topologiyasidagi tarmoq",
-            "Halqa topologiyasidagi tarmoq"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "ESS deganda nima tushuniladi?",
-        "options": [
-            "Qo’shimcha xizmatlar to’plamini ko’rsatadigan simsiz tarmoq",
-            "Asosiy xizmatlar to’plami ko’rsatiladigan simsiz tarmoq",
-            "Yulduz topologiyasidagi tarmoq",
-            "Xalqa topologiyasidagi tarmoq"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11g spetsifikatsiyasida ma’lumotlarni uzatishning maksimal tezligi qanday?",
-        "options": [
-            "54 Mbit/s",
-            "2 Mbit/s",
-            "11 Mbit/s",
-            "1 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11b spetsifikatsiyasida ma’lumotlarni uzatishning maksimal tezligi qanday?",
-        "options": [
-            "11 Mbit/s",
-            "54 Mbit/s",
-            "600 Mbit/s",
-            "1 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11 spetsifikatsiyasi qanday ma’lumotlarni uzatishning maksimal tezligi qanday?",
-        "options": [
-            "2 Mbit/s",
-            "1 Mbit/s",
-            "11 Mbit/s",
-            "54 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11b spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?",
-        "options": [
-            "11 Mbit/s",
-            "2 Mbit/s",
-            "1 Mbit/s",
-            "54 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11n spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?",
-        "options": [
-            "600 Mbit/s",
-            "54 Mbit/s",
-            "11 Mbit/s",
-            "6.7 Gbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11ac spetsifikatsiyasi ma’lumotlarni uzatishning maksimal tezligi qanday?",
-        "options": [
-            "6.7 Gbit/s",
-            "600 Mbit/s",
-            "54 Mbit/s",
-            "11 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11 standartiga tegishli topologiyalarning qaysi turlari mavjud?",
-        "options": [
-            "BSS, ESS",
-            "Xalqa,to’liq bog’lanishli",
-            "Umumiy shina, yulduz",
-            "BSS, DSS"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Tarmoqni fizik strukturalashda qaysi qurilma ishlatiladi?",
-        "options": [
-            "takrorlovchi (kontsentrator)",
-            "kommutator",
-            "ko’prik",
-            "shlyuz"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Qaysi qurilma tarmoqning mantiqiy strukturasini o’zgartirishi mumkin?",
-        "options": [
-            "ko’prik, marshrutizator, kommutator va shlyuz",
-            "faqat kommutator",
-            "takrorlovchi",
-            "kontsentrator"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ethernet kontsentratori qanday vazifani bajaradi?",
-        "options": [
-            "kompyuterdan kelayotgan axborotni qolgan barcha kompyuterga yo’naltirib beradi",
-            "kompyuterdan kelayotgan axborotni boshqa bir kompyuterga yo’naltirib beradi",
-            "kompyuterdan kelayotgan axborotni xalqa bo’ylab joylashgan keyingi kompyuterga",
-            "tarmoqning ikki segmentini bir biriga ulaydi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter tarmog’ining fizik strukturalash nima maqsadda amalga oshiriladi?",
-        "options": [
-            "Tarmoq diametrini oshirish uchun",
-            "Unumdorlikni oshirish uchun",
-            "Internetga ulanish uchun",
-            "Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter tarmog’ining mantiqiy strukturalash nima maqsadda amalga oshiriladi?",
-        "options": [
-            "Internetga ulanish uchun",
-            "Tarmoq diametrini oshirish uchun",
-            "Tarmoqosti tarmoqlarini bog’lashni amalga oshirish uchun",
-            "Trafikni lokallashtirish uchun"
-        ],
-        "correct_option_id": 3
-    },
-    {
-        "question": "Kommutator ko’prikdan nimasi bilan farq qiladi?",
-        "options": [
-            "Kadrlarni parallel qayta ishlashda",
-            "Tarmoqqa ulanish usulida",
-            "Kadrlarni uzatish algoritmida",
-            "Kadrlarni uzatish usulida"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelida nechta sath mavjud?",
-        "options": [
-            "7",
-            "4",
-            "5",
-            "3"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining to’rtinchi sathi qanday nomlanadi?",
-        "options": [
-            "Transport sathi",
-            "Аmaliy sath",
-            "Seanslar sathi",
-            "Taqdimlash sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining beshinchi sathi qanday nomlanadi?",
-        "options": [
-            "Seanslar sathi",
-            "Аmaliy sath",
-            "Fizik sath",
-            "Transport sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining birinchi sathi qanday nomlanadi?",
-        "options": [
-            "Fizik sath",
-            "Seanslar sathi",
-            "Transport sathi",
-            "Taqdimlash sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining ikkinchi sathi qanday nomlanadi?",
-        "options": [
-            "Kanal sathi",
-            "Аmaliy sathi",
-            "Fizik sath",
-            "Seanslar sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining uchinchi sathi qanday nomlanadi?",
-        "options": [
-            "Tarmoq sathi",
-            "Аmaliy sath",
-            "Kanal sathi",
-            "Taqdimlash sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining oltinchi sathi qanday nomlanadi?",
-        "options": [
-            "Taqdimlash sathi",
-            "Аmaliy sath",
-            "Seanslar sathi",
-            "Kanal sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining ettinchi sathi qanday nomlanadi?",
-        "options": [
-            "Аmaliy sath",
-            "Seanslar sathi",
-            "Transport sathi",
-            "Taqdimlash sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining qaysi sathlari tarmoqqa bog’liq sathlar hisoblanadi?",
-        "options": [
-            "fizik, kanal va tarmoq sathlari",
-            "seans va amaliy sathlar",
-            "amaliy va taqdimlash sathlari",
-            "transport va seans sathlari"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining tarmoq sathi vazifalari keltirilgan qurilmalarning qaysi birida bajariladi?",
-        "options": [
-            "Marshrutizator",
-            "Ko’prik",
-            "Tarmoq adapter",
-            "Kontsentrator"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining kanal sathi orqali uzatiladigan ma’lumotlarning birligi qanday nomlanadi?",
-        "options": [
-            "Kadr",
-            "Paket",
-            "Kadr",
-            "Oqim"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Elektr signallarini qabul qilish va uzatish vazifalarini OSI modelining qaysi sathi bajaradi?",
-        "options": [
-            "Fizik sath",
-            "Kanal sathi",
-            "Tarmoq sathi",
-            "Transport sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ma’lumotlarni uzatishning optimal marshrutlarini aniqlash vazifalarini OSI modelining qaysi sathi bajaradi?",
-        "options": [
-            "Tarmoq sathi",
-            "Kanal sathi",
-            "Аmaliy sath",
-            "Transport sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Mijozlar dasturlari bilan o’zaro muloqot vazifalarini OSI modelining qaysi sathi bajaradi?",
-        "options": [
-            "Аmaliy sath",
-            "Kanal sathi",
-            "Tarmoq sathi",
-            "Fizik sath"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan protokollarning qaysilari tarmoq sathi protokollariga mansub?",
-        "options": [
-            "IP, IPX",
-            "NFS, FTP",
-            "Ethernet, FDDI",
-            "TCP,UDP"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan protokollarning qaysilari transport sathi protokollariga mansub?",
-        "options": [
-            "TCP,UDP",
-            "NFS, FTP",
-            "IP, IPX",
-            "Ethernet, FDDI"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan protokollarning qaysilari amaliy sathi protokollariga mansub?",
-        "options": [
-            "NFS, FTP",
-            "TCP,UDP",
-            "10Base-T, 100Base-TX",
-            "IP, IPX"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan vazifalardan qaysi biri umumiy kommutatsiyalash vazifasiga tegishli emas?",
-        "options": [
-            "axborotni indekslash",
-            "oqimlarni xarakatlantirish",
-            "multipleksirlash va demultipleksirlash",
-            "marshrutizatsiyalash"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining fizik sathi qanday funktsiyalarni bajaradi?",
-        "options": [
-            "Elektr signallarini uzatish va qabul qilish",
-            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
-            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
-            "Klient dasturlari bilan o’zaro muloqotda bo’lish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining kanal sathi qaysi funktsiyalarni bajaradi?",
-        "options": [
-            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
-            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
-            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
-            "Ma’lumotlarni kodlash va shifrlash"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining tarmoq sathi qanday funktsiyalarni bajaradi?",
-        "options": [
-            "Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash",
-            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
-            "Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish",
-            "Эlektr signallariniuzatish va qabul qilish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining transport sathi qanday funktsiyalarni bajaradi?",
-        "options": [
-            "Ma’lumotlarni qabul qilish va uzatish jarayonida, ma’lumotlarni to’liq va to’g’ri uzatilishini nazorat qilish",
-            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
-            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
-            "Ma’lumotlarni uzatish marshrutlarini optimalini aniqlash"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modeliningseanslar sathi qanday funktsiyalarni bajaradi?",
-        "options": [
-            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
-            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
-            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
-            "Эlektr signallariniuzatish va qabul qilish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modelining taqdimlash sathi qanday funktsiyalarni bajaradi?",
-        "options": [
-            "Ma’lumotlarni kodlash va shifrlash",
-            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
-            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
-            "Эlektr signallariniuzatish va qabul qilish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Аloqa kanaliga va uzatish muhitiga ulanishni boshqarish vazifalarini OSI modelining qaysi sathi bajaradi?",
-        "options": [
-            "Kanal sathi",
-            "Fizik sath",
-            "Tarmoq sathi",
-            "Transport sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Ma’lumotlarni uzatish jarayonida ularni to’liq va to’g’ri uzatilishini nazorat qilish vazifalarini OSI modelining qaysi sathi bajaradi?",
-        "options": [
-            "Transport sathi",
-            "Kanal sathi",
-            "Tarmoq sathi",
-            "Seanslar sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Аloqa seansini hosil qilish, kuzatib turish va ohirigacha ta’minlab berish vazifalarini OSI modelining qaysi sathi bajaradi?",
-        "options": [
-            "Seanslar sathi",
-            "Kanal sathi",
-            "Tarmoq sathi",
-            "Transport sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Talab qilinadigan algoritmlar yordamida ma’lumotlarni kodlash va shifrlash vazifalarini OSI modelining qaysi sathi bajaradi?",
-        "options": [
-            "Taqdimlash sathi",
-            "Seanslar sathi",
-            "Tarmoq sathi",
-            "Transport sathi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "OSI modeliningamaliy sathi qanday funktsiyalarni bajaradi?",
-        "options": [
-            "Klient dasturlari bilan o’zaro muloqotda bo’lish",
-            "Аloqa kanalini va ma’lumotlarni uzatish muxitiga murojat qilishni boshqarish",
-            "Bog’lanish seansini yaratish, kuzatish, oxirigacha ta’minlash",
-            "Эlektr signallariniuzatish va qabul qilish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan protokollarning qaysilari kanal sathi protokollariga mansub?",
-        "options": [
-            "Ethernet, FDDI",
-            "NFS, FTP",
-            "IP, IPX",
-            "TCP,UDP"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan protokollarning qaysilari fizik sath protokollariga mansub?",
-        "options": [
-            "10Base-T, 100Base-TX",
-            "TCP,UDP",
-            "IP, IPX",
-            "NFS, FTP"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan protokollarning qaysilari taqdimlash sathi protokollariga mansub?",
-        "options": [
-            "SNMP, Telnet",
-            "IP, IPX",
-            "Ethernet, FDDI",
-            "TCP,UDP"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan protokollarning qaysilari saenslar sathi protokollariga mansub?",
-        "options": [
-            "RPC, WSP",
-            "NFS, FTP",
-            "IP, IPX",
-            "TCP,UDP"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter bilan tashqi qurilma o’rtasida ma’lumotlarni uzatish paytida ularni to’gri uzatilganligi qanday tekshiriladi?",
-        "options": [
-            "paritet biti asosida",
-            "stop biti asosida",
-            "kontrol summani sanash bilan",
-            "paketni uzunligini sanash bilan"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuterdan tashqi qurilmaga ma’lumotlarni asinxron rejimda uzatayotganda bitta simvolga to’g’ri keladigan paketning uzunligi qanday bo’ladi?",
-        "options": [
-            "11 bit",
-            "12 bit",
-            "16 bit",
-            "18 bit"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan qurilmalarning qaysi biri DCE bo’ladi?",
-        "options": [
-            "modem",
-            "marshrutizator",
-            "kompyuter",
-            "klaviatura"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan qurilmalarning qaysi biri DTE bo’ladi?",
-        "options": [
-            "kompyuter va marshrutizator",
-            "modem",
-            "kompyuter va marshrutizator",
-            "aloqa chiziqlari"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan tafsiflarning qaysilari, ham aloqa chiziqlariga, ham ma’lumotlarni uzatish usullariga tegishli tavsiflar hisoblanadi?",
-        "options": [
-            "o’tkazish qobiliyati va ishonchliligi",
-            "amplituda-chastotali tavsif",
-            "o’tkazuvchanlik chegaralari",
-            "xatoliklar sodir bo’lish extimolligining kamaishi"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "UTP kabeli deganda qaysi kabel tushuniladi?",
-        "options": [
-            "o’ralma juftlik kabeli",
-            "yo’g’on koaksial kabel",
-            "ingichka koaksial kabel",
-            "optik tolali kabel"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Modem qanday asosiy vazifani bajaradi?",
-        "options": [
-            "Signallarni modulyatsiyalash - demodulyatsiyalash",
-            "parallel kodni ketma-ket kodga o’zgartirish",
-            "skrэmbrlash va deskrэmbrlash",
-            "analog signallarni raqamli kodga o’zgartirish"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan standartlarning qaysi biri axborotni 57600 bit/s tezlikda qabul qiladi va uzata oladi?",
-        "options": [
-            "V.92",
-            "V.90",
-            "V.30",
-            "V.40"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Аnalog signallarni diskret modulyatsiyalash nimaga asoslanadi?",
-        "options": [
-            "Naykvist-Kotelnikovlarning akslanish nazariyasiga",
-            "Boltsman nazariyasiga",
-            "Shennon nazariyasiga",
-            "Flin nazariyasiga"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kodlarning qaysi biri kuchlanishning to’rtta sathidan foydalanadi?",
-        "options": [
-            "2V1Q",
-            "AMI",
-            "NRZ",
-            "NRZI"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuterdan modemga ma’lumotlarni uzatish uchun interfeysning qaysi ulanish nuqtasidan foydalaniladi?",
-        "options": [
-            "TXD",
-            "RXD",
-            "RTS",
-            "CTS"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Modemdan kompyuterga ma’lumotlarni qabul qilish uchun interfeysning qaysi ulanish nuqtasidan foydalaniladi?",
-        "options": [
-            "RXD",
-            "TXD",
-            "RTS",
-            "CTS"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "DCE qaysi signal orqali aloqa o’rnatilganligi haqidagi xabarni beradi?",
-        "options": [
-            "DSR",
-            "CTS",
-            "DCD",
-            "DTR"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Kompyuter bilan tashqi qurilma o’rtasidagi interfeys ishi qanday amalga oshirilgan?",
-        "options": [
-            "kontroller va drayver yordamida",
-            "drayver yordamida",
-            "kontroller yordamida",
-            "markaziy protsessor yordamida"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Keltirilgan modulyatsiyalarning qaysi biri analog modulyatsiyaga mansub?",
-        "options": [
-            "chastotali",
-            "amplituda-impulsli",
-            "kodli-impulsli",
-            "vaqt-impulsli"
-        ],
         "correct_option_id": 0
     },
     {
-        "question": "Keltirilgan modulyatsiyalarning qaysi biri diskret modulyatsiyaga mansub?",
+        "question": "Agarda operatorlarning ishlashi uning yo’nalish xususiyatlariga bog’liq bo’lsa u holda bu operator:",
         "options": [
-            "amplituda-impulsli",
-            "chastotali",
-            "amplitudali",
-            "fazali"
+            "izotrop;",
+            "rekurrent;",
+            "parallel.",
+            "ketma-ket;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Internet tarmog’ida kommutatsiyalashning qaysi xili ishlatiladi?",
+        "question": "Parallel operatorlar qaysi operator usulidan foyda-lanadi?",
         "options": [
-            "paketlarni kommutatsiyalash",
-            "kanallarni kommutatsiyalash",
-            "xabarlarni kommutatsiyalash",
-            "alohida ajratilgan kanallarni kommutatsiyalash"
+            "norekurrent;",
+            "noizotrop;",
+            "ketma-ket.",
+            "parallel."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "IP-manzili qanday maydonlardan iborat?",
+        "question": "Signallar va tasvirlarga ishlov berish nimа?",
         "options": [
-            "Tarmoq manzilining maydoni, bog’lash manzilining maydoni",
-            "Operator manzilining maydoni, bog’lash manzilining maydoni",
-            "Tarmoq manzilining maydoni, MАC manzilining maydoni",
-            "Tarmoq manzilining maydoni, tarmoqosti tarmoq manzilining maydoni"
+            "Ахbоrоt vа multimediа vоsitаlаri yordаmidа mаshinаli ko’rish, nаzоrаt qilish, ulаrni qаytа ishlаsh teхnоlоgiyalаr mаjmuаsi.",
+            "Boshqarish, savdo va qatnovlar uchun ma’lumotlarning elektron almashuvi.",
+            "Axborot resurslarini faollashtirish va ulardan samarali foydalanish imkonini beruvchi jami vosita, usul va sharoitlar.",
+            "Tabiatda va jamiyatda boshqaruv hamda aloqa haqidagi fan."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Kompyuter tarmog’ining aktiv qurilmalari tarkibiga qaysi qurilmalar kiradi?",
+        "question": "“Signallar va tasvirlarga ishlov berish” fаni nimаni o’rgаnаdi?",
         "options": [
-            "Tarmoq adapteri,kontsentrator",
-            "Kross-panel, montaj shkafi",
-            "Tarmoq kabeli,RJ-45 rozetkasi",
-            "Marshrutizator, kross-panel"
+            "tаsvirlаrdаn ахbоrоtni оlish vа ulаrni qаytа ishlаydigаn sun’iy tizimlаr yarаtish nаzаriyasi vа teхnоlоgiyasini o’rgаnаdi.",
+            "tabiatning va jamiyatning murakkab ob’yektlarini, boshqaruvchi va boshqariladigan elementlardan tashkil topgan, ular orasida to`g`ri va teskari axborot aloqasi mavjud bo`lgan katta kibernetik tizimlarni o’rganadi.",
+            "real ob’ektni tavsiflaydigan va o’zaro bog’langan komponentalarning to’plami sifatida tavsiflaydigan va ifodalaydigan usullar guruhini o’rganadi.",
+            "axborot xususiyatlari va uni taqdim etish, to`plash, unga avtomatik ishlov berish va uni uzatish usullarini o`rganadi."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Kompyuter tarmog’ining passiv qurilmalari tarkibiga qaysi qurilmalar kiradi?",
+        "question": "Videоtаsvir nimа?",
         "options": [
-            "Tarmoq kabeli, RJ-45 rozetkasi",
-            "Kommutator, montaj shkafi",
-            "Tarmoq adapteri,kontsentrator",
-            "Kontsentrator, kross-panel"
+            "tаsvirlаr ketmа-ketligidаn qurilgаn tаsvir ko’rinishidаgi shаkllаr to’plаmi.",
+            "veb-serverda umumiy katalogda saqlangan, bir-biri bilan bog`liq bo`lgan veb-sahifalar, rasmlar, hujjatlar, ko`ptashuvchi fayllar va boshqa fayllar to`plami.",
+            "rasmlarda ranglarni aniq solishtirish va aks ettirish uchun ishlatilishi mumkin bo`lgan 256 rangdan 216 sini o`z ichiga olgan ranglar jadvali.",
+            "harakat, jarayon yoki mahsulotni ularga tegishli talablar yoki tasniflar bilan taqqoslash."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Ovozni sifatli uzatish uchun tovushli tebranishlar amplitudasini kvantlashda qanday chastota ishlatiladi?",
+        "question": "Hоzirgi kundа mаshinаli ko’rish аlgоritmlаri quyidаgi yo’nаlishlаrdа keng qo’llаnilib kelmоqdа:",
         "options": [
-            "8000 Gts",
-            "300 Gts",
-            "6400 Gts",
-            "3400 Gts"
+            "izlаsh tizimidа, timsоlni аniqlаsh vа qаytа ishlаsh, tibbiy tаshhis qo’yish jаrаyonlаridа, biоinfоrmаtikаdа, iqtisоdiy jаrаyonlаrdа qo’llаnilib kelmоqdа.",
+            "soliq tizimida, bank tizimida, sanoatda, bojxona tizimida qo’llаnilib kelmоqdа.",
+            "ichki ishlarda, chegara xizmatida, harbiysohada, xavfsizlik xizmatida qo’llаnilib kelmоqdа.",
+            "qishloq xo’jaligida, agrar sohada, suv xo’jaligida qo’llаnilib kelmоqdа."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Raqamli telefon tarmoqlarida 64 Kbit/s o’tkazuvchanlik qobiliyati nimaga asosan tanlab oligan?",
+        "question": "Chеgаrа аniqlаsh usuli qаysi jаvоbdа ko’rsаtilgаn?",
         "options": [
-            "Kotelnikov-Naykvist teoremasi asosida",
-            "Fure qatori asosida",
-            "Bayes qonuni asosida",
-            "Bartlet mezoni asosida"
+            "Кеnni usuli.",
+            "Gauss usuli",
+            "Fyure usuli",
+            "Lyuks usuli"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "MАC-adres qanday uzunlikka ega?",
+        "question": "TSIBTEni qo’llanilish  sohalari to’g’ri ko’rsatilgan qatorni belgilang.",
         "options": [
-            "48 bit",
-            "32 bit",
-            "16 bit",
-            "64 bit"
+            "barchasida qo’llanadi.",
+            "tibbiyot, biologiya, geologiya;",
+            "illmiy tekshirishlar",
+            "axborot tizimlari"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "IPv4 turidagi IP-adres qanday uzunlikka ega?",
+        "question": "Signallar va tasvirlarga ishlov berish tizimidа rаngli tаsvirlаr qаndаy ko’rinishdа bo’lаdi?",
         "options": [
-            "32 bit",
-            "16 bit",
-            "48 bit",
-            "64 bit"
+            "rаngli tаsvirlаr  ko’rinishdаgi mаtrisа, ya’ni mоs rаvishdа qizil (Red), yashil (Green) vа ko’k (Blue) tuslаrning qiymаti ko’rinishidа ifоdаlаnаdi.",
+            "rаngli tаsvirlаr   qizil (Red), yashil (Green) vа ko’k (Blue) tuslаrning qiymаti ko’rinishidа ifоdаlаnаdi.",
+            "rаngli tаsvirlаr 3*3*3 ko’rinishdаgi mаtrisа, ya’ni mоs rаvishdа qizil (Red), yashil (Green) vа ko’k (Blue) tuslаrning qiymаti ko’rinishidа ifоdаlаnаdi.",
+            "rаngli tаsvirlаr  ko’rinishdаgi mаtrisа ifоdаlаnаdi."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "192.190.21.254 adresi IP-adreslarning qaysi sinfiga tegishli?",
+        "question": "Signallar va tasvirlarga ishlov berish tizimidа rаngli tаsvirlаr qаndаy ko’rinishdа bo’lаdi?",
         "options": [
-            "C",
-            "B",
-            "А",
-            "D"
+            "Uch tusdаgi tаsvirlаr mоs o’rindаgi qiymаtlаr to’plаmidаn rаngli tаsvir tusi hоsil bo’lаdi.",
+            "To’rt tusdаgi tаs-virlаr mоs o’rin-dаgi qiymаtlаr to’plаmidаn rаng-li tаsvir tusi hоsil bo’lаdi.",
+            "Besh tusdаgi tаs-virlаr mоs o’rindаgi qiymаtlаr to’plаmi-dаn rаngli tаsvir tusi hоsil bo’lаdi.",
+            "Ikki tusdаgi tаs-virlаr mоs o’rin-dаgi qiymаtlаr to’plаmidаn rаngli tаsvir tusi hоsil bo’lаdi."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "B sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?",
+        "question": "Signallar va tasvirlarga ishlov berish tizimidа tаsvirlаr tusi qiymаti intervаli -",
         "options": [
-            "65536",
-            "256",
-            "512",
-            "1024"
+            "Qiymаtlаr [0,1] yoki [0,255] intervаldа аniqlаnаdi.",
+            "Qiymаtlаr [1,2] yoki [0,256] intervаldа аniqlаnаdi.",
+            "Qiymаtlаr [2,3] yoki [1,256] intervаldа аniqlаnаdi.",
+            "Qiymаtlаr [3,4] yoki [0,255] intervаldа аniqlаnаdi."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "А sinfidagi tarmoq tarkibida nechta bog’lam bo’lishi mumkin?",
+        "question": "Signallar va tasvirlarga ishlov berish tizimidа rаngli tаsvirlаrning bir piksel  hаjmi -",
         "options": [
-            "16777216",
-            "256",
-            "65536",
-            "1024"
+            "Таsvirning bir tusdаgi rаng qiymаti 8 bit bo’lib, RGB rаngli tаsvir dаrаjаsi 24 bitgа teng.",
+            "Таsvirning bir tusdаgi rаng qiymаti 16 bit bo’lib, RGB rаngli tаsvir dаrаjаsi 32 bitgа teng.",
+            "Таsvirning bir tusdаgi rаng qiymаti 8 kbit bo’lib, RGB rаngli tаsvir dаrаjаsi 16 bitgа teng.",
+            "Таsvirning bir tusdаgi rаng qiymаti 8 mbit bo’lib, RGB rаngli tаsvir dаrаjаsi 40 bitgа teng."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "B sinfidagi tarmoq maskasi qanday qiymatga ega?",
+        "question": "Saqlagichlarda qayd etilgan tasvir turlari:",
         "options": [
-            "255.255.0.0",
-            "255.0.0.0",
-            "255.255.255.0",
-            "255.255.254.0"
+            "ko’p qiymatli, kam qiymatli, rangli;",
+            "rangli, oq-qora, pikselli;",
+            "grafiklar, rasmlar, yozuvlar.",
+            "tasvirlar, qora rang"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "DTE qaysi signal yordamida o’zini ishlayotganligini va DCE aloqa kanaliga ulanishi mumkinligi haqidagi xabarni beradi?",
+        "question": "Chizma, rasm va yozuvlar tasvirning qanday turiga kiradi?",
         "options": [
-            "DCD",
-            "DSR",
-            "CTS",
-            "DTR"
+            "kam qiymatli tasvirlar.",
+            "ko’p qiymatli tasvirlar;",
+            "rangli tasvirlar;",
+            "qisman qiymatli tasvirlar;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Kabel standartlarining qaysi biri EIA/TIA-568A abbreviaturasiga ega?",
+        "question": "Rаngli tаsvirning HSV mоdelidа Value — rаng tusi qiymаtining аniqlаnish intervаli -",
         "options": [
-            "Аmerika standarti",
-            "xalqaro standart",
-            "evropa standarti",
-            "IBM kompaniyasi standarti"
+            "Value — rаng tusining qiymаti 0—100 yoki 0—1 gаchа bo’lgаn qiymаt-lаrdа ifоdаlаnаdi.",
+            "Uning qiymаti 1°—359° gаchа o’zgаrаdi, bа’zаn 1—99 yoki 1—2 gаchа bo’lgаn qiymаtlаrdа ifо-dаlаnаdi.",
+            "Value — rаng tusi-ning qiymаti 1—102 yoki 2—3 gаchа bo’lgаn qiymаtlаr-dа ifоdаlаnаdi.",
+            "Value — rаng tu-sining qiymаti 1—101 yoki 1—3 gаchа bo’lgаn qiymаtlаrdа ifоdаlаnаdi."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "RS-232C/V.24 interfeysida ulagichning qaysi modifikatsiyasi ishlatilgan?",
+        "question": "Mаshinаli ko’rish tizimi quyidаgilаrdаn ibоrаt:",
         "options": [
-            "9 va 25 ta ulanish nuqtalariga ega bo’lgani",
-            "15 va 30 ta ulanish nuqtalariga ega bo’lgani",
-            "10 va 25 ta ulanish nuqtalariga ega bo’lgani",
-            "12 va 24 ta ulanish nuqtalariga ega bo’lgani"
+            "rаqаmli kаmerаlаr, tаsvirlаrni qаytа ishlаsh uchun dаsturiy vоsitаlаr; zаmоnаviy prоsessоr; tаsvirlаrni qаytа ishlаsh uchun yarаtilаdigаn dаsturlаr mаjmui; аqlli kаmerаlаr; mаxsus yoritish uskunаlаri;",
+            "rаqаmli kаmerаlаr,; zаmоnаviy prоsessоr; аqlli kаmerаlаr; mаxsus yoritish uskunаlаri;",
+            "zаmоnаviy prоsessоr; tаsvirlаrni qаytа ishlаsh uchun yarа-tilаdigаn dаsturlаr mаjmui; mаxsus yoritish uskunаlаri;",
+            "rаqаmli kаmerаlаr, tаsvirlаrni qаytа ishlаsh uchun dаsturiy vоsitаlаr;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "DTE va aloqa kanali o’rtasida uzatilayotgan signallarni o’zaro moslab uzatish qanday amalga oshiriladi?",
+        "question": "Tаsvirlаrgа qаytа ishlаsh uchun dаsturiy vоsitаlаr to’g’ri ko’rsаtilgаn jаvоbni аniqlаng;",
         "options": [
-            "modulyatsiyalash va kodlash bilan",
-            "modulyatsiyalash bilan",
-            "kodlash bilan",
-            "shifrlash va deshifrlash Bilan"
+            "Matlab, OpenCV pаketlаri",
+            "Windows, Excel, Matcad",
+            "Matlab, Excel,",
+            "Photoshop, AutoCad"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Kompyuter tarmoqlarida ma’lumotlarni uzatishda, kodlash deganda nima tushuniladi?",
+        "question": "Matlab dа quyidаgi kоdni ishgа tushirish nаtijаsidа nimа sоdir bo’lаdi?\n>> I = double(imread('cameraman.tif'))/255;\n>> J = 1 - I;",
         "options": [
-            "ma’lumotlarni aloqa kanallaridagi ta’sirlar natijasida paydo bo’ladigan xatoliklarni aniqlash va to’g’irlash mumkin bo’ladigan ko’rinishga o’zgartirish",
-            "ma’lumotlarni aloqa kanallaridagi ta’sirlar natijasida paydo bo’ladigan xatoliklarni aniqlash va to’g’irlash mumkin bo’ladigan ko’rinishga o’zgartirish",
-            "simvollarning kompyuterdagi kodlarini, aloqa kanallari orqali uzatiladigan kodlarga o’zgartirish",
-            "signalni aloqa kanali chastotasiga o’tkazish"
+            "Jоriy tаsvir skrеmblyasiyasi sodir bo’ladi.",
+            "Joriy tasvirning aksi paydo bo`ladi.",
+            "Tasvirning haqiqiy mavhum ko`rinishi  paydo  bo`ladi.",
+            "Tasvirning o`zi paydo bo`ladi."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Modulyatsiyalashning diskret xili nimaga asoslangan?",
+        "question": "Stеrеоkаmеrаlаr – bu",
         "options": [
-            "signallarni ham amplitudasi, ham vaqt bo’yicha diskretlash",
-            "signallarni vaqt bo’yicha diskretlash",
-            "signallarni amplitudasi bo’yicha diskretlash",
-            "signallarni vaqt bo’yicha kvantlash"
+            "Ikki yoki undаn оrtiq оb’еktivgа egа bo’lgаn kаmеrаlаr.",
+            "Tasvirlarga  ishlov beruvchi qurilma.",
+            "2D tasvirlar bilan  ishlovchi kamera.",
+            "Ikkita  obektivga  ega bo`lgan kameralar."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Tarmoq orqali uzluksiz signalni raqamli ko’rinishda uzatilayotganda vaqt oralig’ining qanday qiymatini e’tibor bilan saqlab turish kerak?",
+        "question": "Stеrеоkаmеrаlаr vаzifаsi nimа?",
         "options": [
-            "125 mks",
-            "200 mks",
-            "100 mks",
-            "150 mks"
+            "Оb’еktlаrning uch o’lchоvli tаsvirini hоsil qilish.",
+            "Оb’еktlаrning ikki o’lchоvli tаsvirini hоsil qilish.",
+            "Оb’еktlаrning ko’z-gudagi tаsvirini hоsil qilish.",
+            "Оb’еktlаrning bir o’lchоvli tаsvi-rini hоsil qilish."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "C sinfidagi tarmoq tarkibiga nechta bog’lam bo’lishi mumkin?",
+        "question": "Stеrеоkаmеrаlаr оb’еktivlаri o’rtаsidаgi mаsоfа qаnchа?",
         "options": [
-            "256",
-            "65536",
-            "512",
-            "1024"
+            "64 mm",
+            "128 mm",
+            "256 mm",
+            "32 mm"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "А sinfidagi tarmoq maskasi qanday qiymatga ega?",
+        "question": "Ferrografik usulda tasvirni qayd etish jarayoni:",
         "options": [
-            "255.0.0.0",
-            "255.255.0.0",
-            "255.255.255.0",
-            "255.0.0"
+            "elektr signali orqali magnit kukuniga ishlov berish;",
+            "issiqlik yordamida saqlovchida tasvir hosil qilish;",
+            "fotoqog’ozga faol modda yordamida kimyoviy ta’sir etish orqali.",
+            "yorug’lik yordamida saqlovchida tasvir hosil qilish;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "C sinfidagi tarmoq maskasi qanday qiymatga ega?",
+        "question": "Tiniqlashtirish, ma’lum bo’laklarini kuchaytirish TSIBTE ni qaysi bosqichiga kiradi?",
         "options": [
-            "255.255.255.0",
-            "255.0.0.0",
-            "255.255.0.0",
-            "255.255.240.0"
+            "dastlabki ishlov berish;",
+            "qo’shqiymatli ko’rinishga keltirish;",
+            "sonli ko’rinishga o’tkazish.",
+            "sonli-yozuvli ko’rinishga o’tkazish."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "512 ta bog’lamli tarmoqosti tarmoq maskasi qanday qiymatga ega?",
+        "question": "Tasvirlarni kompyuter xotirasiga kiritish TSIBTEni qaysi bosqichida amalga oshiriladi?",
         "options": [
-            "255.255.254.0",
-            "255.255.0.0",
-            "255.255.255.0",
-            "255.255.240.0"
+            "sonli ko’rinishga utkazish.",
+            "qo’shqiymatli ko’rinishga keltirish;",
+            "dastlabki ishlov berish;",
+            "qo’shraqamli ko’rinishga keltirish;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Internet tarmog’i, kompyuter tarmoqlarining qaysi sinfiga mansub?",
+        "question": "TSIBTE ning tahlil bosqichi-da qanday amallar bajariladi?",
         "options": [
-            "global tarmoq",
-            "lokal tarmoq",
-            "shahar tarmog’i",
-            "korporativ tarmog’i"
+            "parametrlarni o’lchanadi, belgilar aniqlanadi;",
+            "sonli ko’rinishga o’tkaziladi;",
+            "tasvir matrisa ko’rinishiga keltiriladi",
+            "harfli ko’rinishga o’tkaziladi;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Keltirilgan texnologiyalarning qaysi birlari global tarmoq texnologiyalariga mansub?",
+        "question": "“4 bog’li atrof”ni ko’rsating.",
         "options": [
-            "ATM, TCP/IP",
-            "X.25, FDDI",
-            "Frame Relay, Token Ring",
-            "Ethernet, Internet"
+            "(i-1,j),(i+1,j), (i,j+1), (i,j-1);",
+            "(i-1,j-1),(i+1,j+1), (i-1,j+1),(i+1,j-1);",
+            "(i-1,j-1),(i+1, j+1),(i-1,j), (i+1,j).",
+            "(i-1,j-1, j, i),(i+1, j+1), (i-1,j), (i+1,j)."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "MAN tarmoqlari nima uchun mo’ljallangan?",
+        "question": "“8 bog’li atrof”ni ko’rsating",
         "options": [
-            "Yirik shaxar axolisiga xizmat ko’rsatish uchun",
-            "Internetga korxonalar tarmoqlarini ulash uchun",
-            "Faqat bir nechta lokal tarmoqlarni bog’lash uchun",
-            "Faqat korporativ tarmoqning filiallarini ulash uchun"
+            "(i+1,j+1),(I,j+1),(i-1, j+1), (j,i-1), (i+1,j),(i-1,j--1), (I,j-1),(i+1,j-1)",
+            "(i-1,j-1), (i+1, j+1), (i-1,j+1), (i+1,j-1);",
+            "(i-1,j-1),(i+1, j+1),(i-1,j), (i+1,j).",
+            "(i+1,j+1),(I,j+1),(i-1,j+1), (I,j-1), (i+1,j-1)"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Qaysi global tarmoqlarda paketlarni marshrutlashning har-xilidan foydalanilgan?",
+        "question": "Vertikal va gorizontal qo’shni nuqtalar?",
         "options": [
-            "Frame relay va АTM",
-            "Frame relay va TCP/IP",
-            "АTM va  X.25",
-            "Frame relay va X.25"
+            "(i-1,j),(i+1,j), (i,j+1), (i,j-1);",
+            "(i-1,j-1),(i+1, j+1), (i-1,j+1), (i+1,j-1);",
+            "(i-1,j-1),(i+1, j+1), (i-1,j),(i+1,j).",
+            "(i-1,j-1),(i+1, j+1)"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Xizmatlarni boshqarish markazlarida qanday axborotlar saqlanadi?",
+        "question": "Dioganal qo’shni nuqtalar?",
         "options": [
-            "Foydalanuvchilar uchun mo’ljallangan axborot, xizmat ko’rsatish uchun mo’ljallangan axborot",
-            "Foydalanuvchilarning barchasiga yuborilishi kerak bo’lgan axborot",
-            "Maxfiy axborot",
-            "Yangiliklar"
+            "(i-1,j-1),(i+1, j+1),(i-1,j+1), (i+1,j-1);",
+            "(i-1,j),(i+1,j), (i,j+1),(i,j-1);",
+            "(i-1,j-1),(i+1, j+1),",
+            "(i-1,j), (i+1,j)."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Аloqa kanallari orqali ko’p sonli foydalanuvchilarning qurilmalaridan kelayotgan axborot oqimlarini yig’ib berish vazifasini qanday tarmoq bajaradi?",
+        "question": "TSIBTE uchun odatda qaysi operatorlar qo’llaniladi?",
         "options": [
-            "Ulanish tarmog’i",
-            "Magistral tarmoq",
-            "Korporativ tarmoq",
-            "Kampus tarmog’i"
+            "mahalliy, nuqtaviy;",
+            "mahalliy, global;",
+            "umumiy.",
+            "lokal, global;"
         ],
         "correct_option_id": 0
-    },
-    {
-        "question": "Ulanish tarmoqlarini bog’lashni va yuqori tezlikdagi kanallar orqali trafik tranzitini ta’minlashni, qaysi tarmoq amalga oshiradi?",
-        "options": [
-            "Magistral tarmoq",
-            "Аloqa operatorlari tarmog’i",
-            "Korporativ tarmoq",
-            "Bino tarmog’i"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "IPv6 turidagi IP-adres qanday uzunlikka ega?",
-        "options": [
-            "128 bit",
-            "32 bit",
-            "48 bit",
-            "64 bit"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Masofa-vektorli marshrutlash protokollari qaysi javobda to'g'ri keltirilgan?",
-        "options": [
-            "RIP, IGRP, EIGRP",
-            "OSPF, IGRP, EIGRP",
-            "RIP, OSPF",
-            "OSPF"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Marshrutlashning tashqi shlyuz protokollari qaysi javobda to'g'ri keltirilgan?",
-        "options": [
-            "Exterior Gateway Protocol (EGP), Border Gateway Protocol (BGPv4)",
-            "Border Gateway Protocol (BGPv4), Interior Gateway Protocol  (IGP)",
-            "Interior Gateway Protocol  (IGP), Exterior Gateway Protocol (EGP)",
-            "Interior Gateway Protocol  (IGP)"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Marshrutlashning ichki shlyuz protokollari qaysi javobda to'g'ri keltirilgan?",
-        "options": [
-            "Interior Gateway Protocol  (IGP)",
-            "Exterior Gateway Protocol (EGP), Border Gateway Protocol (BGPv4)",
-            "Interior Gateway Protocol  (IGP), Exterior Gateway Protocol (EGP)",
-            "Border Gateway Protocol (BGPv4), Interior Gateway Protocol  (IGP)"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Simli tarmoq standarti qaysi javobda to’g’ri ko’rsatilgan?",
-        "options": [
-            "IEEE 802.3;",
-            "IEEE 802.1;",
-            "IEEE 802.2;",
-            "IEEE 802.5;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "IEEE 802.3u standartining maksimal o’tkazish tezligi qanday?",
-        "options": [
-            "100 Mbit/s;",
-            "1000 Mbit/s;",
-            "10 Gbit/s;",
-            "1 Gbit/s;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "IEEE 802.3 ab standartining maksimal o’tkazish tezligi qanday?",
-        "options": [
-            "1000 Mbit/s;",
-            "100 Mbit/s;",
-            "10 Gbit/s;",
-            "1 Gbit/s;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "IEEE 802.3 an standartining maksimal o’tkazish tezligi qanday?",
-        "options": [
-            "10 Gbit/s;",
-            "100 Mbit/s;",
-            "1000 Mbit/s;",
-            "1 Gbit/s;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Simli tarmoqning umumiy o'tkazuvchanligi qanchagacha yetishi mumkin:",
-        "options": [
-            "2000 Mbit/s;",
-            "1000 Mbit/s;",
-            "10 Gbit/s;",
-            "1 Gbit/s;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "5-kategoriyali o’rama juft kabeli qancha masofagacha samarali ishlay oladi?",
-        "options": [
-            "100 m.;",
-            "200 m.;",
-            "300 m.;",
-            "400 m."
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "5e-kategoriyali o’rama juft kabeli o’tkazish qobiliyati qancha?",
-        "options": [
-            "2 ta juftdan foydalanilganda 100 Mbit/s gacha va 4 ta juftdan foydalanilganda 1 Gbit/s gacha;",
-            "100 Mbit/s gacha;",
-            "4 ta juftdan foydalanilganda 1 Gbit/s gacha va kabel uzunligi 55 metrdan oshmaganda 10 Gbit/s gacha;",
-            "2 ta juftdan foydalanilganda 1 Gbit/s gacha;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "6-kategoriyali o’rama juft kabelining o’tkazish qobilati qancha?",
-        "options": [
-            "250 MHz;",
-            "125 MHz;",
-            "500 MHz;",
-            "100 MHz."
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11 ac standartining maksimal o’tkazish tezligi qancha?",
-        "options": [
-            "6,77 Gbit/s;",
-            "1000 Mbit/s;",
-            "54 Mbit/s;",
-            "600 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "802.11g standartining maksimal o’tkazish tezligi qancha?",
-        "options": [
-            "54 Mbit/s;",
-            "1000 Mbit/s;",
-            "55 Mbit/s;",
-            "600 Mbit/s"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Tarmoq arxitekturasi – bu…?",
-        "options": [
-            "topologiyalar, ma’lumot uzatish muhitiga kirish usullari va protokollarining kombinatsiyasi;",
-            "ma'lumotlarni uzatish muhiti va protokollariga kirish usullari;",
-            "topologiyalar kombinatsiyasi, ma'lumotlarni uzatish muhitiga kirish usullari;",
-            "ma'lumotlarni uzatish tarmog'ining amalga oshirilgan tuzilmasi, uning topologiyasi, qurilmalar tarkibi va ularning tarmoqdagi o'zaro ta'siri qoidalari;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Tarmoq elementi – bu…?",
-        "options": [
-            "bir yoki bir nechta jismoniy qurilmalarni birlashtirgan boshqariladigan mantiqiy ob'ekt;",
-            "bitta qurilmani birlashtirgan boshqariladigan mantiqiy ob'ekt;",
-            "bitta qurilmani birlashtirgan boshqariladigan jismoniy ob'ekt;",
-            "bitta jismoniy qurilmani birlashtirgan boshqariladigan mantiqiy ob'ekt;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Tengdosh arxitekturasi (peer-to-peer architecture) axborot tarmog'i kontseptsiyasi bo'lib …",
-        "options": [
-            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
-            "unda barcha ma'lumotlarni qayta ishlash bir yoki bir nechta asosiy kompyuterlar tomonidan amalga oshiriladi;",
-            "uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan",
-            "uning resurslari Internetda joylashgan."
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Mijoz-server arxitekturasi axborot tarmog'ining kontseptsiyasi bo'lib, …",
-        "options": [
-            "uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan;",
-            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
-            "uning resurslari Internetda joylashgan;",
-            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Terminal arxitekturasi – asosiy kompyuter (terminal – host computer architecture) - axborot tarmog'i kontseptsiyasi bo'lib, …",
-        "options": [
-            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
-            "uning resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan;",
-            "uning resurslari barcha tizimlar bo'ylab taqsimlangan;",
-            "uning resurslari Internetda joylashgan;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Barcha ma'lumotlarni qayta ishlash bir yoki bir nechta asosiy kompyuterlar tomonidan amalga oshiriladigan arxitektura?",
-        "options": [
-            "texminal xost;",
-            "mijoz-server;",
-            "tengdosh;",
-            "fayl-server;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Resurslarining asosiy qismi o'z mijozlariga xizmat ko'rsatadigan serverlarda joylashgan arxitektura?",
-        "options": [
-            "mijoz-server;",
-            "texminal xost;",
-            "tengdosh;",
-            "fayl-server;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Resurslari barcha tizimlar bo'ylab taqsimlangan arxitektura?",
-        "options": [
-            "tengdosh;",
-            "texminal xost;",
-            "mijoz-server;",
-            "fayl-server;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Protokollar steki bu:",
-        "options": [
-            "o'zaro bog'lanishni tashkil etish uchun etarli bo'lgan turli darajadagi kelishilgan protokollar to'plami;",
-            "o'zaro ishlash uchun etarli bo'lgan bir qatlamli protokollarning kelishilgan to'plami;",
-            "o'zaro ishlash uchun etarli bo'lgan ikki qatlamli protokollarning kelishilgan to'plami;",
-            "o'zaro ishlashni tashkil qilish uchun etarli bo'lgan uchta qatlamli kelishilgan protokollar to'plami;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "Interfeys bu:",
-        "options": [
-            "funksiya-so'rovlar to'plami;",
-            "protseduralar majmui;",
-            "protokollar to'plami;",
-            "dasturiy ta'minot to'plami;"
-        ],
-        "correct_option_id": 0
-    },
-    {
-        "question": "TCP/IP protokollar steki nechta pog’onadan iborat?",
-        "options": [
-            "4 ta;",
-            "3 ta;",
-            "7 ta;",
-            "6 ta;\n\nTCP/IP protokollar stekining birinchi pog’onasi:",
-            "tarmoq interfeyslari;",
-            "tarmoq;",
-            "transport;",
-            "amaliy"
-        ],
-        "correct_option_id": 4
     },
     {
-        "question": "TCP/IP protokollar stekining ikkinchi pog’onasi:",
+        "question": "Mahalliy operatorlar qanday operatorlarga bo’linadi?",
         "options": [
-            "tarmoq;",
-            "tarmoq interfeyslari;",
-            "transport;",
-            "amaliy"
+            "rekurrent, norekurrent; paralle va ketma-ket;",
+            "parallel",
+            "rekurrent, norekurrent;",
+            "norekurrent;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "TCP/IP protokollar stekining uchunchi pog’onasi:",
+        "question": "Kontur ajratishda yorug’lik funksiyasining hususiy hosilalarini hisoblashga asoslan-gan usul qaysi usul?",
         "options": [
-            "transport;",
-            "tarmoq interfeyslari;",
-            "tarmoq;",
-            "amaliy"
+            "tasvirlarni fazoviy ayirmalash;",
+            "yuqori chastotali filtrlash;",
+            "funksional approksiyamasiyalash.",
+            "quyi chastotali filtrlash;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "TCP/IP protokollar stekining to’rtinchi pog’onasi:",
+        "question": "Kontur ajratishda tasvirga fazoviy chastotalar sohasida ishlov berish usuli?",
         "options": [
-            "amaliy;",
-            "tarmoq interfeyslari;",
-            "tarmoq;",
-            "transport"
+            "yuqori chastotali filtrlash;",
+            "tasvirlarni fazoviy ayirmalash;",
+            "funksional approksiyamasiyalash.",
+            "quyi chastotali filtrlash;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Tarmoq pog’onasining asosiy vazifasi nima?",
+        "question": "Kontur ajratishning ayirmalash usulida eng samarali operator qaysi operator?",
         "options": [
-            "ma’lumotlarni yetkazib berish uchun marshrut ishlab chiqish;",
-            "amaliy dasturlar bilan ishlash;",
-            "ma’lumotlarni ishonchli yetkazib berish;",
-            "ma’lumotlarni tarmoq bo’ylab harakatlantirish."
+            "Sobel.",
+            "Previtt;",
+            "Roberts;",
+            "Previtt; Roberts;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Transport pog’onasining asosiy vazifasi nima?",
+        "question": "Kontur ajratishning ayirmalash usulida eng past samarali operator qaysi operator?",
         "options": [
-            "ma’lumotlarni ishonchli yetkazib berish;",
-            "ma’lumotlarni yetkazib berish uchun marshrut ishlab chiqish;",
-            "amaliy dasturlar bilan ishlash;",
-            "ma’lumotlarni tarmoq bo’ylab harakatlantirish."
+            "Roberts;",
+            "Previtt;",
+            "Sobel.",
+            "Previtt; Roberts;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Transport pog’onasi protokollari:",
+        "question": "Tasvirni talqin qilish mumkin bo’lgan bo’laklarga ajratish bu:",
         "options": [
-            "tcp, udp;",
-            "ip, tcp;",
-            "http, https, ftp;",
-            "ip, icmp;"
+            "tasvirni bo’laklash;",
+            "tasvirni tahlil etish;",
+            "tasvirni alohida holatlarga ajratish.",
+            "yozuvni tahlil etish;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Tarmoq pog’onasi OSI modelining qaysi pog’onasiga mos keladi?",
+        "question": "Tasvirni bo’laklashda nechta shartga javob berish lozim?",
         "options": [
+            "5.",
             "3;",
-            "2;",
-            "4;",
+            "1;",
             "7;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Tarmoq pog’onasi TCP/IP protokollar stekining qaysi pog’onasiga mos keladi?",
+        "question": "Tasvirlarni bo’laklash yo’nalishlari to’g’ri ko’rsatilgan qator.",
+        "options": [
+            "sohalarni ichki elementlarini nishonlash, soha chegarasini ajratish;",
+            "bo’sag’ali ishlov berish, mahalliy ishlov berish;",
+            "sohalarni ayrilish-qo’shilishi, sohalarni o’stirish.",
+            "sohalarni o’stirish,"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirlarni bo’laklash necha xil yo’nalishda olib boriladi?",
         "options": [
             "2;",
-            "3;",
+            "1;",
+            "3.",
+            "6"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirni bo’laklashda sohalarni ichki elementlarini nishonlash usuli necha sinfga bo’linadi?",
+        "options": [
+            "3.",
+            "2;",
+            "1;",
+            "4"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirni bo’laklashda sohalarni chegarasini ajratish usuli necha sinfga bo’linadi?",
+        "options": [
+            "3.",
+            "2;",
+            "1;",
+            "4"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirlani bo’laklashda sohalarni ichki elementlarini nishonlash usuli sinflari keltirilgan qatorni ko’rsating.",
+        "options": [
+            "bo’sag’ali ishlov berish, sohalarni o’stirish, sohalarni ayirish-qo’shish;",
+            "bo’sag’ali ishlov berish, mahalliy, izlash;",
+            "sohalarni o’stirish.",
+            "umumiy usul, izlash."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirlarni tavsiflash usullari necha turga bo’linadi?",
+        "options": [
+            "2;",
+            "1;",
+            "3.",
+            "5"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Manba tasvirining elementlar yorug’lik qiymatlari gistogrammasi asosida olinsa teksturaning bu xususiyati:",
+        "options": [
+            "bir o’lchamli;",
+            "ko’p o’lchamli;",
+            "faqat ikki o’lchamli.",
+            "faqat uch o’lchamli."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "1.Tekston hosil qilish va uni maydon atrofida ma’lum bir qonuniyat asosida joylashtirish bu:",
+        "options": [
+            "teksturani sintez qilish.",
+            "teksturaga ishlov berish;",
+            "tekstura hosil qilish;",
+            "tekstura bekor qilish;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "2.Tasvirni iloji boricha sifat ko’rsatkichini o’zgartirmay siqish bu:",
+        "options": [
+            "kodlashtirish;",
+            "kvantlash;",
+            "arxivlash.",
+            "dekodlash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "3.Tasvirlarni saqlash va uzatish maqsadida sonli signallarga aylantirish bu:",
+        "options": [
+            "kodlashtirish;",
+            "kvantlash;",
+            "arxivlash.",
+            "sozlash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "4.Tasvirni sifatli ravishda tiklash imkonini beradigan kichik hajmli axborot olish:",
+        "options": [
+            "kodlashtirishdir;",
+            "kvantlashdir;",
+            "arxivlashdir.",
+            "sozlashdir"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "5.Impuls kodli modullab kodlashtirish amali.",
+        "options": [
+            "signal diskretlanib, kodlashtiriladi.",
+            "signal diskretlanib, kvantla-nadi;",
+            "signal diskretlanib, arxivlanadi;",
+            "Ma’lumot diskretlanib, arxivlanadi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "6.Tasvir yorug’lik darajasi oralig’ini siqish:",
+        "options": [
+            "kvantlashdir;",
+            "kodlashtirishdir;",
+            "arxivlashdir.",
+            "sozlashdir"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "7.Tasvirdan olingan funksiyani chiziqlimas (logarifmik, kub ildiz va hokazo) usulda siqish:",
+        "options": [
+            "kvantlashdir;",
+            "kodlashtirishdir;",
+            "arxivlashdir.",
+            "sozlashdir"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "9.Tasvirni Xoffman kodi orqali kodlab uzatish:",
+        "options": [
+            "kodlashtirishning statistik usuli;",
+            "Kodlashtirishning dinamik usuli;",
+            "Kodlashtirishning vizual usuli.",
+            "Kodlashtirish-ning buzish usuli."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "10Tasvirning o’zaro takrorlanib keluvchi bir xil qiymatlari ketma-ketligini kodlashti-rish:",
+        "options": [
+            "takrorlanishlarni kod-lashtirish.",
+            "ketma-ketliklarni kvantlash;",
+            "bir xil qiymatlarni kodlashtirish;",
+            "Ko’p xil qiymat-larni kodlash-tirish;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir chiziqlari orasida korelya-siyani oldindan aytish yo’li bilan kamaytirib, kvantlash qadamlarini sintez qilish usuli orqali element-lab kodlashtirish algoritmi:",
+        "options": [
+            "delta modullash;",
+            "ayirma impulsli kodlashtirish;",
+            "impulsli kodli modullash.",
+            "qo’shish impulsli kodlashtirish;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "O’zaro iyerarxik munosabat-larni aks ettiruvchi va faqat zarur bo’laklarini izlash, qayta ishlash va tahlil etishni ta’minlovchi ma’lumotlar tarkibiy tuzilishi:",
+        "options": [
+            "kvadratlar daraxti.",
+            "piramida;",
+            "matrisa;",
+            "daraxt;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirlardagi ob'yektlar, ularning o’zaro munosabat va shakllari asosida saqlash uslubi:",
+        "options": [
+            "tarkibiy tuzulishga qarab saqlash;",
+            "aralash saqlash;",
+            "joylashtirish tartibiga qarab saqlash;",
+            "o'rnatilish tartibiga qarab saqlash;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir ob'yektlarini ma’lum qonuniyatlar bo’yicha tarti-blash, solishtirib aniqlash, sinflarga ajratish va tutgan o’rnini aniqlash asosida saqlash:",
+        "options": [
+            "tarkibiy tuzulishga qarab saqlash;",
+            "aralash saqlash;",
+            "joylashtirish tarti-biga qarab saqlash.",
+            "o'rnatilish tarti-biga qarab saq-lash;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirlarni bo’linmas ele-ment holiga borguncha bo’lib saqlash uslubi:",
+        "options": [
+            "iyerarxik.",
+            "piramida;",
+            "matrisa;",
+            "darax"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Matrisa-belgi tuzilishi asosida tasvirlarni saqlash.",
+        "options": [
+            "aralash saqlash;",
+            "tarkibiy tuzulishga qarab saqlash;",
+            "joylashtirish tarti-biga qarab saqlash.",
+            "o'rnatilish tartibiga qarab saqlash;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirning biror o’ziga xos bo’lgan xususiyati...",
+        "options": [
+            "belgi deyiladi;",
+            "bo’lak deyiladi;",
+            "qism deyiladi.",
+            "joy deyiladi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Belgilar necha turga bo’linadi?",
+        "options": [
+            "2;",
+            "1;",
+            "3.",
+            "4"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tabiiy belgilar...",
+        "options": [
+            "ko’z  bilan ajratib olinadi;",
+            "bevosita manba tasvirdan ajratib olinadi;",
+            "maxsus ishlov berish orqali ajratiladi.",
+            "alohida manba tasvirdan ajratib olinadi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Asos belgilar...",
+        "options": [
+            "bevosita manba tasvirdan ajratib olinadi;",
+            "ko’z bilan ajratib olinadi;",
+            "maxsus ishlov berish orqali ajratiladi.",
+            "alohida manba tasvirdan ajratib olinadi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Sun’iy belgilar...",
+        "options": [
+            "maxsus ishlov berish orqali ajratiladi.",
+            "ko’z bilan ajratib olinadi;",
+            "bevosita manba tasvirdan ajratib olinadi;",
+            "alohida manba tasvirdan ajratib olinadi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Hosila belgilar...",
+        "options": [
+            "asos belgilarni biror ko’rinishga keltirib aniqlanadi;",
+            "bevosita manba tasvirdan ajratib olinadi;",
+            "maxsus ishlov berish orqali ajratiladi.",
+            "alohida ishlov berish orqali ajratiladi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirni oldingi asl holiga qayta tiklash imkonini beradigan to’liq tavsiflash?",
+        "options": [
+            "sintaksis tavsiflash;",
+            "munosabatlar yordamida;",
+            "to’liq tavsiflash.",
+            "qisman tavsiflash."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Teksturani segmentlash o’z ichiga … oladi",
+        "options": [
+            "teksturani ifodalash va segmentlarni chegarasini aniqlovchi bazisni hisoblashni",
+            "teksturani ifodalashni",
+            "bazisni hisoblashni",
+            "teksturani ifodalash va nurlarning chegarasini aniqlovchi funksiyaning vectorga ko’paytmasini hisoblashni"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Teksturani sintezlash  … yaratishga xizmat qiladi",
+        "options": [
+            "tasvirlarning kichik elementlaridan katta tekstur sohalarni",
+            "tasvirlarning kichik elementlaridan sohalarni",
+            "tasvirlarning kichik elementlaridan kichik tekstur sohalarni",
+            "tasvirlarning kichik elementlaridan katta sohalarni"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Shaklni tekstura orqali aniqlash - bu",
+        "options": [
+            "tasvir teksturasi orqali  sirt yo’nalishi yoki shaklini tiklashdan iborat",
+            "halqalar dastasi teksturasi orqali  sirt yo’nalishi yoki shaklini tiklashdan iborat",
+            "sirt yo’nalishi tiklashdan iborat",
+            "Tasvirning tekislikdagi yo’nalishlar teksturasi orqali  uzunlik va shaklining yo’nalishi tiklashdan iborat"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirning teksturasi odatda … dan iborat.",
+        "options": [
+            "to’g’ri elementlardan tashkil topgan tartiblangan naqshlar",
+            "tartiblangan naqshlar va rasmlar maydoni",
+            "to’g’ri elementlardan tashkil topgan tartiblanmagan naqshlar",
+            "noto’g’ri elementlardan tashkil topgan  naqshlar"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirni o’rab turgan ikki chiziqning o’xshashligini … orqali o’lchash mumkin.",
+        "options": [
+            "mos piksellar qiymatlari ayirmasi kvadratlari yig’indisi",
+            "qiymatlar ayirmasi kvadratlari yig’indisini topish",
+            "kvadratlari yig’indisini topish",
+            "mos piksellar ikki qiymatlari ayirmasi kvadratlari yig’indisini toppish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirning tashqi ko’rinishi koordinatalar sistemasini tanlashdan bog’liq va",
+        "options": [
+            "hamma vaqt ham tekstura sirtda yotganligiga osonlik bilan ishonch hosil qilish mumkin emas",
+            "hamma vaqt  tekstura sirtda yotganligiga osonlik bilan ishonch hosil qilish mumkin",
+            "tekstura pastda yotganligiga ishonch hosil qilish mumkin",
+            "hamma vaqt  tekstura sirtda yotmasligiga osonlik bilan ishonch hosil qilish mumkin"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Qaysi qatorda filtr nomlari keltirilgan?",
+        "options": [
+            "Mediana, o’rama matritsa, erroziya.",
+            "Mediana, tuz murch, o’rama matritsa.",
+            "Mediana, gistogramma.",
+            "Mediana, burchak, o’stirish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Erroziya filtri nima vazifani bajaradi?",
+        "options": [
+            "Tasvirdagi qora sohalarni kuchaytiradi.",
+            "Tasvirdagi oq sohalarni kuchaytiradi.",
+            "Tasvirni chegaralarini kuchaytiradi.",
+            "Tasvirni chegaralarini sustlashtiradi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirning ko’k qismlari qanday ajratiladi?",
+        "options": [
+            "i = imread('1.jpg'); b=i(:,:,3).",
+            "i = imread('1.jpg'); b=blue(i).",
+            "i = imread('1.jpg'); b=i(:,:,2).",
+            "i = imread('1.jpg'); b=i[3]."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Talab qilinayotgan natijaga erishish uchun tasvir piksellariga “ko’paytiriladigan” koeffetsientlar matritsasi qanday nomlanadi?",
+        "options": [
+            "O’rama matritsa.",
+            "Koeffetsientlar matritsasi.",
+            "Qo’shimcha matritsa.",
+            "Ko’paytuvchi matritsa."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "O’rama matritsa qanday ishlatiladi?",
+        "options": [
+            "Tasvir matritsasiga “ko’paytiriladi”.",
+            "Tasvir matritsasiga qo’shiladi.",
+            "Tasvir matritsasiga aloqasi yo’q.",
+            "Tasvir matritsasini o’rniga yoziladi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tracking jarayonini manosi nima?",
+        "options": [
+            "Videodagi obyektlarni harakatini kuzatish.",
+            "Videodagi obyektlarni tiklash.",
+            "Tasvirdagi obyektlarni tanish.",
+            "Tasvirni filtirlash"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Sobel operatori odatda qanday vazifani bajaradi?",
+        "options": [
+            "Tasvirdagi chegaralarni aniqlashda ishlatiladi.",
+            "Tasvirni filtrlaydi.",
+            "Tasvirdagi obyektlarni kuzatish.",
+            "Tasvir bilan ishlamaydi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "rgb2gray operatori qanday vazifani bajaradi?",
+        "options": [
+            "Tasvirni kulrangga aylantiradi.",
+            "Tasvirni yashil sohasini ko’paytiradi.",
+            "Tasvirga kulrang dog’lar qo’shadi.",
+            "Tasvirni 2 marta yorqinlashtiradi ."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OpenCVda shape operatori nima vazifani bajaradi?",
+        "options": [
+            "Tasvirni matrisasi o’lchamlarini ko’rsatadi.",
+            "Tasvirni buradi.",
+            "Tasvir matritsasini o’giradi.",
+            "Tasvirga hatolik qo’shadi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OpenCVdagi dtype operatori nima vazifani bajaradi?",
+        "options": [
+            "Tasvirdagi ma’lumotlarni saqlangan tipini keltiradi.",
+            "Tasvir tipini keltiradi.",
+            "Tasvirni filtrlaydi.",
+            "Tasvirni в tip bilan o’zgartiradi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OpenCV muxitida segmentatsiya operatsiyalarini bajarish threshold funksiyasi yordamida amalga oshiriladigan nechta segmentatsiya turi mavjud?",
+        "options": [
+            "5.",
+            "4.",
+            "6.",
+            "3."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Smoothing funsiyasi qanday vazifani bajaradi?",
+        "options": [
+            "Yumshatish.",
+            "Xiralashtirish.",
+            "Qayta ishlash.",
+            "Tozalash."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Blurring funsiyasi qanday vazifani bajaradi?",
+        "options": [
+            "Xiralashtirish.",
+            "Yumshatish.",
+            "Qayta ishlash.",
+            "Tozalash."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirlar tiplarini ko‘rsating?",
+        "options": [
+            "Hamma javoblar to‘g‘ri",
+            "Binar tasvirlar.",
+            "Kulrang tasvirlar.",
+            "Rangli tasvirlar."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ob’yektlar harakatini tanish (Object Detection) bu nima?",
+        "options": [
+            "Raqamli tasvirlar va videosahnalarda aniq sinfga tegishli semantik ob’ektlarni (masalan, odamlar, avtomobillar, vagonlar, kombaynlar va h.k.) tanishga imkon beruvchi kompyuter texnologiyadir.",
+            "Obyektning fizik xususiyatlarni idrok qilish (masalan, shakl, rang, tuzilish) va semantik belgilar bilan ifodalovchi usul.",
+            "Videokamera ko‘rish zonasidagi harakatdagi ob’ekt (obyektlar)ni ketma-ket kuzatish jarayoni.",
+            "Obyektga semantik belgilar berish, obyektlarni ajratish, toppish va tasvir sahnalarini keng tahlil qilish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ob’yektlarni tanish (Object Recognition) bu nima?",
+        "options": [
+            "Ob’yektning fizik xususiyatlarni idrok qilish (masalan, shakl, rang, tuzilish) va semantik belgilar bilan ifodalovchi usul.",
+            "Raqamli tasvirlar va videosahnalarda aniq sinfga tegishli semantik ob’ektlarni (masalan, odamlar, avtomobillar, vagonlar, kombaynlar va h.k.) tanishga imkon beruvchi kompyuter texnologiyadir.",
+            "Videokamera ko‘rish zonasidagi harakatdagi ob’ekt (obyektlar)ni ketma-ket kuzatish jarayoni.",
+            "Ob’yektga semantic belgilar berish, obyektlarni ajratish, toppish va tasvir sahnalarini keng tahlil qilish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Kompyuter ko‘rishi nima ?",
+        "options": [
+            "Ob’yektlarni topish, kuzatish va sinflashtirishga imkon beruvchi kompyuterlashtirilgan vositalar yaratish nazariyasi va texnologiyasi tushuniladi.",
+            "Inson va turli jonivorlarning ob’ektiv borliqni ko‘rish asosida idrok qilishlari fiziologik nuqtai nazardan o‘rganiladi.",
+            "Ishlab chiqarishda qo‘llaniladi, masalan avtonom robotlar , vizual tekshirish va o‘lchash tizimlari.",
+            "Real vaqtda robotlar va ma’lumotlarga ishlov berish va boshqaruv tasvirlar datchiklaridan olingan tezkor ma’lumotlar asosida amalga oshirish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mashina ko‘rishi  nima ?",
+        "options": [
+            "Ishlab chiqarishda qo‘llaniladi, masalan avtonom robotlar , vizual tekshirish va o‘lchash tizimlari. Bunda real vaqtda robotlar va ma’lumotlarga ishlov berish va boshqaruv tasvirlar datchiklaridan olingan tezkor ma’lumotlar asosida amalga oshiriladi.",
+            "Inson va turli jonivorlarning obyektiv borliqni ko‘rish asosida idrok qilishlari fiziologik nuqtai nazardan o‘rganiladi.",
+            "Obyektlarni topish, kuzatish va sinflashtirishga imkon beruvchi kompyuterlashtirilgan vositalar yaratish nazariyasi va texnologiyasi tushuniladi.",
+            "Obyektning fizik xususiyatlarni idrok qilish (masalan, shakl, rang, tuzilish) va semantik belgilar bilan ifodalovchi usuli."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir formatlari to‘liq ko‘rsatilgan javobni ko‘rsating.",
+        "options": [
+            "Bmp, Tif, Jpg.",
+            "Tif.",
+            "Jpg.",
+            "Bmp."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir yorqinligi nima?",
+        "options": [
+            "Tasvirning har bir piksel qiymatini bir xil qiymatga o‘zgartirishdir.",
+            "Bu tasvirning piksel qiymatlari tarqalishining grafik ko‘rinishidir.",
+            "Tasvirning piksel qiymatini xar xil qiymatga orttirish.",
+            "Tasvir piksellari qiymatini cheklanmagan tarzda oshirish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OpenCV kutubxonasida tasvirga oid tipni ko‘rsating.",
+        "options": [
+            "IplImage.",
+            "CvMat.",
+            "CvMoments.",
+            "CvHistogram."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OpenCV kutubxonasida gistogrammaga oid tipni ko‘rsating.",
+        "options": [
+            "CvHistogram.",
+            "IplImage.",
+            "CvMoments.",
+            "CvMat."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirni oddiy  grafik shakllar  yordamida  yaratish  grafikaning qaysi turiga kiradi?",
+        "options": [
+            "fraktal grafika",
+            "rastorli grafika",
+            "vektorli grafika",
+            "to’g’ri javob yo’q."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirni grafitda qayd etish qanday qayd etish vositasi hisoblanadi?",
+        "options": [
+            "elektroliz;",
+            "mexanik;",
+            "elektrokimyoviy.",
+            "mexanik; elektrokimyoviy."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Chеgаrа аniqlаsh оddiy usuli qаysi jаvоbdа ko’rsаtilgаn?",
+        "options": [
+            "Маksimum qiymаtni аniqlаsh usuli, nоllаrni аniqlаsh usuli.",
+            "Minimum qiymatni  aniqlash usuli.",
+            "Diskret qiymatni aniqlash  usuli.",
+            "Minimum usulni aniqlash usuli,  nollarni aniqlash  usuli."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Signallar va tasvirlarga ishlov berish tizimlаrigа misоllаr",
+        "options": [
+            "Jаrаyonni bоshqаrish tizimlаri; Videо kuzаtuv tizimlаri; Ахbоrоtni bоshqаrish tizimlаri; Оb’ektlаr yoki аtrоf-muhitni mоdellаshtirish tizimlаri; O’zаrо bоg’liq tizimlаr; Тo’ldirilgаn vоqelik tizimlаri; Аqlli kаmerаlаr.",
+            "Mavhum tizimlar; Mantiqiy tizimlar; Belgili tizimlar; Statistik matematik tizimlar; Dinamik matematik tizimlar; Kvazista-\ntik tizimlar; Kvazidinamik tizimlar.",
+            "Tabiiy tizim; Tirik tizim; O’lik tizim; Ekologik tizim; Sosial tizim; Aralash tizim; Erganamik tizim; Biotexnik tizim;Tashkiliy tizim.",
+            "Insonning nerv tizimi; Insonning tanadagi qon aylanish tizimi;Ob-havo tizimi; Suvning aylanish tizimi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Signallar va tasvirlarga ishlov berish biоlоgik ko’rishdаn fаrqi -",
+        "options": [
+            "Signallar va tasvirlarga ishlov berish uskunаviy vа dаsturiy vоsitаlаr оrqаli аmаlgа оshаdigаn ko’rish tizimi.",
+            "Signallar va tasvirlarga ishlov berish biоlоgik ko’rishdаn fаrqi yo’q.",
+            "Signallar va tasvirlarga ishlov berish faqat dаsturiy vоsitаlаr оrqаli аmаlgа оshаdigаn ko’rish tizimi.",
+            "Signallar va tasvirlarga ishlov berish  faqat usku-nаlаr оrqаli аmаlgа оshаdi-gаn ko’rish tizimi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Signallar va tasvirlarga ishlov berishning bo’limlаrigа quyidаgilаr kirаdi -",
+        "options": [
+            "hаrаkаtni kuzаtish, hоdisаlаrni аniqlаsh, timsоllаrni аniqlаsh, tаsvirlаrni tiklаsh.",
+            "hаrаkаtni kuzаtish, hоdisаlаrni аniqlаsh.",
+            "timsоllаrni аniqlаsh, tаsvir-lаrni tiklаsh.",
+            "hаrаkаtni kuzаtish, tаsvirlаrni tiklаsh."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Signallar va tasvirlarga ishlov berish tizimi quyidаgi turdаgi rаqаmli tаsvirlаr bilаn ishlаydi:",
+        "options": [
+            "nimrаng tаsvir (kulrаng  tusli tаsvirlаr); ikkilik tаsvirlаr; indekslаngаn tаsvirlаr; rаngli tаsvirlаr (RGB).",
+            "ikkilik tаsvirlаr; indekslаngаn tаsvirlаr; rаngli tаsvirlаr (RGB).",
+            "nimrаng tаsvir (kulrаng  tusli tаsvirlаr);  ikkilik tаsvirlаr;.",
+            "nimrаng tаsvir (kulrаng  tusli tаsvirlаr);  indekslаngаn tаsvirlаr; rаngli tаsvirlаr (RGB)."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir saqlovchilar qatorini belgilang.",
+        "options": [
+            "fotoplenka, qog’oz, termoplastinka;",
+            "fotoqog’oz, lenta, bo’yoq;",
+            "qalam, magnit disk, mato.",
+            "rang, disk, qalam"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir magnit disklarga qanday usulda qayd etildi?",
+        "options": [
+            "diskret;",
+            "analog;",
+            "magnit.",
+            "raqamli"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ketma-ket operator qaysi operator usulidan foydalanadi?",
+        "options": [
+            "rekurrent;",
+            "izotrop;",
+            "parallel.",
+            "norekurrent;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Rаngli tаsvirning HSV mоdeli -",
+        "options": [
+            "Rаngli tаsvirning HSV mоdeldаn fоydаlаnish qulаy bo’lib, uning qiymаtlаri insоn ko’rish tizimi qаbul qilаdigаn rаnglаr mаjmuidаn ibоrаt.",
+            "Bu mоdel qiymаtlаri insоn ko’rish tizimi qаbul qilаdigаn rаnglаrdan tashqari ranglarni ham o’z ichiga oladi.",
+            "HSV ning qiymаtlаri insоn ko’rish tizimi qаbul qilаdigаn rаnglаr mаjmuidаn ko’proq.",
+            "HSV ning qiymаtlаri insоn ko’rish tizimi qаbul qilаdigаn rаnglаr mаjmuidаn kamroq."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Rаngli tаsvirning HSV mоdeli – bu",
+        "options": [
+            "HSV (ingliz so’zlаridаn ibоrаt. Hue, Saturation, Value) — rаng mоdeli.",
+            "HSV (ingliz so’zlаridаn ibоrаt. Hue, Saturation, Value) — tasvir mоdeli.",
+            "HSV (ingliz so’zlаridаn ibоrаt. Hue, Saturation, Value) — dasturlash mоdeli.",
+            "HSV (ingliz so’zlаridаn ibоrаt. Hue, Saturation, Value) — ko’rsatuv mоdeli."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Rаngli tаsvirning HSV mоdelidа Hue — rаng tusi qiymаtining аniqlаnish intervаli -",
+        "options": [
+            "Hue — rаng tusi, (mаsаlаn, qizil, yashil, pushti rаng). Uning qiymаti 0°—360° gаchа o’zgаrаdi, bа’zаn 0—100 yoki 0—1 gаchа bo’lgаn qiymаtlаrdа ifоdаlаnаdi.",
+            "Hue — rаng tusi,. Uning qiymаti 1°—359° gаchа o’zgаrаdi, bа’zаn 0—100 yoki 0—1 gаchа bo’lgаn qiymаtlаrdа ifоdаlаnаdi.",
+            "Hue — rаng tusi, (mаsаlаn, qizil, yashil, pushti rаng). Uning qiymаti 5°—355° gаchа o’zgаrаdi.",
+            "Hue — rаng tusi, (mаsаlаn, qizil, yashil, pushti rаng). Uning qiymаti 1—99 yoki 1—2 gаchа bo’lgаn qiymаtlаrdа ifоdаlаnаdi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Rаngli tаsvirning HSV mоdelidа Saturation — rаng tusi qiymаtining аniqlаnish intervаli -",
+        "options": [
+            "Saturationning qiymаti 0—100 yoki 0—1 gаchа bo’lgаn qiymаtlаrdа ifоdаlаnаdi.",
+            "Saturationning qiymаti 0—100 yoki 0—1 gаchа bo’lgаn qiymаt-lаrdа ifоdаlаnаdi.",
+            "Saturationning qiymаti 0—100 yoki 0—1 gаchа bo’lgаn qiymаtlаrdа ifоdаlа-nаdi.",
+            "Saturation — rаng tusi, (mаsаlаn, qizil, yashil, pushti rаng). Uning qiymаti 0°—360° gаchа o’zgаrаdi, bа’zаn 0—100 yoki 0—1 gаchа bo’lgаn qiymаtlаrdа ifоdаlаnаdi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ko’p qiymatli tasvirlarni ko’rsating.",
+        "options": [
+            "fotosuratlar, tomogramma,  interferogramma;",
+            "мspektogramma, rangli surat, tarxlar;",
+            "fotoshablonlar, rentgenogramma, rasm.",
+            "tarxlar; rentgenogramma,"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Stеrеоkаmеrаlаrdаn bоshqа оddiy kаmеrаdа uch o’lchоvli tаsvir hоsil qilish mumkinmi?",
+        "options": [
+            "Ikki bir оb’еktivkаli kаmеrаdаn ikki yoqlаmа оlingаn tаsvirdаn uch o’lchоvli tаsvir hоsil qilish mumkin.",
+            "Ikki bir obektivkali kameradan uch o`lchovli tasvir hosil  qilish  mumkin.",
+            "Ikki bir оb’еktivkаli kаmеrаdаn ikki yoqlаmа оlingаn tаsvirdаn uch o’lchоvli tаsvir hоsil qilish mumkin emas.",
+            "Ko`p o`lchovli tasvirlarni hosil qilish  mumkin."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Stеrеоsistеmаning vаzifаsi?",
+        "options": [
+            "Аtrоf-muhitning uch o’lchоvli virtuаl mоdеlini yarаtishdan iborat.",
+            "Obektining real tasvirini  hosil  qiladi.",
+            "Tasvirlarning  efektivligini  oshirishdan  iborat.",
+            "2D va 3D tasvirlarning modelini  yaratishdan iborat."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Stеrеоtаsvirlаrni qаytа ishlаsh nаtijаsidа qаndаy misоllаrni kеltirish mumkin?",
+        "options": [
+            "Оb’еktgаchа bo’lgаn mаsоfаni аniqlаsh, vidеоtаsvirdаgi оb’еkt tеzligini аniqlаsh mumkin.",
+            "Obektining  umumiy harakterini aniqlash.",
+            "Tasvirlarning piksellarini aniqlash",
+            "Tasvirning formatlarini  o`zgartirish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ikki o’lchоvli tаsvirlаr kооrdinаtаlаridаn stеrео-tаsvir kооrdinаtаlаrigа o’tish:",
+        "options": [
+            "Z= (b*d/)f   X=Z*(xR/f)  Y=Z(yR/f)",
+            "Z= (b+d/)f   X=Z*(xR/f)   Y=Z(yR/f)",
+            "Z= (b-d/)f     X=Z*(Z/f)    Y=Z(f)",
+            "Z= (b*d/)f    X=Z*(xR/Z)    Y=Z(yR/f)"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Оb’еktni аniqlаsh tехnоlоgiyasi - bu",
+        "options": [
+            "ob’еkt chеgаrа chizig’ini аniqlаshdan iborat.",
+            "ob'yekt  haqida haqida umumiy ma`lumot olish",
+            "ob'yekt tuzulishini aniqlash.",
+            "ob'yektning  xususiyatlarini aniqlash."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Оb’еktni аniqlаsh turlаri:",
+        "options": [
+            "Nuqtаli, chiziqli, chеgаrаli.",
+            "Nuqta-nuqtali.",
+            "To`g`ri chiziqli  va  nuqtali.",
+            "Nuqta , chegarali."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Таsvirdаgi оb’еkt chеgаrаsi dеgаndа nimа tushunilаdi?",
+        "options": [
+            "ob’еkt qiymаtlаri mаtrisаsidаgi o’zgаrishgа egа bo’lgаn qiymаtlаr kеtmа-kеtligidаn hоsil bo’lаdigаn chiziq.",
+            "ob'yektning qiymatlarining  o`sish kamayishi nuqtasi.",
+            "Оb’еkt qiymаtlаri mаtrisаsidаgi o’zgаrishgа egа bo’lgаn qiymаtlаr kеtmа-kеtligidаn hоsil bo’lаdigаn funksiya",
+            "ob'yektning o`zgarish nuqtasidagi  maksimal  qiymati."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir sohalarini bir-biridan ajralib turadigan qilib qiymat berish:",
+        "options": [
+            "bir jinsli sohalar yorug’lik farqini oshirish;",
+            "bir jinsli sohalarni ajratish;",
+            "bir jinsli sohalar ustida oddiy amallar.",
+            "Ko’p jinsli soha-lar ustida oddiy amallar."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir sifatini oshirish usullari qatorini belgilang.",
+        "options": [
+            "barcha usullar ishlatiladi.",
+            "gistogramma ko’rinishini o’zgartirish, mediana usulida filtrlash;",
+            "xalaqitlarni yo’qotish, chegaralarni kuchaytirish;",
+            "mediana usulida filtrlash, chega-ralarni kuchaytirish;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mahalliy operator yordamida tasvir sifatini oshirish qaysi usulda qo’llanadi?",
+        "options": [
+            "xalaqitlarni yo’qotish,;",
+            "gistogramma ko’rinishini o’zgartirish;",
+            "barcha usullar ishlatiladi.",
+            "diogramma ko’rinishini o’zgartirish;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Furye almashtirish tasvir sifatini oshirishning qaysi usuliga kiadi?",
+        "options": [
+            "unitar almashtirish;",
+            "mediana usulida filtrlash;",
+            "kuchaytirish.",
+            "chegaralarni susaytirish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Halaqitlar hajmiga qarab qo’shqiymatli tasvirlar necha turga bo’linadi?",
+        "options": [
             "4;",
-            "1."
+            "2;",
+            "6.",
+            "3"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Tarmoq pog’onasining vazifasi nima?",
+        "question": "Ob’yekt konturi deb:",
         "options": [
-            "jo'natuvchidan qabul qiluvchiga paketlarni yetkazib berish uchun marshrutni ishlab chiqish;",
-            "jo'natuvchidan qabul qiluvchiga paketlarni yetkazib berish;",
-            "aloqa seansini o’rnatish;",
-            "transport pog’onasi va amaliy jarayonlar o’rtasidagi interfeys."
+            "uni tashkil qilgan barcha chegaraviy chiziqlar yig’indisi tushuniladi;",
+            "uni tashkil qilgan barcha nuqtalar yig’indisi tushuniladi;",
+            "uni tashkil qilgan barcha elemetlar yig’indisi tushuniladi.",
+            "uni tashkil qilgan barcha kesma yig’indisi tushuniladi."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Marshrutlash bu:",
+        "question": "Tasvirning chegara sohasi qanday belgilanadi?",
         "options": [
-            "bu tarmoq trafigini yuborish uchun qaysi yo'llarni tanlash va paketlarni tanlangan pastki tarmoq bo'ylab yuborish jarayoni;",
-            "paketlarni qabul qiluvchiga yetkazib berish;",
-            "yuboruvchi va qbul qiluvchi uchun oldindan aloqa kanalini band qilish;",
-            "ma’lumotni tarmoq bo’ylab harakatlantirish;"
+            "yorug’likning keskin o’zgarishi bilan.",
+            "soyalar hosil bo’lgan qismi belgilanadi;",
+            "chiziqlar orqali ranglar chegarala-nadi;",
+            "kesmalar orqali ranglar chegara-lanadi;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Tarmoq pog’onasida ma’lumotlarni marshrutlash uchun qanday qurilmalardan foydalaniladi?",
+        "question": "Kontur ajratish necha sinfga ajratiladi?",
         "options": [
-            "router, L3 switch;",
-            "router, L2 switch;",
-            "L2 switch;",
-            "hub, switch, NIC."
+            "3.",
+            "2;",
+            "1;",
+            "4;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Tarmoq pog’onasi protokollari qaysi javobda to’g’ri ko’rsatilgan?",
+        "question": "Kontur ajratish usullari ko’rsatilgan qator?",
         "options": [
-            "IP, ICMP;",
-            "TCP, IP;",
-            "FTP, HTTP;",
-            "TCP, UDP."
+            "fazoviy ayirmalash, funksional approksimasiyalash, yuqori chastotali filtrlash;",
+            "medianali filtrlash, fazoviy ayirmalash, yuqori chastotali filtrlash;",
+            "medianali filtrlash, fazoviy ayirmalash, quyi chastotali filtrlash;",
+            "funksional approksimasiyalash, yuqori chastotali filtrlash;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Marshrutlashning masofa vektor protokollari qaysi javobda tog’ri ko’rsatilgan?",
+        "question": "Tasvirni almashtirib bajarib kod-lashtirishda hosil bo’lgan sonlar qatori:",
         "options": [
-            "RIP, IGP, EIGP;",
-            "OSPF, RIP;",
-            "OSPF, IS-IS;",
-            "IGP, EIGP, IS-IS."
+            "transformantlar;",
+            "qismlar;",
+            "formantlar.",
+            "qismlar; formantlar."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Marshrutlashning aloqa holati protokollari qaysi javobda tog’ri ko’rsatilgan?",
+        "question": "Tasvirlani bo’laklashda sohalarni chegarasini ajratish usuli sinflari keltirilgan qatorni ko’rsating.",
         "options": [
-            "OSPF, IS-IS;",
-            "OSPF, RIP;",
-            "RIP, IGP, EIGP;",
-            "IGP, EIGP, IS-IS."
+            "umumiy, mahalliy, izlash;",
+            "bo’sag’ali ishlov berish, sohalarni o’stirish.",
+            "sohalarni o’stirish, umumiy usul.",
+            "sohalarni ayirish-qo’shish, izlash."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Marshrutlash – bu:",
+        "question": "Ingichkalashtirish algoritmlari:",
         "options": [
-            "tarmoq trafigini yuborish uchun qisqa yo'llarni tanlash va paketlarni tanlangan pastki tarmoq bo'ylab yuborish jarayoni;",
-            "paket uchun eng uzoq yo’lni tanlash;",
-            "paketlarni bo’laklash;",
-            "paketni qabul qilish."
+            "parallel, ketma-ket;",
+            "medianali, diagonalli;",
+            "medianali.",
+            "diagonalli"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "IP protokoli qachon ishlab chiqilgan?",
+        "question": "Masofa almashtirish algoritmlari:",
         "options": [
-            "1981 yil;",
-            "1983 yil;",
-            "1985 yil;",
-            "1987 yil;"
+            "parallel, ketma-ket;",
+            "medianali, diagonalli;",
+            "medianali.",
+            "diagonalli"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Identifikator – bu …?",
+        "question": "Skelet olish algoritmi necha bosqichda amalga oshiriladi?",
         "options": [
-            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
-            "ma'lumotlar oqimidagi fragmentning o'rnini belgilovchi qiymat;",
-            "paketni qabul qiluvchilarga tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
-            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda fragmentlarning ierarxik ketma-ketligini aniqlash uchun mo'ljallangan qiymat;"
+            "3.",
+            "2;",
+            "1;",
+            "4"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Bo’laklarni ko’chirish – bu…?",
+        "question": "Tasvirni tahlil qilish yo’llari:",
         "options": [
-            "ma'lumotlar oqimidagi fragmentning o'rnini belgilovchi qiymat;",
-            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
-            "paketni qabul qiluvchilarga tayinlangan va paketni yig'ishda bo'laklarning to'g'ri ketma-ketligini aniqlash uchun mo'ljallangan qiymat;",
-            "paketni jo'natuvchi tomonidan tayinlangan va paketni yig'ishda fragmentlarning ierarxik ketma-ketligini aniqlash uchun mo'ljallangan qiymat;"
+            "interaktiv va avtomatik.",
+            "avtomatik;",
+            "interaktiv;",
+            "aktiv"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Sarlavhaning nazorat summasi - … bo’yicha hisoblanadi?",
+        "question": "Ochiq segment ta’rifi tg’o’ri keltirilgan qator:",
         "options": [
-            "RFC 1071;",
-            "RFC 1072;",
-            "RFC 1073;",
-            "RFC 1075;"
+            "ikki chetida tugallanish nuqtalari bo’lgan;",
+            "ikki uchida shoxlash nuqtalari bo’lgan;",
+            "bir uchi shoxlash, bir uchi tugallanish nuqtasiga ega bo’lgan.",
+            "uch uchida shoxlash nuqtalari bo’lgan;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Marshrutizatorlar paketga qanday o’zgartirish kirita oladi?",
+        "question": "Yopiq segment ta’rifi to’g’ri keltirilgan qator:",
         "options": [
-            "paketlarni fragmentlash;",
-            "paketlarni yig’ish;",
-            "paketlarni formatlash;",
-            "paketlarni segmentlash;"
+            "ikki uchida shoxlash nuqtalari bo’lgan;",
+            "ikki chetida tugallanish nuqtalari bo’lgan;",
+            "bir uchi shoxlash, bir uchi tugallanish nuqtasiga ega bo’lgan.",
+            "uch uchida shoxlash nuqtalari bo’lgan;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Paket ma'lumotlarini bo'lishda oxirgisidan tashqari barcha bo'laklarning o'lchami … karrali bo’lishi kerak:",
+        "question": "Yarim ochiq segment ta’rifi to’g’ri keltirilgan qator:",
         "options": [
-            "8 baytga;",
-            "16 baytga;",
-            "24 baytga;",
-            "32 baytga;"
+            "bir uchi shoxlash, br uchi tugallanish nuqtasiga ega bo’lgan.",
+            "ikki uchida shoxlash nuqtalari bo’lgan;",
+            "ikki chetida tugallanish nuqtalari bo’lgan;",
+            "uch uchida shoxlash nuqtalari bo’lgan;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "0 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "question": "Xalaqitlarni yo’qotish algoritmi amallari.",
         "options": [
-            "A sinf;",
-            "B sinf;",
-            "C sinf;",
-            "D sinf;"
+            "segmentni izlash, yo’qotish, tiklash;",
+            "segmentni izlash, tahlillash, yo’qotish;",
+            "segmentni izlash, tiklash, tahlillash.",
+            "tiklash, tahlillash."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "10 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "question": "Tasvirning biror -bir bo’lagidagi elementlarining fazoviy qurilishi bu:",
         "options": [
-            "B sinf;",
-            "A sinf;",
-            "C sinf;",
-            "D sinf;"
+            "tekstura;",
+            "kontur;",
+            "segment;",
+            "segment, kontur;"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "110 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "question": "Teksturaning necha xil turi mavjud?",
         "options": [
-            "C sinf;",
-            "B sinf;",
-            "E sinf;",
-            "D sinf;"
+            "4;",
+            "2;",
+            "6.",
+            "3"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "1110 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "question": "Tekstura masalalari bilan bog’liq asosiy nechta guruh mavjud?",
         "options": [
-            "D sinf;",
-            "B sinf;",
-            "C sinf;",
-            "E sinf;"
+            "3.",
+            "2;",
+            "1;",
+            "4"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "11110 dan boshlanuvchi adreslar qaysi sinfga xos?",
+        "question": "Yaqin nuqtalarni yaqin qiymatlarga ega bo’lishi:",
         "options": [
-            "E sinf;",
-            "B sinf;",
-            "C sinf;",
-            "D sinf;"
+            "statistik ortiqchalik;",
+            "mazmunan ortiqchalik;",
+            "psixoko’rish ortiqchalik.",
+            "ko’rish ortiqchalik."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "GSM mobil aloqaning qaysi avlodiga tegishli?",
+        "question": "Tasvirda ko’ruvchi tashlab yuborishi mumkin bo’lgan axborot:",
         "options": [
-            "2G;",
-            "1G;",
-            "3G;",
-            "4G."
+            "mazmunan ortiqchalik;",
+            "statistik ortiqchalik;",
+            "psixoko’rish ortiqchalik.",
+            "ko’rish ortiqchalik."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "3G da kanallar taqsimlanishining qanday turidan foydalaniladi?",
+        "question": "Tasvir xususiyatlari yig’indisining turli qismidan foydalanish:",
         "options": [
-            "Kod bo'yicha",
-            "Chastota-vaqt bo'yicha",
-            "Chastota bo'yicha",
-            "Vaqt bo'yicha"
+            "psixoko’rish ortiqchalik.",
+            "statistik ortiqchalik;",
+            "mazmunan ortiqchalik;",
+            "ko’rish ortiqchalik."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "Mobil aloqada uyaning ideal shakli qanday tasvirlanadi?",
+        "question": "Tasvirlarni joylashtirish tartibiga qarab saqlash uslublari berilgan qator.",
         "options": [
-            "Oltiburchak",
-            "Romb",
-            "Kvadrat",
-            "To'rtburchak"
+            "matrisa ko’rinishida, piramida, kvadrantlar daraxti shaklida;",
+            "matrisa belgi ko’rinishida;",
+            "kontur ko’rinishida, parametrik saqlash;",
+            "graflar, iyerarxik"
         ],
         "correct_option_id": 0
     },
     {
-        "question": "LTE - bu?",
+        "question": "Tasvirlarni aralash saqlash uslublari berilgan qator.",
         "options": [
-            "Long Term Evolution",
-            "Listing Time Ebay",
-            "London Tests of English",
-            "Liquid Tension Experiment"
+            "matrisa belgi ko’rini-shida;",
+            "matrisa ko’rinishida, piramida, kvadrantlar daraxti shaklida;",
+            "kontur ko’rinishida, parametrik saqlash;",
+            "graflar, ierarxik."
         ],
         "correct_option_id": 0
     },
     {
-        "question": "WiFi standartida qanday chastota diapazonlaridan foydalaniladi",
+        "question": "Tasvirlarni tarkibiy tuzilish bo’yicha saqlash uslublari berilgan qator.",
         "options": [
-            "2.4 va 5 GHz",
-            "2.4 - 5 GHz oralig'ida",
-            "2.4 - 2.5 GHz oralig'ida",
-            "2.5 va 5 GHz"
+            "kontur ko’rinishida, parametrik saqlash, graflar, iyerarxik.",
+            "matrisa belgi ko’rinishida;",
+            "matrisa ko’rinishida, piramida;",
+            "kvadrantlar daraxtishaklida;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Murakkab tasvirlarni xususiyatlari, elementlari, ularning o’zaro munosabatlari asosida saqlash:",
+        "options": [
+            "tarkibiy tuzulishga qarab saqlash;",
+            "aralash saqlash;",
+            "joylashtirish tar-tibiga qarab saqlash;",
+            "o'rnatilish tartibiga qarab saqlash;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir saqlash uslublari berilgan qator.",
+        "options": [
+            "joylashtirish tartibiga qarab, aralash, tarkibiy tuzilish bo’yicha;",
+            "piramida, joylashtirish tartibiga qarab;",
+            "aralash, tarkibiy tuzi-lish bo’yicha, graflar bo’yicha.",
+            "o'rnatilish tartibiga qarab saqlash;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Elementlarining mohiyatiga qarab matrisaning vazifasi necha xil?",
+        "options": [
+            "3.",
+            "2;",
+            "1;",
+            "4"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvir bir qancha matrisalarning iyerarxik ko’rinishida saqlansa bu usul:",
+        "options": [
+            "piramida usuli;",
+            "matrisa usuli;",
+            "kvadratlar daraxti usuli.",
+            "daraxti usuli."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Hosila belgilar keltirilgan qator.",
+        "options": [
+            "dispersiya, entropiya;",
+            "gistogramma, yorug’lik darajasi;",
+            "kontur xossalari, yorug’lik darajasi.",
+            "diagramma, yorug’lik darajasi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Asos belgilar keltirilgan qator.",
+        "options": [
+            "gistogramma, yorug’lik darajasi;",
+            "dispersiya, entropiya;",
+            "kontur xossalari,",
+            "yorug’lik darajasi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "O’zaro bog’liq bo’lgan nuqtalari soni 9 tadan oshmaydigan va mustaqil axamiyatga ega qismlaga bo’linmaydigan ob’yekt:",
+        "options": [
+            "nuqtaviy ob’yekt;",
+            "fazoviy ob’yekt;",
+            "yuzali ob’yekt.",
+            "mantiqiy ob’yekt;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Elemetlari soni 9 tadan oshiq bo’lgan va mustaqil qismlarga ajratish mumkin bo’lgan ob'yekt:",
+        "options": [
+            "yuzali ob’yekt.",
+            "fazoviy ob’yekt;",
+            "nuqtaviy ob’yekt;",
+            "mantiqiy ob’yekt;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Diskret egri chiziqni matematik usulda qurishda berilgan nuqtalardan o’tuvchi egri chiziq masalasi...",
+        "options": [
+            "interpolyatsiya masalasi deyiladi;",
+            "approksimatsiya masalasi deyiladi;",
+            "diskretlash masalasi deyiladi.",
+            "kodlash masalasi deyiladi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Diskret egri chiziqni matematik usulda qurishda nuqtalar yaqinidan o’tuvchisini qurishda egri chiziq masalasi...",
+        "options": [
+            "approksimatsiya masalasi deyiladi;",
+            "interpolyatsiya masalasi deyiladi;",
+            "diskretlash masalasi deyiladi.",
+            "kodlash masalasi deyiladi."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "r=m tenglama bilan berilgan ko’phad ifodasi...",
+        "options": [
+            "oddiy splayn deyiladi;",
+            "chiziqli splayn deyiladi;",
+            "splayn deyiladi.",
+            "nuqtali splayn deyiladi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Har bir nuqta o’ziga qo’shni bo’lgan sakkizta element bilan bog’langan bo’lsa u holda ...",
+        "options": [
+            "zanjirli kod hosil bo’ladi;",
+            "bog’langan nuqtalar hosil bo’ladi;",
+            "qo’shni nuqtalar zanjiri hosil bo’ladi.",
+            "ajralgan nuqtalar hosil bo’ladi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tasvirda bor deb faraz qilingan ob’yektni aniqlash bu ...",
+        "options": [
+            "tasvirda ob'yektni topishdir;",
+            "tasvirda ob'yektni izlashdir;",
+            "tasvirda ob'yekt parametrlarini aniqlashdir.",
+            "tasvirda ob'yekt holatini aniqlashdir."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Funksiyalar juftligini moslashtirish usuli bu:",
+        "options": [
+            "korelyatsion moslashtirish.",
+            "ustma-ust moslashtirish;",
+            "ketma-ket moslashtirish;",
+            "Uzilishga moslashtirish;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Agar tekislik kuzatilishi ma’lum bo’lsa, u holda tekstura orqali shaklni tiklash masalasi … keltiriladi",
+        "options": [
+            "tekilikni kameraga nisbatan joylashishini topishga",
+            "tekislik holatini topishga",
+            "kameraga nisbatan tekislikning joylanishini topishga",
+            "Tekislik holatini testuraga nisbatan aniqlashga"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tekstura izotrop deyiladi agarda",
+        "options": [
+            "tekstura elementini toppish ehtimoli shu element orientasiyasiga bog’liq bo’lmasa",
+            "tekstura elementini toppish ehtimoli shu element orientatsiyasiga bog’liq",
+            "tekstura elementini toppish shu element orientatsiyasiga bog’liq",
+            "tekstura elementini toppish ehtimoli ixtiyoriy element orientatsiyasiga bog’liq"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Agar tekstura izotrop deb faraz qilsak, u holda",
+        "options": [
+            "tasvir orqali ham tekis burchakni, ham og’ish burchagini toppish mumkin",
+            "tasvir orqali  tekis burchakni toppish mumkin",
+            "tasvir orqali va tekislik holati  orqali og’ish burchagini toppish mumkin",
+            "Tekis burchakni toppish mumkin"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "… yordamida tekstura bilan tekislik ortogonal ko’rinishini sintezlash mumkin.",
+        "options": [
+            "koordinatalar sistemasini og’ish burchagiga burab, birorta o’q bo’yicha tekis burchak kosinusicha siqish",
+            "koordinatalar sistemasini og’ish burchagiga burash va birorta koordinata  bo’yicha nurning  tekis burchak kosinusicha siqish",
+            "koordinatalar sistemasini og’ish burchagiga burash va birorta koordinata  bo’yicha nurning  tekis burchak sinusicha siqish",
+            "koordinatalar sis-temasini biror burchakga burash va birorta koordinata  bo’yicha siqish"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Izotrop tekstura ortogonal proeksiyasi izotrop bo’lmay-di agarda",
+        "options": [
+            "tekislik tasvir tekisligiga parallel bo’lmasa.",
+            "tekislik tasvir tekisligiga parallel",
+            "tekislikga paralel",
+            "tekislik ixtiyoriy element tekisligiga parallel emas"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tekislikni ortogonal proeksiyalaganda tekislikning yo’nalishini tiklash",
+        "options": [
+            "mumkin emas",
+            "mumkin",
+            "ba’zan mumkin",
+            "ichki mumkin"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "… uchun Longet-Xiggins munosabati o’rinli",
+        "options": [
+            "Ichki kalibrlangan kameralar",
+            "Ichki kalibrlanmagan kameralar",
+            "Tashqi kalibrlangan kameralar",
+            "Tashqi kalibrlan-magan kameralar"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "imrotate operatori qanday vazifani bajaradi?",
+        "options": [
+            "Tasvirni buradi.",
+            "Tasvirga yozuv qo’shadi.",
+            "Tasvirni akslantiradi.",
+            "Tasvirni filtrlaydi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Tenzor - bu",
+        "options": [
+            "polichiziqli forma bilan o’zaro bog’liqlikda bo’lgan ko’p o’lchovli koeffisientlar massivi",
+            "polichiziqli forma bilan o’zaro bog’liqlikda bo’lgan bir o’lchovli koeffisientlar massivi",
+            "koeffisientlar massivi",
+            "tekislikdagi va ixtiyoriy forma bilan o’zaro bog’liqlikda bo’lgan ko’p o’lchovli koeffisientlar massivi"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Grafikadagi tasvirlar necha  xil ko’rinishda bo’ladi?",
+        "options": [
+            "2;",
+            "4;",
+            "3;",
+            "7;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Ikki o’lchovli grafika qanday nomlanadi?",
+        "options": [
+            "2D;",
+            "4D;",
+            "2-3D",
+            "3D;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "plot(x,y) – qanday vektorlarning dekart tekisligidagi grafigini hosil qiladi?",
+        "options": [
+            "x va y",
+            "f (x) hamda f (y);",
+            "x”ni logarifmi grafigini “ y” ga nisbatan yasaydi;",
+            "koordinatalar sistemasida to‘rni hosil qiladi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Uch o’lchovli grafika qanday nomlanadi?",
+        "options": [
+            "3D;",
+            "2D;",
+            "3-4D",
+            "4D;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "title (‘‘matn’’) - qanday matn yozadi;",
+        "options": [
+            "grafik tepasiga matn yozadi;",
+            "“matn”ni “x” o‘qi ostiga yozadi;",
+            "“matn”ni (x, y) nuqtaga yozadi;",
+            "hech qanday matin yozmaydi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "MATLAB da qanday ma’lumot tiplari ishlatiladi?",
+        "options": [
+            "sonli tip, satrli va simvolli, ob’yektlar;",
+            "“matn”li, rasmli;",
+            "“tasvirli, 2D o`lchamli;",
+            "satrli va simvolli, tasvirli, ob`ektli"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "MATLAB programma kompleksi nechta asosiy qismdan iborat?",
+        "options": [
+            "5;",
+            "6;",
+            "3;",
+            "8"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mantiq operatorlar qaysi javobda to`g`ri ko`rsatilgan?",
+        "options": [
+            "(&& | | !);",
+            "(&& | |"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "ylabel (‘matn’) - “matn”ni “ y ” o‘qining qaysi tomoniga yozadi;",
+        "options": [
+            "chap;",
+            "o`ng;",
+            "chap va o`ng;",
+            "“matn”ni (y) nuqtagasiga yozadi;"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OpenCV calcHist funksiyasi qanday amalni bajaradi?",
+        "options": [
+            "Tasvirlarning massivlarini gistogrammalarini yaratish",
+            "Tasvirni gistogrammalarga bo‘lish",
+            "Massivlarni normallashtirish",
+            "Tasvirni mos platalarga (kanallarga) bo‘lish va ayirish."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "OpenCV split funksiyasi qanday amalni bajaradi ?",
+        "options": [
+            "Tasvirni mos platalarga (kanallarga) bo‘lish.",
+            "Tasvirlarning massivlarini gistogrammalarini yaratish.",
+            "Massivlarni normallashtirish",
+            "Tasvirni mos platalarga (kanallarga) bo‘lish va ayirish"
         ],
         "correct_option_id": 0
     }

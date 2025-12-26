@@ -1,15 +1,18 @@
 import json
 import os
 
-TXT_PATH = 'questions/Kompyuter tarmoqlari Hemisga Test (250 ta).txt'
+TXT_PATH = 'questions/ehtimo.txt'
 JSON_PATH = 'input/quiz_questions.json'
+
+
+import re
 
 def parse_txt_to_json(txt_path, json_path):
 	with open(txt_path, 'r', encoding='utf-8') as f:
 		content = f.read()
 
-	# Split questions by '++++' delimiter
-	raw_questions = [q.strip() for q in content.split('++++') if q.strip()]
+	# Split questions by '+++++' delimiter (five pluses)
+	raw_questions = [q.strip() for q in content.split('+++++') if q.strip()]
 	questions = []
 	for raw in raw_questions:
 		# Find all answer options
@@ -20,11 +23,19 @@ def parse_txt_to_json(txt_path, json_path):
 		options = []
 		correct_option_id = None
 		for idx, opt in enumerate(parts[1:]):
-			if opt.startswith('#'):
-				options.append(opt[1:].strip())
+			# Detect correct answer: starts with '#' or with '# ' after possible spaces
+			m = re.match(r'#\s*(.*)', opt)
+			if m:
+				options.append(m.group(1).strip())
 				correct_option_id = idx
 			else:
-				options.append(opt.strip())
+				# Also handle '==== # answer' (with space after '====')
+				m2 = re.match(r'\#\s*(.*)', opt)
+				if m2:
+					options.append(m2.group(1).strip())
+					correct_option_id = idx
+				else:
+					options.append(opt.strip())
 		if correct_option_id is None:
 			continue  # skip if no correct answer
 		questions.append({

@@ -22,42 +22,63 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
-    if chat_id in active_quiz:
-        await update.message.reply_text('A quiz is already active in this chat. Please wait for it to finish.')
+    # Get topic from update (forum topic)
+    if update.effective_chat.is_forum:
+        topic = update.message.message_thread_id
+    else:
+        topic = None
+    filtered_questions = QUIZ_QUESTIONS
+
+    # Use topic as quiz_id if present, so quiz is per-topic
+    quiz_id = topic if topic else chat_id
+    if quiz_id in active_quiz:
+        await update.message.reply_text('A quiz is already active in this chat/topic. Please wait for it to finish.')
         return
-    active_quiz[chat_id] = {'poll_ids': [], 'results': []}
+    active_quiz[quiz_id] = {'poll_ids': [], 'results': [], 'questions': filtered_questions, 'chat_id': chat_id, 'topic': topic}
 
     # 🔥 DO NOT await
     context.application.create_task(
-        run_quiz_flow(context, chat_id)
+        run_quiz_flow(context, chat_id, topic, quiz_id, filtered_questions)
     )
 
 
 # Run the quiz: send each poll, wait for open_period, then show statistics
-async def run_quiz_flow(context: ContextTypes.DEFAULT_TYPE, chat_id: int):
+
+async def run_quiz_flow(context: ContextTypes.DEFAULT_TYPE, chat_id, topic, quiz_id, questions):
     open_period = 10
     MAX_OPTION_LENGTH = 100
-    stop = 10
-    start = random.randint(0, len(QUIZ_QUESTIONS) - stop)
+    stop = min(10, len(questions))
+    if stop == 0:
+        if topic:
+            await context.bot.send_message(chat_id=chat_id, message_thread_id=topic, text='No questions available for this quiz.')
+        else:
+            await context.bot.send_message(chat_id=chat_id, text='No questions available for this quiz.')
+        del active_quiz[quiz_id]
+        return
+    start = random.randint(0, len(questions) - stop) if len(questions) > stop else 0
 
-    for q in QUIZ_QUESTIONS[start:start + stop]:
-        message = await context.bot.send_poll(
-            chat_id=chat_id,
-            question=q['question'],
-            options=[opt if len(opt) <= MAX_OPTION_LENGTH else opt[:MAX_OPTION_LENGTH-3] + '...' for opt in q['options']],
-            type='quiz',
-            correct_option_id=q['correct_option_id'],
-            is_anonymous=False,
-            open_period=open_period
-        )
+    for q in questions[start:start + stop]:
+        poll_params = {
+            'chat_id': chat_id,
+            'question': q['question'],
+            'options': [opt if len(opt) <= MAX_OPTION_LENGTH else opt[:MAX_OPTION_LENGTH-3] + '...' for opt in q['options']],
+            'type': 'quiz',
+            'correct_option_id': q['correct_option_id'],
+            'is_anonymous': False,
+            'open_period': open_period
+        }
+        if topic:
+            poll_params['message_thread_id'] = topic
+        
+        message = await context.bot.send_poll(**poll_params)
 
-        active_quiz[chat_id]['poll_ids'].append(message.poll.id)
+        active_quiz[quiz_id]['poll_ids'].append(message.poll.id)
 
         # wait ONLY for this poll
         await asyncio.sleep(open_period + 1)
 
-    await show_quiz_statistics(context, chat_id)
-    del active_quiz[chat_id]
+    await show_quiz_statistics(context, chat_id, topic)
+    del active_quiz[quiz_id]
 
 
 # PollHandler: called when a poll is closed (open_period ends)
@@ -92,7 +113,7 @@ async def handle_poll_answer(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 # Show quiz statistics/leaderboard for a chat (by user, not by question)
-async def show_quiz_statistics(context: ContextTypes.DEFAULT_TYPE, chat_id: int):
+async def show_quiz_statistics(context: ContextTypes.DEFAULT_TYPE, chat_id: int, topic=None):
     print('user correct:', user_correct)
     leaderboard = [(user_id, user_names.get(user_id, str(user_id)), count) for user_id, count in user_correct.items()]
     leaderboard.sort(key=lambda x: x[2], reverse=True)
@@ -101,7 +122,11 @@ async def show_quiz_statistics(context: ContextTypes.DEFAULT_TYPE, chat_id: int)
         result_text += f"{rank}. {name}: {count} correct\n"
     if not leaderboard:
         result_text += 'No answers recorded.'
-    await context.bot.send_message(chat_id=chat_id, text=result_text)
+    
+    if topic:
+        await context.bot.send_message(chat_id=chat_id, message_thread_id=topic, text=result_text)
+    else:
+        await context.bot.send_message(chat_id=chat_id, text=result_text)
 
 def handler(app: Application):
     app.add_handler(CommandHandler('start', start))
